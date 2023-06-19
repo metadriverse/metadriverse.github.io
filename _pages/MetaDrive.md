@@ -1,7 +1,7 @@
 ---
 layout: page-center
 permalink: /metadrive-features/
-title: metadrive
+title: MetaDrive
 description: "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning"
 nav: true
 nav_order: 1

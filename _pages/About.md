@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: MetaDrive for AI and Autonomy Research!
 display_categories: [Scene Understanding, Decision Learning]

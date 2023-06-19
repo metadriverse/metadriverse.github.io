@@ -1,16 +1,16 @@
 ---
 layout: page
-title: more
+title: More
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
+    - title: Publications
       permalink: /publications/
     - title: divider
-    - title: repositories
+    - title: Repositories
       permalink: /repositories/
     - title: divider
-    - title: team
+    - title: Team
       permalink: /team/
 ---

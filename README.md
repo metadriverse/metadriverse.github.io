@@ -9,7 +9,7 @@ cd metadriverse-web
 ```
 ## Set up the environment
 ### Running in docker (recommend for windows)
-It is recommend for Windows user to run the website using docker.
+It is recommended for Windows user to run the website using docker.
 - First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
 - Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
 
@@ -47,9 +47,9 @@ rbenv install -L
 # install a Ruby version:
 rbenv install 3.2.2
 
-rbenv global 3.1.2   # set the default Ruby version for this machine
+rbenv global 3.2.2   # set the default Ruby version for this machine
 # or:
-rbenv local 3.1.2    # set the Ruby version for this directory
+rbenv local 3.2.2    # set the Ruby version for this directory
 ```
 - After you have installed ruby, you can use it to install bundler easily
 ```bash

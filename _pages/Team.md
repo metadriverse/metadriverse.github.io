@@ -1,7 +1,7 @@
 ---
 layout: page-center
 permalink: /team/
-title: team
+title: Team
 description: "Meet Our Team Member!"
 nav: true
 nav_order: 5
