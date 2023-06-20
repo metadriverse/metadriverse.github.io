@@ -23,7 +23,7 @@ layout: default
                 <i class="fas fa-circle fa-xs"></i>
             </li>
           </ol>
-          <div class="carousel-inner">
+          <div class="carousel-inner"  style="border-radius: 1em;">
             {% for image in site.carousel_images %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
                 <img src="{{ image }}" class="d-block w-100" alt="Slide {{ forloop.index }}">
