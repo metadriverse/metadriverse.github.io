@@ -35,7 +35,7 @@ nav_order: 2
 <div class="col-12 text-center" style="margin-top: 100px; margin-bottom: 100px;"> 
     <h3>ScenarioNet's System Design</h3>  
     <div class="img-container">
-        <img src="/assets/img/system.png" class="my-image" alt="Your Image" />
+        <img src="../assets/img/system.png" class="my-image" alt="Your Image" />
     </div>
     <div class="description">
         <p>Your description here.</p>
