@@ -6,6 +6,6 @@ description:
     <li>Various input devices supported.</li> 
 video: assets/img/human.mp4
 importance: 1
-features: Decision Learning
-category: Decision Learning
+category: 
+    "MetaDrive: A Lightweight & Efficient Simulator"
 ---

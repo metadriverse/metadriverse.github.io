@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Scalable System
+title: Data Management Toolkit
 description: 
     <li>Unified Scenario Description </li> 
     <li>Supports Various Data Sources</li> 
 img: assets/img/scenario.png
 importance: 1
-features: Scene Understanding
-category: Scene Understanding
+category: 
+    "ScenarioNet: Bridging Various Dataset with MetaDrive"
 ---

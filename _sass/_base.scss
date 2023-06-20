@@ -1246,7 +1246,7 @@ nav[data-toggle="toc"] {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(300px, 1fr);
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 20px;
 }
@@ -1256,7 +1256,6 @@ nav[data-toggle="toc"] {
   flex-direction: column;
   align-items: stretch;
   min-width: 400px;
-  min-height: 350px;
 }
 
 .card {
@@ -1266,7 +1265,7 @@ nav[data-toggle="toc"] {
   border-radius: 1em;
 }
 
-.card img, .card video {
+.card img, .card video, .card figure {
   object-fit: cover;
   width: 100%;
   height: 200px;
@@ -1285,6 +1284,11 @@ nav[data-toggle="toc"] {
 .card .card-body .card-text {
   flex-grow: 1;
   margin-top: -1em;
+}
+
+.card-body li {
+  vertical-align: text-top;
+  //font-size: 100px;
 }
 
 .scroll-section {

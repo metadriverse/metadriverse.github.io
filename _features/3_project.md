@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Superior Learning Environment
+title: Efficient Simulation
 description: 
     <li>Ultra Fast Simulation (up to 3000fps)</li> 
     <li>Photorealistic Rendering</li> 
@@ -8,6 +8,6 @@ description:
     <li>Configurable Observation and Rewards.</li>
 img: assets/img/realrendering.png
 importance: 1
-features: Decision Learning
-category: Decision Learning
+category: 
+    "MetaDrive: A Lightweight & Efficient Simulator"
 ---
