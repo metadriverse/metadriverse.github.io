@@ -12,10 +12,12 @@
       path=feature.img
       alt="feature thumbnail" -%}
     {%- elsif feature.video %}
-      <video autoplay loop muted>
-        <source src="{{ feature.video | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    {%- include video.html
+      path=feature.video
+      autoplay=true
+      muted=true
+      loop=true
+    -%}
     {%- endif %}
     <div class="card-body">
       <h4 class="card-title">{{ feature.title }}</h4>
