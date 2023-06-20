@@ -1,11 +1,15 @@
 <!-- _includes/features.html -->
 <div class="grid-sizer clearfix {{ include.cols_class }}"></div>
 <div class="grid-item  clearfix {{ include.cols_class }} {% if sorted_features.size < 3 %}grid-item-wide{% endif %}">
-  {% if feature.redirect -%}
-  <a href="{{ feature.redirect }}">
-  {%- else -%}
-  <a href="{{ feature.url | relative_url }}">
-  {%- endif %}
+
+<!--  PZH Note: Remove URL-->
+<!--  {% if feature.redirect -%}-->
+<!--  <a href="{{ feature.redirect }}">-->
+<!--  {%- else -%}-->
+<!--  <a href="{{ feature.url | relative_url }}">-->
+<!--  {%- endif %}-->
+
+
   <div class="card hoverable">
     {%- if feature.img %}
     {%- include figure.html
