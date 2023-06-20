@@ -47,9 +47,9 @@ rbenv install -L
 # install a Ruby version:
 rbenv install 3.2.2
 
-rbenv global 3.2.2   # set the default Ruby version for this machine
+rbenv global 3.1.2   # set the default Ruby version for this machine
 # or:
-rbenv local 3.2.2    # set the Ruby version for this directory
+rbenv local 3.1.2    # set the Ruby version for this directory
 ```
 - After you have installed ruby, you can use it to install bundler easily
 ```bash
@@ -65,12 +65,19 @@ bundle exec jekyll serve --lsi
 You will see that it is running on a local url, type that on your Browser and you will see the current website!
 
 # Code Layout
+## _sass
+It contains some css file. `_base.scss` is mainly what you need to change.
+
+## _config.yml
+Main config file for the whole website, you can set baseurl, contact info, etc, here.
+
 ## _pages
 _pages folder will contain all the pages you will have for the website. Compare to things in `_layouts` which focus on layout such as title place and grid, `_pages` more focused on the page content itself.
 Currently, it has:
 - about.md: This one is `abandoned`, I choose to directly modify the `about.html` in the `_layouts` folder, since our about page is quite complicated.
 - metadrive.md This one contains metadrive's page content. It will read the file from `_metadrive` folder and display them
 - scenarionet.md: This one contains the content for the scenarionet page. It is currently under-developing
+- snetasset.md: Infinite scrolling page for displaying scenarionet asset. It will read meta info from `_images` folder.
 - repository.md: it will read the `repositories.yml` information in the `_data` folder and display the github repo information
 - team.md: It will read `team.yml` in the `_data` folder and display team information.
 - publication.md: It will read paper info from `papers.bib` in the `_bibliography` folder
@@ -78,13 +85,27 @@ Currently, it has:
 
 ## _layout
 _layout folder contain many "template" layout structures for displaying pages. You will see `layout: xxx` in the beginning of the file in `_pages` specifying that. 
-- about.html: The actual file that specify the main page contents.
+- about.html: The actual file that specify the main page contents. For the carousel, it will read image from `_config.yml` called `carousel_images`. For features, it will read file from `_features` folder. The file's description need to be `<li>` list. With features and category set to be the same. Note that you need to modify `about.md` to add new category to be displayed.
 - page/page-notitle/page-center.html: Some template layouts for metadriverse/scenarionet webpage.
 - default.html: the aboves html file all use default.html, it specifies more primitive things: html head, header, content, footer.
+
+## _includes
+Html files that servers as modules.
+- features.html: For displaying features card in the main page. Refer to `about.html` for its usage.
+- head.html: To specify `head` part of the whole html file. Mainly to include any scripts or links such as stylesheet.
+- header.html: Set the navigation bar. Most of the time you don't need to change it, as it will automtically display anything in the `_page` folder.
+
 ## _metadrive
 Each file is a `text-image` pair that you want to display in the metadrive webpage
-## __features
+## _features
 Each file is a feature that you want to display in the main page. Please set the features and category to be the same for features you want to display together. If you are adding new features, please adjust the `display_categories: ` in the `about.md` in `_pages` folder.
+
+## _bibliography
+Add paper here to be displayed in the publication site.
+
+## _data
+- repositories.yml: Change it to add new github repo to be displayed in the repository page. 
+- team.yml: Change it to add new team member to be displayed in the team page.
 
 ## assets
 This folder will contain all the files we want to put to the website. We mainly need the assets/img folder.
