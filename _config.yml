@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: MetaDriverse # the website title (if blank, full name will be used instead)
-first_name: MetaDriverse
+first_name:
 middle_name:
-last_name:
+last_name: MetaDriverse
 logo: /assets/img/logo.png
 email: pzh@cs.ucla.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -56,7 +56,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -110,7 +110,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Feel free to contact us if you have any questions or suggestions!
+  Feel free to reach us for any issue!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
