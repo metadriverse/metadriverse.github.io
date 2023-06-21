@@ -1,11 +1,14 @@
 ---
 layout: page-center
-permalink: /metadrive-features/
+permalink: /metadrive/
 title: MetaDrive
 description: "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning"
 nav: true
 nav_order: 1
 ---
+
+
+
 <div class="metadrive">
   {% for post in site.metadrive %}
   <div class="container metadrive">
@@ -24,7 +27,7 @@ nav_order: 1
         </video>
         {% else %}
           {% if post.youtube_id %}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ post.youtube_id }}?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ post.youtube_id }}?autoplay=1&loop=1&mute=1&playlist={{ post.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           {% endif %}
         {% endif %}
       {% endif %}
