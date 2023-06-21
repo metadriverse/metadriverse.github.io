@@ -47,28 +47,27 @@ We demonstrate the strengths of ScenarioNet on large-scale scenario generation, 
 
 
 
-<div class="col-12 md-5" style="margin-top: 100px; margin-bottom: 100px;">
-    <video width="100%" max-width="800px" loop autoplay muted playsinline
-    src="../assets/scenarionet/sn_convert.mp4">
-    </video>
-    <div class="description">
-    <b>ScenarioNet</b> reads from real world dataset such as Waymo, nuScenes, Lyft L5, and nuPlan datasets and creates
-interactive environment for closed-loop simulation.
+
+
+<div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
+    <h3 style="text-align: center">ScenarioNet's System Design</h3>
+    <div class="img-container">
+        <img src="../assets/img/system.jpg" class="my-image" alt="Your Image" />
+    </div>
+    <div class="description" style="margin-top: 1em;">
+<b>ScenarioNet</b>  consists of the data layer, system layer, and application layer.
+Various datasets are unified into an internal scenario description.
+The system layer then provides a set of tools to operate on data efficiently, such as filtering, merging, sanity-check, 
+splitting and so on.
+Once the database is ready, it can be loaded into MetaDrive for large-scale simulation and supports applications. 
     </div>
 </div>
 
 
-<div class="col-12 md-5" style="margin-top: 100px; margin-bottom: 100px;">
-<iframe width="47%" height="230px" src="https://www.youtube.com/embed/KjlPB0nCTvg?autoplay=1&loop=1&mute=1&playlist=KjlPB0nCTvg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="47%" height="230px" src="https://www.youtube.com/embed/WWwdnURnOBM?t=10&loop=1&autoplay=1&mute=1&playlist=WWwdnURnOBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="description">
-        <b>ScenarioNet</b> bridges OpenPilot (Left) and ROS (Right) for autonomous driving testing.
-    </div>
-</div>
 
 
-
-<div class="col-12 md-5" style="margin-top: 100px; margin-bottom: 100px;">
+<div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
+    <h3 style="text-align: center">Multi-sensory Simulation</h3>
     <video width="100%" max-width="800px" loop autoplay muted playsinline
     src="../assets/scenarionet/sn_sensors.mp4">
     </video>
@@ -80,23 +79,34 @@ interactive environment for closed-loop simulation.
 
 
 
+
 <div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
-    <h3 style="text-align: center">ScenarioNet's System Design</h3>
-    <div class="img-container">
-        <img src="../assets/img/system.jpg" class="my-image" alt="Your Image" />
-    </div>
-    <div class="description" style="margin-top: 1em;">
-From bottom to top, <b>ScenarioNet</b>  consists of the data layer, system layer, and application layer which are connected by two critical data flows, 
-<span style="color: #F07C8D">data conversion</span>
-and 
-<span style="color: #32A06E">simulation</span>
-.
-Data conversing unifies various data formats and stored them in an internal scenario description.
-The system layer then provides a set of tools to operate converted data efficiently, such as
-<span style="color: #FFAA2D">filtering</span>
-, merging, sanity-check, 
-<span style="color: #7A24AB">splitting</span>
- and so on.
-Once the database is ready, it can be loaded into MetaDrive for large-scale simulation and supports applications. 
+    <h3 style="text-align: center">Traffic Scenarios from Various Datasets</h3>
+    <video width="100%" max-width="800px" loop autoplay muted playsinline
+    src="../assets/scenarionet/sn_convert.mp4">
+    </video>
+<div class="description">
+    <b>ScenarioNet</b> reads from real world dataset such as Waymo, nuScenes, Lyft L5, and nuPlan datasets and creates
+interactive environment for closed-loop simulation.
     </div>
 </div>
+
+
+<div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
+    <h3 style="text-align: center">tSNE Visualization of Scenario Embeddings</h3>
+    <img width="100%" src="../assets/scenarionet/sn_tsne.jpg">
+</div>
+
+
+
+
+<div class="col-12 md-5" style="margin-top: 100px; margin-bottom: 100px;">
+<h3 style="text-align: center">AD Stack Testing</h3>
+<iframe width="47%" height="230px" src="https://www.youtube.com/embed/KjlPB0nCTvg?autoplay=1&loop=1&mute=1&playlist=KjlPB0nCTvg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="47%" height="230px" src="https://www.youtube.com/embed/WWwdnURnOBM?t=10&loop=1&autoplay=1&mute=1&playlist=WWwdnURnOBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="description">
+        <b>ScenarioNet</b> bridges OpenPilot (Left) and ROS (Right) for autonomous driving testing.
+    </div>
+</div>
+
+
