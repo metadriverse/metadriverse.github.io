@@ -5,7 +5,7 @@
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {%- if entry.preview contains '.mp4' or entry.preview contains '.webm' -%}
-            {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
+            {%- assign entry_path = entry.preview | prepend: '../assets/img/publication_preview/' -%}
             <video class="preview z-depth-1 rounded" src="{{ entry_path }}" autoplay loop muted></video>
           {%- else -%}
             {%- if entry.preview contains '://' -%}
