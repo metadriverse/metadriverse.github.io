@@ -69,7 +69,7 @@ Once the database is ready, it can be loaded into MetaDrive for large-scale simu
 <div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
     <h3 style="text-align: center">Multi-sensory Simulation</h3>
     <video width="100%" max-width="800px" loop autoplay muted playsinline
-    src="../assets/scenarionet/sn_sensors.mp4">
+    src="../assets/scenarionet/sn_sensors_cropped.mp4">
     </video>
     <div class="description">
         <b>ScenarioNet</b> leverages <a href="../metadrive">MetaDrive Simulator</a> for multi-modal observation simulation.
