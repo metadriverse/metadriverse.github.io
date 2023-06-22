@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://metadriverse.github.io//tmp-page/sitemap.xml
+Sitemap: https://metadriverse.github.io///sitemap.xml
