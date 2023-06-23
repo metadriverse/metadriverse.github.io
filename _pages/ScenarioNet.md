@@ -109,7 +109,7 @@ Once the database is ready, it can be loaded into MetaDrive for large-scale simu
 <div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
     <h3 style="text-align: center">Traffic Scenarios from Various Datasets</h3>
     <video width="100%" max-width="800px" loop autoplay muted playsinline
-    src="../assets/scenarionet/sn_convert.mp4">
+    src="../assets/scenarionet/montage.mp4">
     </video>
 <div class="description">
     <b>ScenarioNet</b> reads from real world dataset such as Waymo, nuScenes, Lyft L5, and nuPlan datasets and creates
