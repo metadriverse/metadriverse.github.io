@@ -40,7 +40,7 @@ a:link, a:visited, a:hover, a:active {
 <h5 style="text-align: center">
 <a href="https://metadriverse.github.io/scenarionet/"><b>Webpage</b></a> |
 <a  href="https://github.com/metadriverse/scenarionet"><b>Code</b></a> |
-<a  href="#"><b>Video</b></a> |
+<a  href="https://youtu.be/3bOqswXP6OA"><b>Video</b></a> |
 <a  href="https://arxiv.org/abs/2306.12241"><b>Paper</b></a>
 </h5>
 </div>
