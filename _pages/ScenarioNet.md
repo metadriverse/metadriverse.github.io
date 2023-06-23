@@ -14,8 +14,13 @@ nav_order: 2
     </div>
     <!-- Video embed -->
     <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/C3DwU7GHJe0?autoplay=1&mute=1&loop=1&playlist=C3DwU7GHJe0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!-- Desktop layout -->
+<!--
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C3DwU7GHJe0?autoplay=1&mute=1&loop=1&playlist=C3DwU7GHJe0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+<video style="border-radius: 1em;" width="100%" max-width="800px" loop autoplay muted playsinline
+    src="../assets/scenarionet/teaser_video.mp4">
+    </video>
+<!-- Desktop layout -->
         <div class="position-absolute w-100 h-100 d-none d-sm-flex flex-column align-items-center justify-content-center text-center" style="top: 0; left: 0;">
             <h1 style="color: white; text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); font-weight: bold;">ScenarioNet</h1>
             <p style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); font-size: 1.2em; font-weight: bold;">Open-source platform for large-scale traffic scenario modeling and simulation</p>
@@ -45,12 +50,14 @@ a:link, a:visited, a:hover, a:active {
     <p><b>ScenarioNet</b> is an open-sourced platform for large-scale traffic scenario modeling and simulation.</p>
 <li style="padding: 0.5rem 0.5rem;">
 ScenarioNet defines a unified scenario description format containing HD maps and detailed object annotations.
-Scenarios recorded in this format can be replayed in the digital twins and multiple views from Bird-Eye-View layout to realistic 3D rendering are provided.
+</li><li style="padding: 0.5rem 0.5rem;">
+Scenarios recorded in this format can be replayed in the digital twins with multiple views, ranging from Bird-Eye-View layout to realistic 3D rendering.
 <!-- reflect the real-world complexity of traffic behaviors, substantially accelerating autonomous driving research. --> 
 <!-- repository of real-world traffic scenarios from the heterogeneous data in various driving datasets including Waymo, nuScenes, Lyft L5, and nuPlan datasets. --> 
 <!-- All scenario description files contain HD maps and detailed annotations which accurately reflect the real-world complexity of traffic behaviors, substantially accelerating autonomous driving research. -->
 </li><li style="padding: 0.5rem 0.5rem;">
-For harvesting a massive number of traffic scenarios, ScenarioNet provide tools to build and manage the scenario databases
+<!-- For harvesting a massive number of traffic scenarios, -->
+ScenarioNet provides tools to build and manage databases
 built from various data sources including real-world datasets like Waymo, nuScenes, Lyft L5, and nuPlan datasets and synthetic datasets like the procedural generated ones and safety-critical ones.
 
 <!-- ScenarioNet pipelines those scenarios and creates log-replayed or interactive environments --> 
@@ -58,7 +65,7 @@ built from various data sources including real-world datasets like Waymo, nuScen
 <!-- providing a benchmark for training ML-based driving policies and evaluating the safety of autonomous driving stacks in simulation before their real-world deployment. -->  
 </li><li style="padding: 0.5rem 0.5rem;">
 We demonstrate several applications of ScenarioNet including large-scale scenario generation, AD testing, imitation learning, and reinforcement learning in both single-agent and multi-agent settings.
-The results implies scaling up the training data brings new research opportunities in machine learning and autonomous driving.  
+The results imply scaling up the training data brings new research opportunities in machine learning and autonomous driving.  
 
 <!-- Allowing harvesting a massive number of complex traffic scenarios and recreate their digital twins in simulation, we hope <b>ScenarioNet</b> can facilitate many research opportunities in machine learning and autonomous driving. -->
 </li>
@@ -102,7 +109,7 @@ Once the database is ready, it can be loaded into MetaDrive for large-scale simu
 <div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
     <h3 style="text-align: center">Traffic Scenarios from Various Datasets</h3>
     <video width="100%" max-width="800px" loop autoplay muted playsinline
-    src="../assets/scenarionet/sn_convert.mp4">
+    src="../assets/scenarionet/montage.mp4">
     </video>
 <div class="description">
     <b>ScenarioNet</b> reads from real world dataset such as Waymo, nuScenes, Lyft L5, and nuPlan datasets and creates
