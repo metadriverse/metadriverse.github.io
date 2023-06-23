@@ -45,12 +45,14 @@ a:link, a:visited, a:hover, a:active {
     <p><b>ScenarioNet</b> is an open-sourced platform for large-scale traffic scenario modeling and simulation.</p>
 <li style="padding: 0.5rem 0.5rem;">
 ScenarioNet defines a unified scenario description format containing HD maps and detailed object annotations.
-Scenarios recorded in this format can be replayed in the digital twins and multiple views from Bird-Eye-View layout to realistic 3D rendering are provided.
+</li><li style="padding: 0.5rem 0.5rem;">
+Scenarios recorded in this format can be replayed in the digital twins with multiple views, ranging from Bird-Eye-View layout to realistic 3D rendering.
 <!-- reflect the real-world complexity of traffic behaviors, substantially accelerating autonomous driving research. --> 
 <!-- repository of real-world traffic scenarios from the heterogeneous data in various driving datasets including Waymo, nuScenes, Lyft L5, and nuPlan datasets. --> 
 <!-- All scenario description files contain HD maps and detailed annotations which accurately reflect the real-world complexity of traffic behaviors, substantially accelerating autonomous driving research. -->
 </li><li style="padding: 0.5rem 0.5rem;">
-For harvesting a massive number of traffic scenarios, ScenarioNet provide tools to build and manage the scenario databases
+<!-- For harvesting a massive number of traffic scenarios, -->
+ScenarioNet provides tools to build and manage databases
 built from various data sources including real-world datasets like Waymo, nuScenes, Lyft L5, and nuPlan datasets and synthetic datasets like the procedural generated ones and safety-critical ones.
 
 <!-- ScenarioNet pipelines those scenarios and creates log-replayed or interactive environments --> 
@@ -58,7 +60,7 @@ built from various data sources including real-world datasets like Waymo, nuScen
 <!-- providing a benchmark for training ML-based driving policies and evaluating the safety of autonomous driving stacks in simulation before their real-world deployment. -->  
 </li><li style="padding: 0.5rem 0.5rem;">
 We demonstrate several applications of ScenarioNet including large-scale scenario generation, AD testing, imitation learning, and reinforcement learning in both single-agent and multi-agent settings.
-The results implies scaling up the training data brings new research opportunities in machine learning and autonomous driving.  
+The results imply scaling up the training data brings new research opportunities in machine learning and autonomous driving.  
 
 <!-- Allowing harvesting a massive number of complex traffic scenarios and recreate their digital twins in simulation, we hope <b>ScenarioNet</b> can facilitate many research opportunities in machine learning and autonomous driving. -->
 </li>
