@@ -17,7 +17,7 @@ nav_order: 2
 <!--
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C3DwU7GHJe0?autoplay=1&mute=1&loop=1&playlist=C3DwU7GHJe0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 -->
-<video style="border-radius: 1em;" width="100%" max-width="800px" loop autoplay muted playsinline
+<video width="100%" max-width="800px" loop autoplay muted playsinline
     src="../assets/scenarionet/teaser_video.mp4">
     </video>
 <!-- Desktop layout -->
@@ -36,7 +36,7 @@ a:link, a:visited, a:hover, a:active {
 }
 </style>
 
-<div class="col-12 md-5" style="margin-top: 20px;" align="center">
+<div class="col-12 md-5" style="margin-top: 3em;" align="center">
 <h5 style="text-align: center">
 <a href="https://metadriverse.github.io/scenarionet/"><b>Webpage</b></a> |
 <a  href="https://github.com/metadriverse/scenarionet"><b>Code</b></a> |
@@ -45,7 +45,7 @@ a:link, a:visited, a:hover, a:active {
 </h5>
 </div>
 
-<div class="col-12 md-5" style="margin-top: 100px; margin-bottom: 100px">    
+<div class="col-12 md-5" style="margin-top: 3em;">    
     <h3 style="text-align: center">Meet ScenarioNet</h3>
     <p><b>ScenarioNet</b> is an open-sourced platform for large-scale traffic scenario modeling and simulation.</p>
 <li style="padding: 0.5rem 0.5rem;">
@@ -75,7 +75,7 @@ The results imply scaling up the training data brings new research opportunities
 
 
 
-<div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
+<div class="col-12" style="margin-top: 3em;"> 
     <h3 style="text-align: center">ScenarioNet's System Design</h3>
     <div class="img-container">
         <img src="../assets/img/system.jpg" class="my-image" alt="Your Image" />
@@ -92,7 +92,7 @@ Once the database is ready, it can be loaded into MetaDrive for large-scale simu
 
 
 
-<div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
+<div class="col-12" style="margin-top: 3em;"> 
     <h3 style="text-align: center">Multi-sensory Simulation</h3>
     <video width="100%" max-width="800px" loop autoplay muted playsinline
     src="../assets/scenarionet/sn_sensors_cropped.mp4">
@@ -106,7 +106,7 @@ Once the database is ready, it can be loaded into MetaDrive for large-scale simu
 
 
 
-<div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
+<div class="col-12" style="margin-top: 3em;"> 
     <h3 style="text-align: center">Traffic Scenarios from Various Datasets</h3>
     <video width="100%" max-width="800px" loop autoplay muted playsinline
     src="../assets/scenarionet/montage.mp4">
@@ -118,7 +118,7 @@ interactive environment for closed-loop simulation.
 </div>
 
 
-<div class="col-12" style="margin-top: 100px; margin-bottom: 100px;"> 
+<div class="col-12" style="margin-top: 3em;"> 
     <h3 style="text-align: center">tSNE Visualization of Scenario Embeddings</h3>
     <img width="100%" src="../assets/scenarionet/sn_tsne.jpg">
 </div>
@@ -126,7 +126,7 @@ interactive environment for closed-loop simulation.
 
 
 
-<div class="col-12 md-5" style="margin-top: 100px; margin-bottom: 100px;">
+<div class="col-12 md-5" style="margin-top: 3em;">
 <h3 style="text-align: center">AD Stack Testing</h3>
 <iframe width="47%" height="310px" src="https://www.youtube.com/embed/KjlPB0nCTvg?autoplay=1&loop=1&mute=1&playlist=KjlPB0nCTvg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="47%" height="310px" src="https://www.youtube.com/embed/WWwdnURnOBM?t=10&loop=1&autoplay=1&mute=1&playlist=WWwdnURnOBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
