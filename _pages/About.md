@@ -5,7 +5,6 @@ permalink: /
 subtitle: MetaDriverse is an ecosystem for data-driven autonomous driving research!
 display_categories: 
     [
-        "ScenarioNet: Bridging Various Dataset with MetaDrive",
         "MetaDrive: A Lightweight & Efficient Simulator"
     ]
 news: true  # includes a list of news items
