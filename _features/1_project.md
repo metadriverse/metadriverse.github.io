@@ -7,5 +7,5 @@ description:
 video: assets/img/traffic_gen.mp4
 importance: 1
 category: 
-    "ScenarioNet: Bridging Various Dataset with MetaDrive"
+    "ScenarioNet: Bridging Various Datasets with MetaDrive"
 ---

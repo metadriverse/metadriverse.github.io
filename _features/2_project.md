@@ -7,5 +7,5 @@ description:
 img: assets/img/scenario.png
 importance: 1
 category: 
-    "ScenarioNet: Bridging Various Dataset with MetaDrive"
+    "ScenarioNet: Bridging Various Datasets with MetaDrive"
 ---
