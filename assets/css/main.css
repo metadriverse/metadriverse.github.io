@@ -10,7 +10,7 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
+  --global-theme-color: #B71C1C;
   --global-hover-color: #B509AC;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #1C1C1D;
@@ -638,6 +638,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li {
   margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
@@ -645,6 +646,8 @@ footer.sticky-bottom {
   max-width: 200px;
 }
 .publications ol.bibliography li .abbr {
+  min-height: 150px;
+  min-width: 200px;
   height: 2rem;
   margin-bottom: 0.5rem;
 }
@@ -653,6 +656,9 @@ footer.sticky-bottom {
   background-color: var(--global-theme-color);
   padding-left: 1rem;
   padding-right: 1rem;
+  position: absolute;
+  top: 12px;
+  left: 16px;
 }
 .publications ol.bibliography li .abbr abbr a {
   color: white;
@@ -666,9 +672,16 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .title {
   font-weight: bolder;
+  font-size: 110%;
+  padding-bottom: 0.2em;
+}
+.publications ol.bibliography li .author {
+  font-size: 100%;
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
+  border-bottom: 1px dashed var(--global-text-color);
+  color: var(--global-text-color);
 }
 .publications ol.bibliography li .author a:hover {
   border-bottom-style: solid;
@@ -746,6 +759,35 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li div.abstract.hidden.open {
   border-color: var(--global-text-color);
+}
+.publications ol.bibliography li .teaser {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #888;
+  height: 150px;
+  width: 200px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+.publications ol.bibliography li .videoplayer {
+  border-radius: 8px;
+  height: 150px;
+  width: 200px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+.publications ol.bibliography li .videoplayer video {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #888;
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+}
+.publications ol.bibliography li .details {
+  font-size: 0em;
 }
 
 figure.highlight {
