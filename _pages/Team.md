@@ -14,20 +14,17 @@ nav_order: 4
   </div> -->
   <ul class="row">
     {% for member in site.data.team %}
-      <li class="col-12 col-md-6 col-lg-4"> 
+      <li class="col-12 col-md-6 col-lg-4">
         <div class="cnt-block equal-hight">
+<a href="{{ member.link }}">
           <figure><img src="{{ member.image }}" class="img-responsive" alt="{{ member.name }}" /></figure>
-          <h3><strong>{{ member.name }}</strong></h3>
-          <h5>{{ member.role }}</h5>
-          <ul class="follow-us clearfix">
-            <a class="btn btn-dark btn-floating m-1" href="#!" role="button">
-              <i class="bi bi-envelope-fill"></i> 
-            </a>
-            <a class="btn btn-dark btn-floating m-1" href="#!" role="button">
-              <i class="bi bi-github"></i>
-            </a>
-          </ul>
+</a>
+<a href="{{ member.link }}">            
+<h3><strong>{{ member.name }}</strong></h3>
+</a>
+          <h6>{{ member.role }}</h6>
         </div>
+        
       </li>
     {% endfor %}
   </ul>

@@ -1230,7 +1230,7 @@ nav[data-toggle="toc"] {
   background: var(--global-bg-color);
   padding: 30px 20px;
   text-align: center;
-  border: 2px solid var(--global-text-color-light);
+  border: 0px solid var(--global-text-color-light);
   margin: 0 0 28px;
 }
 
@@ -1255,7 +1255,6 @@ nav[data-toggle="toc"] {
   font-size: 20px;
   font-weight: 500;
   padding: 6px 0;
-  text-transform: uppercase;
 }
 
 .our-webcoderskull .cnt-block h3 a {
