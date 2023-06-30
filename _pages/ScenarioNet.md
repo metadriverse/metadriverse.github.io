@@ -1,8 +1,8 @@
 ---
 layout: page-notitle
-permalink: /scenarionet-temp/
+permalink: /scenarionet/
 title: ScenarioNet
-nav: false
+nav: true
 nav_order: 2
 ---
 
