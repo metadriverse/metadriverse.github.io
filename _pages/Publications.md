@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications-temp/
+permalink: /publications/
 title: Publications
 description: the publications from our team
 years: [2023,2022,2021]

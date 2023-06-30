@@ -659,6 +659,7 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      padding-bottom: 1.5rem;
 
       .preview {
         width: 100%;
@@ -667,6 +668,8 @@ footer.sticky-bottom {
       }
 
       .abbr {
+        min-height: 150px;
+        min-width: 200px;
         height: 2rem;
         margin-bottom: 0.5rem;
 
@@ -675,6 +678,9 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          position: absolute;
+          top: 12px;
+          left: 16px;
 
           a {
             color: white;
@@ -693,9 +699,14 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 110%;
+        padding-bottom: 0.2em;
       }
 
       .author {
+
+        font-size: 100%;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -703,6 +714,9 @@ footer.sticky-bottom {
             border-bottom-style: solid;
             text-decoration: none;
           }
+
+          border-bottom: 1px dashed var(--global-text-color);
+          color: var(--global-text-color)
         }
 
         >em {
@@ -793,6 +807,45 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+
+
+
+      .teaser {
+        border-radius: 8px;
+        box-shadow: 3px 3px 6px #888;
+        height: 150px;
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        object-fit: cover;
+      }
+
+      .videoplayer {
+        border-radius: 8px;
+        height: 150px;
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        object-fit: cover;
+      }
+
+      .videoplayer video {
+        border-radius: 8px;
+        box-shadow: 3px 3px 6px #888;
+        height: 150px;
+        width: 200px;
+        object-fit: cover;
+      }
+
+      // Hack to remove useless links
+      .details {
+        font-size: 0em;
+      }
+
+
     }
   }
 }

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: MetaDriverse is an ecosystem for data-driven autonomous driving research!
+subtitle:
 display_categories:
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
