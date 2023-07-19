@@ -191,6 +191,8 @@ collections:
     permalink: /metadrive/:path/
   images:
     output: true
+  snet-asset:
+    output: true
 
 announcements:
   enabled: true
