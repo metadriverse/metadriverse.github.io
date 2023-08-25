@@ -23,6 +23,7 @@ nav_order: 4
 <h3><strong>{{ member.name }}</strong></h3>
 </a>
           <h6>{{ member.role }}</h6>
+          <small>{{ member.affiliation }}</small>
         </div>
         
       </li>
