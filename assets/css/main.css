@@ -647,7 +647,6 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .abbr {
   min-height: 150px;
-  min-width: 200px;
   height: 2rem;
   margin-bottom: 0.5rem;
 }
