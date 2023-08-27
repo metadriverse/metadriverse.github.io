@@ -32,7 +32,7 @@ nav_order: 2
 <style>
 a:link, a:visited, a:hover, a:active {
     color: var(--global-text-color);
-    text-decoration: underline;
+    text-decoration: none;
 }
 </style>
 
