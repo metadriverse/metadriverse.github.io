@@ -6,7 +6,7 @@ title: MetaDriverse # the website title (if blank, full name will be used instea
 first_name:
 middle_name:
 last_name: MetaDriverse
-logo: /assets/img/logo.png
+logo: /assets/img/UCLAxMetaDriverse-Logo-2.png
 email: pzh@cs.ucla.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   MetaDriverse for AI and Autonomy Research!

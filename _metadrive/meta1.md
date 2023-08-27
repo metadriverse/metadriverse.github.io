@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MetaDrive Simulator
-img: assets/img/logo.png
+img: assets/img/UCLAxMetaDriverse-Logo-Small.png
 ---
 <p>
         To facilitate the research of generalizable reinforcement learning, we develop an open-source, highly efficient
