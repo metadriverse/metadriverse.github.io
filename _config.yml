@@ -188,7 +188,7 @@ collections:
     permalink: /features/:path/
   metadrive:
     output: true
-    permalink: /metadrive/:path/
+    permalink: /metadrive-simulator/:path/
   images:
     output: true
   snet-asset:

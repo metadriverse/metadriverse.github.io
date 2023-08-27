@@ -1,6 +1,6 @@
 ---
 layout: page-center
-permalink: /metadrive/
+permalink: /metadrive-simulator/
 title: MetaDrive
 description: "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning"
 nav: true
