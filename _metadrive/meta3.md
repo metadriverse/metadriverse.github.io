@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Super Customizable
+title: Highly Customizable
 img: assets/img/multi-agent.png
 ---
 <p>

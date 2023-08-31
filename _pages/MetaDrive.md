@@ -7,6 +7,14 @@ nav: true
 nav_order: 1
 ---
 
+<div class="col-12 md-5"  align="center">
+    <h6 style="text-align: center">
+        <a href="https://github.com/metadriverse/metadrive" style="color: black;"><b>Code</b></a> |
+        <a href="https://arxiv.org/pdf/2109.12674.pdf" style="color: black;"><b>Paper</b></a> |
+        <a href="https://metadrive-simulator.readthedocs.io/en/latest/" style="color: black;"><b>Documentation</b></a> |
+        <a href="https://www.youtube.com/embed/3ziJPqC_-T4" style="color: black;"><b>Demo Video</b></a>
+    </h6>
+</div>
 
 
 <div class="metadrive">
