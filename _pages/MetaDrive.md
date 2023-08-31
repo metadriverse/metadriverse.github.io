@@ -43,4 +43,31 @@ nav_order: 1
   </div>
   {% endfor %}
 </div>
-
+<div class="news-container">
+    <p><br>
+            <h3>News</h3>
+        <ul>
+            <li>
+                Oct 22, 2022: Benchmark results of MARL environments are provided in <a class="bar" href="https://github.com/metadriverse/metadrive-benchmark"><b>metadrive-benchmark</b></a> repo!
+            </li>
+            <li>
+                May 3, 2022: MetaDrive 0.2.5 was released!
+            </li>
+            <li>
+                Mar 28, 2022: MetaDrive <a class="bar" href="https://arxiv.org/pdf/2109.12674.pdf"><b>white paper</b></a> was accepted to TPAMI!
+            </li>
+        </ul>
+    </p>
+</div>
+<div class="bibtex">
+    <h3>Reference</h3>
+    Please refer to the <a href="https://arxiv.org/pdf/2109.12674.pdf">technical report</a> or the <a href="https://github.com/metadriverse/metadrive">code repo</a> for more information.
+    <pre>
+@article{li2021metadrive,
+title={Metadrive: Composing diverse driving scenarios for generalizable reinforcement learning},
+author={Li, Quanyi and Peng, Zhenghao and Feng, Lan and Zhang, Qihang and Xue, Zhenghai and Zhou, Bolei},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+year={2022}
+}
+    </pre>
+</div>
