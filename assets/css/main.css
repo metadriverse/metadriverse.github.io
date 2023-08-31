@@ -1061,7 +1061,7 @@ nav[data-toggle=toc] .nav-link.active:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .metadrive .container:nth-child(even) {
   flex-direction: row-reverse;
@@ -1374,6 +1374,34 @@ nav[data-toggle=toc] .nav-link.active:hover {
 
 .filter-button.active {
   background-color: #28a745;
+}
+
+.news-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 750px;
+}
+
+.news-container ul {
+  padding-left: 20px;
+}
+
+.news-container li {
+  margin-bottom: 15px;
+}
+
+.bibtex {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 750px; /* Adjust based on your site's actual style if needed */
+}
+
+.bibtex pre {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  overflow-x: auto;
+  color: black;
 }
 
 /*******************************************************************************
