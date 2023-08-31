@@ -218,7 +218,7 @@ blockquote {
     }
   }
 
-  .navbar-nav .nav-item.active>.nav-link {
+  .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
@@ -227,6 +227,7 @@ blockquote {
       color: var(--global-hover-color);
     }
   }
+
   .navbar-brand img {
     height: 40px;
     width: auto;
@@ -420,6 +421,7 @@ footer.sticky-bottom {
     }
   }
 }
+
 .category-list {
   border-bottom: 1px solid var(--global-divider-color);
   padding-top: 0.5rem;
@@ -452,7 +454,6 @@ footer.sticky-bottom {
 .category-list ul .category-item {
   text-align: center;
 }
-
 
 
 .post-title {
@@ -575,6 +576,7 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
+
 .features {
   a {
     text-decoration: none;
@@ -607,6 +609,7 @@ footer.sticky-bottom {
     width: 400px;
     margin-bottom: 10px;
   }
+
   .grid-item-wide {
     width: 400px; /* adjust this value according to your needs */
     margin-bottom: 10px;
@@ -667,33 +670,38 @@ footer.sticky-bottom {
         max-width: 200px;
       }
 
-      .abbr {
-        min-height: 150px;
-        //min-width: 180px;
-        height: 2rem;
-        margin-bottom: 0.5rem;
+      .leftcolumn {
+        display: grid;
+        justify-content: end;
 
-        abbr {
-          display: inline-block;
-          background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          position: absolute;
-          top: 12px;
-          left: 16px;
+        .abbr {
+          min-height: 150px;
+          //min-width: 180px;
+          height: 2rem;
+          margin-bottom: 0.5rem;
 
-          a {
-            color: white;
+          abbr {
+            display: inline-block;
+            background-color: var(--global-theme-color);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            position: absolute;
+            top: 12px;
+            left: 16px;
 
-            &:hover {
-              text-decoration: none;
+            a {
+              color: white;
+
+              &:hover {
+                text-decoration: none;
+              }
             }
           }
-        }
 
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+          .award {
+            color: var(--global-theme-color) !important;
+            border: 1px solid var(--global-theme-color);
+          }
         }
       }
 
@@ -719,12 +727,12 @@ footer.sticky-bottom {
           color: var(--global-text-color)
         }
 
-        >em {
+        > em {
           border-bottom: 1px solid;
           font-style: normal;
         }
 
-        >span.more-authors {
+        > span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
@@ -755,6 +763,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: $black-color;
@@ -807,8 +816,6 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
-
-
 
 
       .teaser {
@@ -1054,11 +1061,11 @@ progress::-moz-progress-bar {
 nav[data-toggle="toc"] {
   top: 5rem;
 
-  .nav .nav>li>a {
+  .nav .nav > li > a {
     font-size: .75rem;
   }
 
-  .nav>li>a {
+  .nav > li > a {
     color: var(--global-text-color);
     font-size: .75rem;
 
@@ -1147,10 +1154,11 @@ nav[data-toggle="toc"] {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(100%);
-    text-shadow: 0 0 10px rgba(1,1,1,0.5);
-    transform: scale(2); /* Change this value to scale the icons up or down */
+  filter: invert(100%);
+  text-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+  transform: scale(2); /* Change this value to scale the icons up or down */
 }
+
 .header-content {
   display: flex;
   flex-direction: column;
@@ -1162,6 +1170,7 @@ nav[data-toggle="toc"] {
   max-width: 380px; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
 }
+
 .metadrive {
   .container {
     display: flex;
@@ -1196,11 +1205,12 @@ nav[data-toggle="toc"] {
     border-radius: 15px;
     object-fit: cover;
   }
-  
+
   .image iframe {
     max-width: 100%;
     border-radius: 15px;
   }
+
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
@@ -1220,6 +1230,7 @@ nav[data-toggle="toc"] {
 .center-text {
   text-align: center;
 }
+
 .our-webcoderskull {
   background: var(--global-bg-color);
 }
@@ -1291,6 +1302,7 @@ nav[data-toggle="toc"] {
 .our-webcoderskull .cnt-block .follow-us li .bi:hover {
   color: var(--global-hover-color);
 }
+
 .our-webcoderskull ul {
   list-style: none;
   padding: 0;
@@ -1357,6 +1369,7 @@ nav[data-toggle="toc"] {
   opacity: 1;
   display: block;
 }
+
 .section {
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -1365,6 +1378,7 @@ nav[data-toggle="toc"] {
 .section.active {
   opacity: 1;
 }
+
 //.section .img-container {
 //  position: relative;
 //  width: 100%;
@@ -1396,32 +1410,38 @@ nav[data-toggle="toc"] {
   max-width: 100%;
   height: auto;
 }
+
 .infinite-scroll-gallery {
   .image-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .video-info {
     margin-top: 1px;
     font-size: 0.9em;
     color: #666;
   }
+
   .sizer {
     width: 45%;
     margin: 10px;
   }
+
   .image {
     width: 45%;
     margin: 10px;
     overflow: hidden;
   }
+
   .video-container {
     position: relative;
     width: 100%;
     padding-top: 28.125%; /* This sets the aspect ratio 450/1600*100 = 28.125% */
     overflow: hidden;
   }
+
   .video-container video {
     position: absolute;
     top: 0;
@@ -1462,12 +1482,15 @@ nav[data-toggle="toc"] {
   opacity: 0;
   transition: opacity 0.6s;
 }
+
 .image-visible {
   opacity: 1;
 }
+
 .pagination__next {
   display: none;
 }
+
 .badge {
   display: inline-block;
   padding: .25em .4em;
@@ -1488,6 +1511,7 @@ nav[data-toggle="toc"] {
 .badge-id {
   background-color: #28a745;
 }
+
 #tag-filter {
   margin-bottom: 1em;
   display: flex;
@@ -1496,7 +1520,7 @@ nav[data-toggle="toc"] {
 }
 
 .filter-button {
-  margin: .5em;  /* Updated to add vertical margin */
+  margin: .5em; /* Updated to add vertical margin */
   padding: .5em 1em;
   border: none;
   background-color: #007bff;

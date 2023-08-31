@@ -2,28 +2,30 @@
 ---
 
 <div class="row align-items-center">
-    <div class="col-xs-7 col-sm-7 col-md-5 col-lg-4 col-xl-4 abbr">
-        {% if entry.teaser %}
-        <img src="../assets/teaser/{{entry.teaser}}" class="teaser z-depth-1">
-        {% endif %}
+    <div class="leftcolumn">
+        <div class="col-xs-7 col-sm-7 col-md-5 col-lg-4 col-xl-4 abbr">
+            {% if entry.teaser %}
+            <img src="../assets/teaser/{{entry.teaser}}" class="teaser z-depth-1">
+            {% endif %}
 
-        {% if entry.teaser_video %}
-        <div class="videoplayer">
-            <video autoplay="autoplay" muted loop="loop" playsinline class="z-depth-1">
-                <source src="../assets/teaser/{{entry.teaser_video}}" type="video/mp4"/>
-            </video>
+            {% if entry.teaser_video %}
+            <div class="videoplayer">
+                <video autoplay="autoplay" muted loop="loop" playsinline class="z-depth-1">
+                    <source src="../assets/teaser/{{entry.teaser_video}}" type="video/mp4"/>
+                </video>
+            </div>
+
+            <!--    <img src="../assets/teaser/{{entry.teaser_video}}" class="teaser img-fluid z-depth-1">-->
+            {% endif %}
+
+            {% if entry.abbr %}
+            {% if site.data.venues[entry.abbr] %}
+            <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+            {% else %}
+            <abbr class="badge">{{entry.abbr}}</abbr>
+            {% endif %}
+            {% endif %}
         </div>
-
-        <!--    <img src="../assets/teaser/{{entry.teaser_video}}" class="teaser img-fluid z-depth-1">-->
-        {% endif %}
-
-        {% if entry.abbr %}
-        {% if site.data.venues[entry.abbr] %}
-        <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-        {% else %}
-        <abbr class="badge">{{entry.abbr}}</abbr>
-        {% endif %}
-        {% endif %}
     </div>
 
     <div id="{{entry.key}}" class="col-xs-5 col-sm-5 col-md-7 col-lg-8 col-xl-8" style="vertical-align: middle; ">
