@@ -645,16 +645,12 @@ footer.sticky-bottom {
   min-width: 80px;
   max-width: 200px;
 }
-.publications ol.bibliography li .leftcolumn {
-  display: grid;
-  justify-content: end;
-}
-.publications ol.bibliography li .leftcolumn .abbr {
+.publications ol.bibliography li .teaserblock {
   min-height: 150px;
   height: 2rem;
   margin-bottom: 0.5rem;
 }
-.publications ol.bibliography li .leftcolumn .abbr abbr {
+.publications ol.bibliography li .teaserblock abbrbadge {
   display: inline-block;
   background-color: var(--global-theme-color);
   padding-left: 1rem;
@@ -663,13 +659,13 @@ footer.sticky-bottom {
   top: 12px;
   left: 16px;
 }
-.publications ol.bibliography li .leftcolumn .abbr abbr a {
+.publications ol.bibliography li .teaserblock abbrbadge a {
   color: white;
 }
-.publications ol.bibliography li .leftcolumn .abbr abbr a:hover {
+.publications ol.bibliography li .teaserblock abbrbadge a:hover {
   text-decoration: none;
 }
-.publications ol.bibliography li .leftcolumn .abbr .award {
+.publications ol.bibliography li .teaserblock .award {
   color: var(--global-theme-color) !important;
   border: 1px solid var(--global-theme-color);
 }
@@ -1383,11 +1379,11 @@ nav[data-toggle=toc] .nav-link.active:hover {
 }
 
 .news-container ul {
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .news-container li {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .bibtex {
