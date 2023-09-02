@@ -670,38 +670,37 @@ footer.sticky-bottom {
         max-width: 200px;
       }
 
-      .leftcolumn {
-        display: grid;
-        justify-content: end;
 
-        .abbr {
-          min-height: 150px;
-          //min-width: 180px;
-          height: 2rem;
-          margin-bottom: 0.5rem;
+      .teaserblock {
+        //display: grid;
+        //justify-content: start;
 
-          abbr {
-            display: inline-block;
-            background-color: var(--global-theme-color);
-            padding-left: 1rem;
-            padding-right: 1rem;
-            position: absolute;
-            top: 12px;
-            left: 16px;
+        min-height: 150px;
+        //min-width: 180px;
+        height: 2rem;
+        margin-bottom: 0.5rem;
 
-            a {
-              color: white;
+        abbrbadge {
+          display: inline-block;
+          background-color: var(--global-theme-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          position: absolute;
+          top: 12px;
+          left: 16px;
 
-              &:hover {
-                text-decoration: none;
-              }
+          a {
+            color: white;
+
+            &:hover {
+              text-decoration: none;
             }
           }
+        }
 
-          .award {
-            color: var(--global-theme-color) !important;
-            border: 1px solid var(--global-theme-color);
-          }
+        .award {
+          color: var(--global-theme-color) !important;
+          border: 1px solid var(--global-theme-color);
         }
       }
 
@@ -1553,6 +1552,7 @@ nav[data-toggle="toc"] {
 .news-container li {
   margin-bottom: 5px;
 }
+
 .bibtex {
   margin: 0 auto;
   width: 100%;

@@ -2,8 +2,18 @@
 ---
 
 <div class="row align-items-center">
-    <div class="leftcolumn">
-        <div class="col-xs-7 col-sm-7 col-md-5 col-lg-4 col-xl-4 abbr">
+    <div>
+        <div class="col-xs-7  col-md-6 col-lg-5 col-xl-4 teaserblock">
+
+            {% if entry.abbr %}
+            {% if site.data.venues[entry.abbr] %}
+            <abbrbadge class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a>
+            </abbrbadge>
+            {% else %}
+            <abbrbadge class="badge">{{entry.abbr}}</abbrbadge>
+            {% endif %}
+            {% endif %}
+
             {% if entry.teaser %}
             <img src="../assets/teaser/{{entry.teaser}}" class="teaser z-depth-1">
             {% endif %}
@@ -18,17 +28,10 @@
             <!--    <img src="../assets/teaser/{{entry.teaser_video}}" class="teaser img-fluid z-depth-1">-->
             {% endif %}
 
-            {% if entry.abbr %}
-            {% if site.data.venues[entry.abbr] %}
-            <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-            {% else %}
-            <abbr class="badge">{{entry.abbr}}</abbr>
-            {% endif %}
-            {% endif %}
         </div>
     </div>
 
-    <div id="{{entry.key}}" class="col-xs-5 col-sm-5 col-md-7 col-lg-8 col-xl-8" style="vertical-align: middle; ">
+    <div id="{{entry.key}}" class="col-xs-5 col-md-6 col-lg-7 col-xl-8" style="vertical-align: middle; ">
         {% if entry.type == "thesis" %}
         {{reference}}
         {% else %}
