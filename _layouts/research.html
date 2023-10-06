@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- research.html -->
+<div class="post">
+  <header class="post-header center-text">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  <div class="col-12 md-5"  align="center">
+    <h6 style="text-align: center">
+        <a href={{ page.code_link }}><b>Code</b></a> |
+        {% if page.doc_link %}
+        <a href={{ page.doc_link }}><b>Documentation</b></a> |
+        {% endif %}
+        {% if page.video_link %}
+        <a href={{ page.video_link }}><b>Demo Video</b></a> |
+        {% endif %}
+        <a href={{ page.pdf_link  }}><b>Paper</b></a>
+    </h6>
+</div>
+  </header>
+  <article>
+    {{ content }}
+  </article>
+</div>
