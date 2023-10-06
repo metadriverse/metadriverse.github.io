@@ -31,7 +31,7 @@ To facilitate the research of generalizable reinforcement learning, we develop a
 We construct a variety of RL tasks and baselines in both single-agent and multi-agent settings, including benchmarking
 generalizability across unseen scenes, safe exploration, and modeling multi-agent behaviors.
 
-Empowered by [***ScenarioNet***](../scenarionet), all features of MetaDrive can be applied to 
+Empowered by ***[ScenarioNet](../scenarionet)***, all features of MetaDrive can be applied to 
 the virtual environments reconstructed from the open-source dataset, such as Waymo Open Dataset, nuPlan, and L5.
 
 
