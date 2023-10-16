@@ -2,6 +2,7 @@
 layout: research
 permalink: /metadrive-simulator/
 title: MetaDrive
+page_title: MetaDrive
 description: "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning"
 nav: true
 nav_order: 1

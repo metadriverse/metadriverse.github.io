@@ -4,6 +4,10 @@
 
 // Typography
 
+body {
+  font-size: 14pt;
+}
+
 p,
 h1,
 h2,
@@ -18,6 +22,19 @@ span,
 strong {
   color: var(--global-text-color);
 }
+
+// PZH Note: A special treatment to a section block
+.section {
+  width: 800pt;
+  min-height: 100pt;
+  margin: 15pt auto;
+  padding: 30pt 40pt;
+  border: 1pt hidden #000;
+  text-align: justify;
+  color: #000000;
+  background: #ffffff;
+}
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -149,9 +166,65 @@ blockquote {
   }
 }
 
+.teaser {
+  margin: 20pt 0;
+  text-align: center;
+}
+
+.teaser img {
+  width: 90%;
+}
+
+.teaser teaser-caption {
+  font-size: 100%;
+}
+
+.grid-teaser {
+  margin: 0 0;
+  text-align: center;
+}
+
+.grid-teaser img {
+  width: 90%;
+}
+
+.grid-teaser caption {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.research-section {
+  max-width: 800pt;
+  margin: auto;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 30px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+
 .post-description {
   margin-bottom: 2rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.post-authors {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
 
   a {
     color: inherit;
