@@ -13,6 +13,7 @@ video_link: https://www.youtube.com/embed/3ziJPqC_-T4
 ---
 
 
+
 ## News
 
 * Sep 2, 2023: <a class="bar" href="../scenarionet/"><b>ScenarioNet</b></a>, a platform for large-scale scenario modeling, is released!
@@ -38,6 +39,7 @@ generalizability across unseen scenes, safe exploration, and modeling multi-agen
 Empowered by ***[ScenarioNet](../scenarionet)***, all features of MetaDrive can be applied to 
 the virtual environments reconstructed from the open-source dataset, such as Waymo Open Dataset, nuPlan, and L5.
 
+<video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/decisionforce/archive/master/MetaDrive/metadrive_teaser.mp4" type="video/mp4"/></video>
 
 <!--research-section-splitter-->
 
