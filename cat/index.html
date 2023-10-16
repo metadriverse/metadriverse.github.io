@@ -178,9 +178,13 @@
             </h6>
         </div>
     </header>
+
+
     <article>
+        
+        
         <div class="research-section">
-<h2>Overview</h2>
+            <h2 id="overview">Overview</h2>
 
 <div class="teaser">
     <img src="../assets/img/cat/overview.png">
@@ -189,14 +193,12 @@
     </div>
 </div>
 
-<p>
-This work introduces the Closed-loop Adversarial Training (CAT) framework for safe end-to-end driving.
+<p>This work introduces the Closed-loop Adversarial Training (CAT) framework for safe end-to-end driving.
 CAT imports normal driving scenarios from real-world driving logs and then generates safety-critical counterparts as
 adversarial training environments tailored to the current driving policy.
 The agent continuously learns to address emerging challenges and improves risk awareness in a closed-loop pipeline.
 After training, the agent can achieve superior driving safety in both log-replay (+32.5%) and safety-critical traffic
-scenarios (+35%).
-</p>
+scenarios (+35%).</p>
 
 <div class="teaser">
     <img src="../assets/img/cat/resampling.png">
@@ -205,12 +207,10 @@ scenarios (+35%).
     </div>
 </div>
 
-<p>
-One crucial component of our framework is a novel factorized safety-critical resampling technique that
-efficiently turns log-replay driving scenarios into safety-critical ones during training.
-</p>
-<p>
-Specifically, we cast the safety-critical traffic generation as the risk-conditioned Bayesian probability maximization
+<p>One crucial component of our framework is a novel factorized safety-critical resampling technique that
+efficiently turns log-replay driving scenarios into safety-critical ones during training.</p>
+
+<p>Specifically, we cast the safety-critical traffic generation as the risk-conditioned Bayesian probability maximization
 problem
 and then decompose it into the multiplication of standard motion forecasting sub-problems.
 Thus, we can utilize off-the-shelf motion forecasting models as the learned prior to generate adversarial scenarios with
@@ -218,14 +218,17 @@ high fidelity, diversity, and efficiency.
 Compared to previous adversarial traffic generation methods, the proposed technique obtains a competitive attack success
 rate
 while significantly reducing the computational cost (generally less than 1s), making the CAT framework effective and
-efficient for closed-loop end-to-end driving policy training.
-</p>
-</div>
+efficient for closed-loop end-to-end driving policy training.</p>
 
-<div class="research-section">
-<h2>CAT-generated Adversarial Scenarios</h2>
 
-Case 1: In the raw scenario, the blue car keeps going straight. After CAT generation, it turns left at the intersection.
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="cat-generated-adversarial-scenarios">CAT-generated Adversarial Scenarios</h2>
+
+<p>Case 1: In the raw scenario, the blue car keeps going straight. After CAT generation, it turns left at the intersection.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -246,11 +249,10 @@ Case 1: In the raw scenario, the blue car keeps going straight. After CAT genera
     </td>
     </tr>
 </table>
-<br>
-<br>
+<p><br>
+<br></p>
 
-
-Case 2: In the raw scene, the blue car drives inside the roundabout. After CAT generation, it runs out of the roundabout.
+<p>Case 2: In the raw scene, the blue car drives inside the roundabout. After CAT generation, it runs out of the roundabout.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -271,10 +273,10 @@ Case 2: In the raw scene, the blue car drives inside the roundabout. After CAT g
     </td>
     </tr>
 </table>
-<br>
-<br>
+<p><br>
+<br></p>
 
-Case 3: In the raw scene, the blue car changes the lane gently. After CAT generation, it suddenly changes the lane.
+<p>Case 3: In the raw scene, the blue car changes the lane gently. After CAT generation, it suddenly changes the lane.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -295,11 +297,9 @@ Case 3: In the raw scene, the blue car changes the lane gently. After CAT genera
     </td>
     </tr>
 </table>
-<br>
+<p><br></p>
 
-
-
-Case 4: In the raw scene, the blue car drive normally on the highway. After CAT generation, it brakes suddenly due to a malfunction.
+<p>Case 4: In the raw scene, the blue car drive normally on the highway. After CAT generation, it brakes suddenly due to a malfunction.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -320,12 +320,16 @@ Case 4: In the raw scene, the blue car drive normally on the highway. After CAT 
     </td>
     </tr>
 </table>
-</div>
 
-<div class="research-section">
-<h2>CAT Enhances AI Driving Safety</h2>
 
-Case 1: A car makes an unprotected left turn at an intersection. The CAT agent learns to stay away from potentially dangerous vehicles.
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="cat-enhances-ai-driving-safety">CAT Enhances AI Driving Safety</h2>
+
+<p>Case 1: A car makes an unprotected left turn at an intersection. The CAT agent learns to stay away from potentially dangerous vehicles.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -346,10 +350,9 @@ Case 1: A car makes an unprotected left turn at an intersection. The CAT agent l
     </td>
     </tr>
 </table>
-<br>
+<p><br></p>
 
-
-Case 2: The leading car slows down. The CAT agent learns to change its lane and overtake that vehicle.
+<p>Case 2: The leading car slows down. The CAT agent learns to change its lane and overtake that vehicle.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -370,9 +373,9 @@ Case 2: The leading car slows down. The CAT agent learns to change its lane and 
     </td>
     </tr>
 </table>
-<br>
+<p><br></p>
 
-Case 3: The leading car cuts into the lane suddenly. The CAT agent learns to yield and change its lane ahead of time.
+<p>Case 3: The leading car cuts into the lane suddenly. The CAT agent learns to yield and change its lane ahead of time.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -393,9 +396,9 @@ Case 3: The leading car cuts into the lane suddenly. The CAT agent learns to yie
     </td>
     </tr>
 </table>
-<br>
+<p><br></p>
 
-Case 4: Two vehicles traveling in opposite directions meet. The CAT agents learns to pass by.
+<p>Case 4: Two vehicles traveling in opposite directions meet. The CAT agents learns to pass by.</p>
 <table class="table-bordered">
     <tr>
     <td>
@@ -416,11 +419,15 @@ Case 4: Two vehicles traveling in opposite directions meet. The CAT agents learn
     </td>
     </tr>
 </table>
-</div>
 
-<div class="research-section">
-<h2>Reference</h2>
-<div class="code-display-wrapper">
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="reference">Reference</h2>
+
 <pre><code class="language-plain">@inproceedings{zhang2023cat,
   title={CAT: Closed-loop Adversarial Training for Safe End-to-End Driving},
   author={Zhang, Linrui and Peng, Zhenghao and Li, Quanyi and Zhou, Bolei},
@@ -428,10 +435,9 @@ Case 4: Two vehicles traveling in opposite directions meet. The CAT agents learn
   year={2023}
 }
 </code></pre>
-</div>
 
-
-</div>
+        </div>
+        
 
     </article>
 </div>
