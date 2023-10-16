@@ -25,8 +25,8 @@ pdf_link: https://openreview.net/pdf?id=VtJqMs9ig20
 
 ---
 
-<div class="research-section">
-<h2>Overview</h2>
+
+## Overview
 
 <div class="teaser">
     <img src="../assets/img/cat/overview.png">
@@ -35,14 +35,14 @@ pdf_link: https://openreview.net/pdf?id=VtJqMs9ig20
     </div>
 </div>
 
-<p>
+
 This work introduces the Closed-loop Adversarial Training (CAT) framework for safe end-to-end driving.
 CAT imports normal driving scenarios from real-world driving logs and then generates safety-critical counterparts as
 adversarial training environments tailored to the current driving policy.
 The agent continuously learns to address emerging challenges and improves risk awareness in a closed-loop pipeline.
 After training, the agent can achieve superior driving safety in both log-replay (+32.5%) and safety-critical traffic
 scenarios (+35%).
-</p>
+
 
 <div class="teaser">
     <img src="../assets/img/cat/resampling.png">
@@ -51,11 +51,10 @@ scenarios (+35%).
     </div>
 </div>
 
-<p>
+
 One crucial component of our framework is a novel factorized safety-critical resampling technique that
 efficiently turns log-replay driving scenarios into safety-critical ones during training.
-</p>
-<p>
+
 Specifically, we cast the safety-critical traffic generation as the risk-conditioned Bayesian probability maximization
 problem
 and then decompose it into the multiplication of standard motion forecasting sub-problems.
@@ -65,12 +64,12 @@ Compared to previous adversarial traffic generation methods, the proposed techni
 rate
 while significantly reducing the computational cost (generally less than 1s), making the CAT framework effective and
 efficient for closed-loop end-to-end driving policy training.
-</p>
-</div>
 
 
-<div class="research-section">
-<h2>CAT-generated Adversarial Scenarios</h2>
+<!--research-section-splitter-->
+
+
+## CAT-generated Adversarial Scenarios
 
 Case 1: In the raw scenario, the blue car keeps going straight. After CAT generation, it turns left at the intersection.
 <table class="table-bordered">
@@ -167,13 +166,12 @@ Case 4: In the raw scene, the blue car drive normally on the highway. After CAT 
     </td>
     </tr>
 </table>
-</div>
 
 
+<!--research-section-splitter-->
 
 
-<div class="research-section">
-<h2>CAT Enhances AI Driving Safety</h2>
+## CAT Enhances AI Driving Safety
 
 Case 1: A car makes an unprotected left turn at an intersection. The CAT agent learns to stay away from potentially dangerous vehicles.
 <table class="table-bordered">
@@ -258,19 +256,18 @@ Case 4: Two vehicles traveling in opposite directions meet. The CAT agents learn
     </td>
     </tr>
 </table>
-</div>
 
 
-<div class="research-section">
-<h2>Reference</h2>
-<div class="code-display-wrapper"><pre><code class="language-plain">@inproceedings{zhang2023cat,
+<!--research-section-splitter-->
+
+
+## Reference
+
+```plain
+@inproceedings{zhang2023cat,
   title={CAT: Closed-loop Adversarial Training for Safe End-to-End Driving},
   author={Zhang, Linrui and Peng, Zhenghao and Li, Quanyi and Zhou, Bolei},
   booktitle={7th Annual Conference on Robot Learning},
   year={2023}
 }
-</code></pre>
-</div>
-
-
-</div>
+```

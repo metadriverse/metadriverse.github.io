@@ -38,8 +38,16 @@ layout: default
             </h6>
         </div>
     </header>
+
+
     <article>
-        {{ content }}
+        {% assign contentArray = content | markdownify | split: "<!--research-section-splitter-->" %}
+        {% for sec in contentArray %}
+        <div class="research-section">
+            {{ sec }}
+        </div>
+        {% endfor %}
+
     </article>
 </div>
 
