@@ -271,3 +271,9 @@ Case 4: Two vehicles traveling in opposite directions meet. The CAT agents learn
   year={2023}
 }
 ```
+
+<br>
+
+## Acknowledgement
+
+This work was supported by the National Science Foundation under Grant No. 2235012 and the Cisco Faculty Award.
