@@ -23,18 +23,6 @@ strong {
   color: var(--global-text-color);
 }
 
-// PZH Note: A special treatment to a section block
-.section {
-  width: 800pt;
-  min-height: 100pt;
-  margin: 15pt auto;
-  padding: 30pt 40pt;
-  border: 1pt hidden #000;
-  text-align: justify;
-  color: #000000;
-  background: #ffffff;
-}
-
 * {padding:0;margin:0;box-sizing:border-box;}
 
 #video {
@@ -213,12 +201,12 @@ blockquote {
 .research-section {
   max-width: 800pt;
   margin: auto;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 5px 5px var(--global-research-section-border);
   border-radius: 25px;
   padding: 30px;
   border-width: 1.5px;
   border-style: solid;
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: var(--global-research-section-border);
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
