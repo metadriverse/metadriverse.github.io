@@ -26,6 +26,18 @@ pdf_link: https://openreview.net/pdf?id=VtJqMs9ig20
 ---
 
 
+
+## 1min Spotlight Video
+
+*This video includes audio.*
+
+<div id="video" style="overflow: hidden;">
+  <iframe width="100%" height="100%" style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" src="https://www.youtube.com/embed/uAFp1b-SLvw?autoplay=1&loop=1&controls=0&rel=0&showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+
+<!--research-section-splitter-->
+
+
 ## Overview
 
 <div class="teaser">
@@ -256,6 +268,8 @@ Case 4: Two vehicles traveling in opposite directions meet. The CAT agents learn
     </td>
     </tr>
 </table>
+
+
 
 
 <!--research-section-splitter-->
