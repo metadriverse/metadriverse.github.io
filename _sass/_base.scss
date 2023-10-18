@@ -211,6 +211,14 @@ blockquote {
   margin-bottom: 3rem;
 }
 
+.research-section ul {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+.research-section li {
+  padding-left: -20px;
+}
 
 .post-description {
   margin-bottom: 2rem;
