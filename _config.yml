@@ -249,6 +249,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
   - jekyll-redirect-from
+# Learn more from: https://github.com/jekyll/jekyll-redirect-from
 
 # Sitemap settings
 defaults:
