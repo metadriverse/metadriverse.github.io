@@ -12,9 +12,13 @@ doc_link: https://metadrive-simulator.readthedocs.io/en/latest/
 video_link: https://www.youtube.com/embed/3ziJPqC_-T4
 redirect_from:
     - /metadrive
+    - /metadrive/
     - /md
+    - /md/
     - /MetaDrive
+    - /MetaDrive/
     - /Metadrive
+    - /Metadrive/
 ---
 
 
