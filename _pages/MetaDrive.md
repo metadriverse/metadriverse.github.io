@@ -10,6 +10,11 @@ code_link: https://github.com/metadriverse/metadrive
 pdf_link: https://arxiv.org/pdf/2109.12674.pdf
 doc_link: https://metadrive-simulator.readthedocs.io/en/latest/
 video_link: https://www.youtube.com/embed/3ziJPqC_-T4
+redirect_from:
+    - /metadrive
+    - /md
+    - /MetaDrive
+    - /Metadrive
 ---
 
 
