@@ -3,7 +3,7 @@ layout: research
 permalink: /pvp/
 title: "PVP: Learning from Active Human Involvement"
 page_title: "Learning from Active Human Involvement through Proxy Value Propagation"
-description: "NeurIPS"
+description: "NeurIPS 2023"
 authors:
 
 - {name: "Zhenghao Peng", url: "https://pengzhenghao.github.io", institution: "1"}
