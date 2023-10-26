@@ -29,7 +29,7 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
-  --global-research-section-border: rgba(0, 0, 0, 0.1);
+  --global-research-section-border: rgba(0, 0, 0, 0.04);
 
   .fa-sun {
     display : none;
@@ -76,7 +76,7 @@ html[data-theme='dark'] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-  --global-research-section-border: rgba(255, 255, 255, 0.3);
+  --global-research-section-border: rgba(255, 255, 255, 0.2);
 
   .fa-sun {
     padding-left: 10px;
