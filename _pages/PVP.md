@@ -28,3 +28,25 @@ pdf_link:
 This page is working in progress ...
 
 <!--research-section-splitter-->
+
+## Proxy Value Propagation
+
+
+<!--research-section-splitter-->
+
+## Experiment
+
+
+<!--research-section-splitter-->
+
+
+## Reference
+
+```plain
+@article{peng2023learning,
+  title={Learning from Active Human Involvement through Proxy Value Propagation},
+  author={Peng, Zhenghao and Mo, Wenjie and Duan, Chenda and Li, Quanyi and Zhou, Bolei},
+  journal={Advances in Neural Information Processing Systems},
+  year={2023}
+}   
+```
