@@ -1,16 +1,13 @@
 ---
 layout: page
-title: More
+title: Projects
 nav: false
 nav_order: 6
 dropdown: true
-children: 
-    - title: Publications
-      permalink: /publications/
+children:
+    - title: Human-in-the-Loop Policy Learning
+      permalink: /pvp/
     - title: divider
-    - title: Repositories
-      permalink: /repositories/
-    - title: divider
-    - title: Team
-      permalink: /team/
+    - title: Closed-loop Adversarial Training
+      permalink: /cat/
 ---

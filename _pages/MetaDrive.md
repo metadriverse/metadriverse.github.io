@@ -21,13 +21,7 @@ redirect_from:
     - /Metadrive/
 ---
 
-
-
-## News
-
-* Sep 2, 2023: <a class="bar" href="../scenarionet/"><b>ScenarioNet</b></a>, a platform for large-scale scenario modeling, is released!
-* Oct 22, 2022: Benchmark results of MARL environments are provided in <a class="bar" href="https://github.com/metadriverse/metadrive-benchmark"><b>metadrive-benchmark</b></a>!
-* Mar 28, 2022: MetaDrive <a class="bar" href="https://arxiv.org/pdf/2109.12674.pdf"><b>white paper</b></a> was accepted to TPAMI!
+<video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/decisionforce/archive/master/MetaDrive/metadrive_teaser.mp4" type="video/mp4"/></video>
 
 
 <!--research-section-splitter-->
@@ -48,7 +42,6 @@ generalizability across unseen scenes, safe exploration, and modeling multi-agen
 Empowered by ***[ScenarioNet](../scenarionet)***, all features of MetaDrive can be applied to 
 the virtual environments reconstructed from the open-source dataset, such as Waymo Open Dataset, nuPlan, and L5.
 
-<video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/decisionforce/archive/master/MetaDrive/metadrive_teaser.mp4" type="video/mp4"/></video>
 
 <!--research-section-splitter-->
 
