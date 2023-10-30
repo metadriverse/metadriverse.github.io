@@ -12,13 +12,7 @@ doc_link: https://metadrive-simulator.readthedocs.io/en/latest/
 video_link: https://www.youtube.com/embed/3ziJPqC_-T4
 redirect_from:
     - /metadrive
-    - /metadrive/
     - /md
-    - /md/
-    - /MetaDrive
-    - /MetaDrive/
-    - /Metadrive
-    - /Metadrive/
 ---
 
 <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/decisionforce/archive/master/MetaDrive/metadrive_teaser.mp4" type="video/mp4"/></video>
