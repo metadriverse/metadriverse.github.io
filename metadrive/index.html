@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Data Management Toolkit | MetaDriverse</title>
+    <title>MetaDrive | MetaDriverse</title>
     <meta name="author" content="  MetaDriverse">
-    <meta name="description" content="&lt;li&gt;Unified Scenario Description &lt;/li&gt; &lt;li&gt;Supports Various Data Sources&lt;/li&gt;">
+    <meta name="description" content="MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
     <!-- Chenda additional setting -->
@@ -50,7 +50,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%9A%98%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://metadriverse.github.io//features/2_project/">
+    <link rel="canonical" href="https://metadriverse.github.io//metadrive/">
 
     <!-- Dark Mode -->
     
@@ -90,8 +90,8 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/metadrive/">MetaDrive</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/metadrive/">MetaDrive<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/scenarionet/">ScenarioNet</a>
@@ -126,21 +126,82 @@
       
       <div class="row justify-content-md-center">
         <div class="col-sm-8">
-          <!-- page.html -->
-        <div class="post">
+          <!-- research.html -->
+<div class="post">
+    <header class="post-header center-text">
+        <h1 class="post-title">MetaDrive</h1>
+        <p class="post-description">MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning</p>
+        
+        <div class="col-12 md-5" align="center">
+            <h6 style="text-align: center; font-size: 1.2rem;">
+                <a href="https://github.com/metadriverse/metadrive" rel="external nofollow noopener" target="_blank"><b>Code</b></a> |
+                
+                <a href="https://metadrive-simulator.readthedocs.io/en/latest/" rel="external nofollow noopener" target="_blank"><b>Documentation</b></a> |
+                
+                
+                <a href="https://www.youtube.com/embed/3ziJPqC_-T4" rel="external nofollow noopener" target="_blank"><b>Demo Video</b></a> |
+                
+                <a href="https://arxiv.org/pdf/2109.12674.pdf" rel="external nofollow noopener" target="_blank"><b>Paper</b></a>
+            </h6>
+        </div>
+    </header>
 
-          <header class="post-header">
-            <h1 class="post-title">Data Management Toolkit</h1>
-            <p class="post-description"></p>
-<li>Unified Scenario Description </li> <li>Supports Various Data Sources</li>
-          </header>
 
-          <article>
-            
+    <article>
+        
+        
+        <div class="research-section">
+            <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="https://raw.githubusercontent.com/decisionforce/archive/master/MetaDrive/metadrive_teaser.mp4" type="video/mp4"></source></video>
 
-          </article>
 
         </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="metadrive-simulator">MetaDrive Simulator</h2>
+
+<p>To facilitate the research of generalizable reinforcement learning, we develop an open-source, highly efficient and flexible driving simulator MetaDrive, which holds the following key features:</p>
+
+<ul>
+  <li>Modular</li>
+  <li>Lightweight</li>
+  <li>Customizable</li>
+  <li>Realistic</li>
+</ul>
+
+<p>We construct a variety of RL tasks and baselines in both single-agent and multi-agent settings, including benchmarking
+generalizability across unseen scenes, safe exploration, and modeling multi-agent behaviors.</p>
+
+<p>Empowered by <strong><em><a href="../scenarionet">ScenarioNet</a></em></strong>, all features of MetaDrive can be applied to 
+the virtual environments reconstructed from the open-source dataset, such as Waymo Open Dataset, nuPlan, and L5.</p>
+
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="reference">Reference</h2>
+
+<p>Please refer to the <a href="https://arxiv.org/pdf/2109.12674.pdf" rel="external nofollow noopener" target="_blank">technical report</a> or 
+the <a href="https://github.com/metadriverse/metadrive" rel="external nofollow noopener" target="_blank">code repo</a> for more information.</p>
+
+<pre><code class="language-plain">@article{li2021metadrive,
+  title={Metadrive: Composing diverse driving scenarios for generalizable reinforcement learning},
+  author={Li, Quanyi and Peng, Zhenghao and Feng, Lan and Zhang, Qihang and Xue, Zhenghai and Zhou, Bolei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022}
+}
+</code></pre>
+
+        </div>
+        
+
+    </article>
+</div>
+
+<script defer src="../assets/js/copy_code.js" type="text/javascript"></script>
 
         </div>
       </div>
