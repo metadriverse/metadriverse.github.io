@@ -1,6 +1,6 @@
 ---
 layout: research
-permalink: /metadrive-simulator/
+permalink: /metadrive/
 title: MetaDrive
 page_title: MetaDrive
 description: "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning"
@@ -11,8 +11,8 @@ pdf_link: https://arxiv.org/pdf/2109.12674.pdf
 doc_link: https://metadrive-simulator.readthedocs.io/en/latest/
 video_link: https://www.youtube.com/embed/3ziJPqC_-T4
 redirect_from:
-    - /metadrive
-    - /md
+    - /metadrive-simulator
+    - /metadrive-simulator/
 ---
 
 <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/decisionforce/archive/master/MetaDrive/metadrive_teaser.mp4" type="video/mp4"/></video>
