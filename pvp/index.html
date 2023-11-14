@@ -184,7 +184,7 @@
         
         
         <div class="research-section">
-            <p>This page is working in progress …</p>
+            <p><strong>TL;DR</strong> Training a policy with a human expert in the loop providing interventions and demonstrations, our method achieves 50x improvement in learning efficiency and greatly boost the agent’s training-time and test time safety performance.</p>
 
 
         </div>
@@ -194,6 +194,36 @@
 
 <h2 id="proxy-value-propagation">Proxy Value Propagation</h2>
 
+<p>We consider a human-AI shared control framework during training:</p>
+
+<div class="img-container" style="width: 80%; margin: 0 auto;">
+    <img src="../assets/img/pvp/Framework-H.png" class="my-image" alt="Image">
+</div>
+
+<p><br></p>
+
+<p>The key insight of the paper is to borrow the value-based RL framework but plugging in a proxy value function:</p>
+
+<p>\begin{equation}
+    J^\text{PV}(\theta) = 
+    \mathbb E_{(s, a_n, a_h)}  [| Q_\theta (s, a_h) - 1 |^2  + | Q_\theta (s, a_n) + 1 |^2 ] I(s, a_n),
+\end{equation}</p>
+
+<p>wherein \(I(s, a_n)\) is an indicator of whether at current step the human is intervening and \(a_n\), \(a_h\) are the agent’s action and human’s action. \(s\) is the state and \(Q_\theta\) is the proxy value network.
+The \(J^\text{PV}(\theta)\) basically assigns \(+1\) to human actions and \(-1\) to the intervened agent actions.</p>
+
+<p><br></p>
+
+<p>Adding the TD loss, we have the objective to update the proxy value. As PVP is <strong>reward-free</strong> does not require the reward, there is no reward term in the TD loss.</p>
+
+<p>\begin{equation}
+    J^\text{TD}(\theta) = \mathbb E_{(s, a, s’)} | Q_\theta(s, a) -  \gamma \max_{a’} Q_{\hat{\theta}}(s’, a’) |^2.
+\end{equation}</p>
+
+<p>\begin{equation}
+J(\theta) = J^\text{PV}(\theta) + J^\text{TD}(\theta) 
+\end{equation}</p>
+
 
         </div>
         
@@ -201,6 +231,20 @@
             
 
 <h2 id="experiment">Experiment</h2>
+
+<p>Compared to the pure RL method, our method PVP achieves unprecedented learning efficiency:</p>
+
+<div class="img-container">
+    <img src="../assets/img/pvp/MainExp.jpg" class="my-image" alt="Image">
+</div>
+
+<p><br></p>
+
+<p>Our method PVP uses fewer demonstrations but achieves less training-time safety violation and better final performance in the MetaDrive environment.</p>
+
+<div class="img-container" style="width: 80%; margin: 0 auto;">
+    <img src="../assets/img/pvp/Table.png" class="my-image" alt="Image">
+</div>
 
 
         </div>
