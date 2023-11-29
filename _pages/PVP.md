@@ -20,7 +20,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/PVP
-pdf_link: 
+pdf_link: https://openreview.net/pdf?id=q8SukwaEBy
 
 ---
 
