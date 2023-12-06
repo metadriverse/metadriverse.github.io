@@ -203,7 +203,7 @@ blockquote {
   margin: auto;
   box-shadow: 20px 10px 20px var(--global-research-section-border);
   border-radius: 0;
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
   border-width: 0.5px;
   border-style: solid;
   border-color: var(--global-research-section-border);
@@ -213,6 +213,10 @@ blockquote {
 
 .research-section ul {
   list-style-position: outside;
+  padding-left: 20px;
+}
+
+.research-section ol {
   padding-left: 20px;
 }
 
