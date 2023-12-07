@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PVP: Learning from Active Human Involvement | MetaDriverse</title>
     <meta name="author" content="  MetaDriverse">
-    <meta name="description" content="NeurIPS 2023">
+    <meta name="description" content="&lt;h3&gt;NeurIPS 2023 &lt;b&gt;Spotlight&lt;/b&gt;&lt;/h3&gt;">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
     <!-- Chenda additional setting -->
@@ -130,7 +130,9 @@
 <div class="post">
     <header class="post-header center-text">
         <h1 class="post-title">Learning from Active Human Involvement through Proxy Value Propagation</h1>
-        <p class="post-description">NeurIPS 2023</p>
+        <p class="post-description"></p>
+<h3>NeurIPS 2023 <b>Spotlight</b>
+</h3>
         
         <div class="col-12 md-5" style="margin-bottom: 2rem;">
             <h6 style="text-align: center; font-size: 1.2rem; margin-bottom: 0.5rem;">
@@ -174,6 +176,9 @@
                 <a href="https://github.com/metadriverse/PVP" rel="external nofollow noopener" target="_blank"><b>Code</b></a> |
                 
                 
+                <a href="../assets/img/pvp/PVP-Poster.pdf"><b>Poster</b></a> |
+                
+                
                 <a href="https://openreview.net/pdf?id=q8SukwaEBy" rel="external nofollow noopener" target="_blank"><b>Paper</b></a>
             </h6>
         </div>
@@ -184,7 +189,56 @@
         
         
         <div class="research-section">
-            <p><strong>TL;DR</strong> Training a policy with a human expert in the loop providing interventions and demonstrations, our method achieves 50x improvement in learning efficiency and greatly boost the agent’s training-time and test time safety performance.</p>
+            <div class="embed-responsive embed-responsive-16by9">
+    <video width="100%" max-width="800px" loop="" autoplay="" muted="" playsinline="" src="../assets/img/pvp/Teaser-Video-Compressed2.mp4">
+    </video>
+</div>
+
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="summary">Summary</h2>
+
+<p><strong>Proxy value propagation (PVP)</strong> is a human-in-the-loop policy learning method.</p>
+
+<ul>
+  <li>PVP is reward-free, avoiding sophisticated reward engineering.</li>
+  <li>PVP learns from online human interventions and demonstrations, 
+ensuring the training-time safety and benefited from corrective feedback.</li>
+</ul>
+
+<p>In real-human experiments on various tasks and various control devices,</p>
+
+<ul>
+  <li>PVP achieves 10x improvement in learning efficiency;</li>
+  <li>PVP greatly boosts the agent’s training-time and test time safety performance;</li>
+  <li>PVP makes human subjects feel better according to an user study.</li>
+</ul>
+
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="human-ai-shared-control">Human-AI Shared Control</h2>
+
+<div class="img-container" style="width: 100%; margin: 0 auto;">
+    <img src="../assets/img/pvp/comparison.png" class="my-image" alt="Image">
+</div>
+
+<p><br></p>
+
+<p>Among different forms of human-in-the-loop approaches, we focus on the <strong>active human involvement</strong>, 
+where human experts oversee the exploration processes of the learning agent so that the safety of human-AI system
+is ensured.</p>
+
+<p>As shown in the teaser videos, in training-time, the human experts can intervene and provide corrective demonstrations. 
+We will discuss how to learn performant and human-aligned policies with the data from human-AI shared control
+<strong>without reward function</strong> in the following section.</p>
 
 
         </div>
@@ -194,35 +248,56 @@
 
 <h2 id="proxy-value-propagation">Proxy Value Propagation</h2>
 
-<p>We consider a human-AI shared control framework during training:</p>
+<p>We learn a <strong>proxy value function</strong> along with the policy during human-AI shared control.</p>
 
-<div class="img-container" style="width: 80%; margin: 0 auto;">
-    <img src="../assets/img/pvp/Framework-H.png" class="my-image" alt="Image">
+<hr>
+
+<div class="img-container" style="width: 100%; margin: 0 auto;">
+    <img src="../assets/img/pvp/trajectory.png" class="my-image" alt="Image">
+</div>
+
+<p>As illustrated in the figure above, we categorize the data into two partitions:</p>
+
+<ol>
+  <li>The agent’s exploratory trajectories;</li>
+  <li>The human-involved trajectories.</li>
+</ol>
+
+<p><strong>The agent’s exploratory trajectories</strong>: The state transitions \((s, a, s')\) during agent’s exploration will be stored in the Novice Buffer \(\mathcal B_n\). Note that our method is <strong>reward-free</strong> so no reward is available.</p>
+
+<p><strong>The human-involved trajectories</strong>: The actions \(a_h\) provided by the human are applied to the environment, 
+while the agent’s actions \(a_n\) are concurrently recorded. 
+The state transitions \((s, a_h, a_n, s')\) will be stored in the Human Buffer \(\mathcal B_h\). Again, no reward is stored.</p>
+
+<hr>
+
+<div class="img-container" style="width: 50%; margin: 0 auto;">
+    <img src="../assets/img/pvp/method-1.png" class="my-image" alt="Image">
+</div>
+
+<p>The key insight of this paper is to build a proxy value function that induces human-aligned actions and
+integrate the proxy value function into a value-based RL framework.</p>
+
+<p>During these human-involved transitions, we optimize the proxy values to ensure the human action approximates a value close to 1, 
+while the intervened agent actions approximate a value close to -1:</p>
+<div class="img-container" style="width: 60%;">
+    <img src="../assets/img/pvp/method-2-pv.png" class="my-image" alt="Image">
 </div>
 
 <p><br></p>
 
-<p>The key insight of the paper is to borrow the value-based RL framework but plugging in a proxy value function:</p>
-
-<p>\begin{equation}
-    J^\text{PV}(\theta) = 
-    \mathbb E_{(s, a_n, a_h)}  [| Q_\theta (s, a_h) - 1 |^2  + | Q_\theta (s, a_n) + 1 |^2 ] I(s, a_n),
-\end{equation}</p>
-
-<p>wherein \(I(s, a_n)\) is an indicator of whether at current step the human is intervening and \(a_n\), \(a_h\) are the agent’s action and human’s action. \(s\) is the state and \(Q_\theta\) is the proxy value network.
-The \(J^\text{PV}(\theta)\) basically assigns \(+1\) to human actions and \(-1\) to the intervened agent actions.</p>
+<p>The proxy value network \(Q_\theta\) is updated with both the proxy value objective and the TD objective so that
+the proxy value is propagated:</p>
+<div class="img-container" style="width: 60%;">
+    <img src="../assets/img/pvp/method-3-td.png" class="my-image" alt="Image">
+</div>
+<div class="img-container" style="width: 33%;">
+    <img src="../assets/img/pvp/method-4-total.png" class="my-image" alt="Image">
+</div>
 
 <p><br></p>
 
-<p>Adding the TD loss, we have the objective to update the proxy value. As PVP is <strong>reward-free</strong> does not require the reward, there is no reward term in the TD loss.</p>
-
-<p>\begin{equation}
-    J^\text{TD}(\theta) = \mathbb E_{(s, a, s’)} | Q_\theta(s, a) -  \gamma \max_{a’} Q_{\hat{\theta}}(s’, a’) |^2.
-\end{equation}</p>
-
-<p>\begin{equation}
-J(\theta) = J^\text{PV}(\theta) + J^\text{TD}(\theta) 
-\end{equation}</p>
+<p>We then use value-based RL method like TD3 or DQN to optimize the policy with the proxy value function.</p>
 
 
         </div>
@@ -232,7 +307,7 @@ J(\theta) = J^\text{PV}(\theta) + J^\text{TD}(\theta)
 
 <h2 id="experiment">Experiment</h2>
 
-<p>Compared to the pure RL method, our method PVP achieves unprecedented learning efficiency:</p>
+<p>Compared to the RL baselines, our method PVP achieves unprecedented learning efficiency:</p>
 
 <div class="img-container">
     <img src="../assets/img/pvp/MainExp.jpg" class="my-image" alt="Image">
@@ -261,6 +336,12 @@ J(\theta) = J^\text{PV}(\theta) + J^\text{TD}(\theta)
   year={2023}
 }   
 </code></pre>
+
+<p><br></p>
+
+<h2 id="acknowledgement">Acknowledgement</h2>
+
+<p>This work was supported by the National Science Foundation under Grant No. 2235012. The human experiment in this study is approved through the IRB#23-000116 at UCLA.</p>
 
         </div>
         
