@@ -321,6 +321,38 @@ the proxy value is propagated:</p>
     <img src="../assets/img/pvp/Table.png" class="my-image" alt="Image">
 </div>
 
+<p><br></p>
+
+<p>We also conduct a user study showing that PVP agents make human feels better (compliance), 
+stronger (performance) and less stressful (stress) in shared control. 
+It also makes human takes over less (above table).</p>
+
+<div class="img-container" style="width: 50%; margin: 0 auto;">
+    <img src="../assets/img/pvp/UserStudy.png" class="my-image" alt="Image">
+</div>
+
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="history">History</h2>
+
+<p><strong>Expert Guided Policy Optimization (CoRL 2021)</strong>:
+Our research on human-in-the-loop policy learning began in 2021.
+The first published work is <a href="https://decisionforce.github.io/EGPO/" rel="external nofollow noopener" target="_blank">Expert Guided Policy Optimization (EGPO)</a>.
+In this work, we explored how an RL agent can benefit from the intervention of a PPO expert.</p>
+
+<p><strong>Human-AI Copilot Optimization (ICLR 2022)</strong>:
+Building upon the methodology of EGPO, and substituting the PPO expert with a real human subject, we proposed <a href="https://decisionforce.github.io/HACO/" rel="external nofollow noopener" target="_blank">Human-AI Copilot Optimization (HACO)</a> and it demonstrated significant improvements in learning efficiency over traditional RL baselines.</p>
+
+<p><strong>Teacher-Student Shared Control (ICLR 2023)</strong>:
+In <a href="https://metadriverse.github.io/TS2C/">Teacher-Student Shared Control (TS2C)</a>, we examined the impact of using the value function as a criterion for determining when the PPO expert should intervene. The value function-based intervention makes it possible for the student agent to learn from a suboptimal teacher.</p>
+
+<p><strong>Proxy Value Propagation (NeurIPS 2023 Spotlight)</strong>: Considering the reward-free setting, we proposed several improvements to enhance learning from active human involvement.
+These improvements address issues observed in HACO, including the jittering and oscillation of the learning agent, catastrophic forgetting, and challenges in learning sparse yet crucial behaviors.</p>
+
 
         </div>
         
@@ -328,6 +360,8 @@ the proxy value is propagated:</p>
             
 
 <h2 id="reference">Reference</h2>
+
+<p><strong>This paper: Proxy Value Propagation (NeurIPS 2023 Spotlight)</strong></p>
 
 <pre><code class="language-plain">@article{peng2023learning,
   title={Learning from Active Human Involvement through Proxy Value Propagation},
@@ -337,11 +371,45 @@ the proxy value is propagated:</p>
 }   
 </code></pre>
 
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="other-information">Other information</h2>
+
+<p>Teacher-Student Shared Control (ICLR 2023)</p>
+<pre><code class="language-plain">@article{xue2023guarded,
+  title={Guarded Policy Optimization with Imperfect Online Demonstrations},
+  author ={Zhenghai Xue and Zhenghao Peng and Quanyi Li and Zhihan Liu and Bolei Zhou},
+  journal={International Conference on Learning Representations},
+  year={2023}
+}
+</code></pre>
+
+<p>Human-AI Copilot Optimization (ICLR 2022)</p>
+<pre><code class="language-plain">@inproceedings{
+    li2022efficient,
+    title={Efficient Learning of Safe Driving Policy via Human-AI Copilot Optimization},
+    author={Quanyi Li and Zhenghao Peng and Bolei Zhou},
+    booktitle={International Conference on Learning Representations},
+    year={2022}
+}
+</code></pre>
+
+<p>Expert Guided Policy Optimization (CoRL 2021)</p>
+<pre><code class="language-plain">@inproceedings{peng2021safe,
+  title={Safe Driving via Expert Guided Policy Optimization},
+  author={Peng, Zhenghao and Li, Quanyi and Liu, Chunxiao and Zhou, Bolei},
+  booktitle={5th Annual Conference on Robot Learning},
+  year={2021}
+}
+</code></pre>
+
 <p><br></p>
 
-<h2 id="acknowledgement">Acknowledgement</h2>
-
-<p>This work was supported by the National Science Foundation under Grant No. 2235012. The human experiment in this study is approved through the IRB#23-000116 at UCLA.</p>
+<p><strong>Acknowledgement</strong>: This work was supported by the National Science Foundation under Grant No. 2235012. The human experiment in this study is approved through the IRB#23-000116 at UCLA.</p>
 
         </div>
         
