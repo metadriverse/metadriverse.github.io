@@ -161,7 +161,7 @@ It also makes human takes over less (above table).
 
 <!--research-section-splitter-->
 
-## History
+## Prior Works
 
 
 **Expert Guided Policy Optimization (CoRL 2021)**:
@@ -189,9 +189,7 @@ These improvements address issues observed in HACO, including the jittering and 
 
 ## Reference
 
-
-**This paper: Proxy Value Propagation (NeurIPS 2023 Spotlight)**
-
+**Proxy Value Propagation (NeurIPS 2023 Spotlight)**:
 ```plain
 @article{peng2023learning,
   title={Learning from Active Human Involvement through Proxy Value Propagation},
@@ -201,45 +199,6 @@ These improvements address issues observed in HACO, including the jittering and 
 }   
 ```
 
-
-<!--research-section-splitter-->
-
-
-
-## Other information
-
-
-
-Teacher-Student Shared Control (ICLR 2023)
-```plain
-@article{xue2023guarded,
-  title={Guarded Policy Optimization with Imperfect Online Demonstrations},
-  author ={Zhenghai Xue and Zhenghao Peng and Quanyi Li and Zhihan Liu and Bolei Zhou},
-  journal={International Conference on Learning Representations},
-  year={2023}
-}
-```
-
-Human-AI Copilot Optimization (ICLR 2022)
-```plain
-@inproceedings{
-    li2022efficient,
-    title={Efficient Learning of Safe Driving Policy via Human-AI Copilot Optimization},
-    author={Quanyi Li and Zhenghao Peng and Bolei Zhou},
-    booktitle={International Conference on Learning Representations},
-    year={2022}
-}
-```
-
-Expert Guided Policy Optimization (CoRL 2021)
-```plain
-@inproceedings{peng2021safe,
-  title={Safe Driving via Expert Guided Policy Optimization},
-  author={Peng, Zhenghao and Li, Quanyi and Liu, Chunxiao and Zhou, Bolei},
-  booktitle={5th Annual Conference on Robot Learning},
-  year={2021}
-}
-```
 
 <br>
 
