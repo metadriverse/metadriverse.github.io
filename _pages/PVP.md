@@ -146,11 +146,51 @@ Our method PVP uses fewer demonstrations but achieves less training-time safety 
 </div>
 
 
+<br>
+
+We also conduct a user study showing that PVP agents make human feels better (compliance), 
+stronger (performance) and less stressful (stress) in shared control. 
+It also makes human takes over less (above table).
+
+
+<div class="img-container" style="width: 50%; margin: 0 auto;">
+    <img src="../assets/img/pvp/UserStudy.png" class="my-image" alt="Image" />
+</div>
+
+
+
+<!--research-section-splitter-->
+
+## History
+
+
+**Expert Guided Policy Optimization (CoRL 2021)**:
+Our research on human-in-the-loop policy learning began in 2021.
+The first published work is [Expert Guided Policy Optimization (EGPO)](https://decisionforce.github.io/EGPO/).
+In this work, we explored how an RL agent can benefit from the intervention of a PPO expert.
+
+
+**Human-AI Copilot Optimization (ICLR 2022)**:
+Building upon the methodology of EGPO, and substituting the PPO expert with a real human subject, we proposed [Human-AI Copilot Optimization (HACO)](https://decisionforce.github.io/HACO/) and it demonstrated significant improvements in learning efficiency over traditional RL baselines.
+
+
+**Teacher-Student Shared Control (ICLR 2023)**:
+In [Teacher-Student Shared Control (TS2C)](https://metadriverse.github.io/TS2C/), we examined the impact of using the value function as a criterion for determining when the PPO expert should intervene. The value function-based intervention makes it possible for the student agent to learn from a suboptimal teacher.
+
+
+**Proxy Value Propagation (NeurIPS 2023 Spotlight)**: Considering the reward-free setting, we proposed several improvements to enhance learning from active human involvement.
+These improvements address issues observed in HACO, including the jittering and oscillation of the learning agent, catastrophic forgetting, and challenges in learning sparse yet crucial behaviors.
+
+
+
 <!--research-section-splitter-->
 
 
 
 ## Reference
+
+
+**This paper: Proxy Value Propagation (NeurIPS 2023 Spotlight)**
 
 ```plain
 @article{peng2023learning,
@@ -161,8 +201,46 @@ Our method PVP uses fewer demonstrations but achieves less training-time safety 
 }   
 ```
 
+
+<!--research-section-splitter-->
+
+
+
+## Other information
+
+
+
+Teacher-Student Shared Control (ICLR 2023)
+```plain
+@article{xue2023guarded,
+  title={Guarded Policy Optimization with Imperfect Online Demonstrations},
+  author ={Zhenghai Xue and Zhenghao Peng and Quanyi Li and Zhihan Liu and Bolei Zhou},
+  journal={International Conference on Learning Representations},
+  year={2023}
+}
+```
+
+Human-AI Copilot Optimization (ICLR 2022)
+```plain
+@inproceedings{
+    li2022efficient,
+    title={Efficient Learning of Safe Driving Policy via Human-AI Copilot Optimization},
+    author={Quanyi Li and Zhenghao Peng and Bolei Zhou},
+    booktitle={International Conference on Learning Representations},
+    year={2022}
+}
+```
+
+Expert Guided Policy Optimization (CoRL 2021)
+```plain
+@inproceedings{peng2021safe,
+  title={Safe Driving via Expert Guided Policy Optimization},
+  author={Peng, Zhenghao and Li, Quanyi and Liu, Chunxiao and Zhou, Bolei},
+  booktitle={5th Annual Conference on Robot Learning},
+  year={2021}
+}
+```
+
 <br>
 
-## Acknowledgement
-
-This work was supported by the National Science Foundation under Grant No. 2235012. The human experiment in this study is approved through the IRB#23-000116 at UCLA.
+**Acknowledgement**: This work was supported by the National Science Foundation under Grant No. 2235012. The human experiment in this study is approved through the IRB#23-000116 at UCLA.
