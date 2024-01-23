@@ -33,6 +33,17 @@ poster_link: ../assets/img/pvp/PVP-Poster.pdf
 
 <!--research-section-splitter-->
 
+## Introduction Video
+
+*This video includes audio and is about 7 minutes.*
+
+<div id="video" style="overflow: hidden;">
+  <iframe width="100%" height="100%" style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" src="https://www.youtube.com/embed/6T0ARn5Yioc?autoplay=0&loop=1&controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+
+<!--research-section-splitter-->
+
+
 ## Summary
 
 **Proxy value propagation (PVP)** is a human-in-the-loop policy learning method.
