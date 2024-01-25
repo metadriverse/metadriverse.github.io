@@ -3,7 +3,7 @@ layout: research
 permalink: /metadrive/
 title: MetaDrive
 page_title: MetaDrive
-description: "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning"
+description: "MetaDrive: AI Research for Generalizable and Interpretable Machine Autonomy"
 nav: true
 nav_order: 1
 code_link: https://github.com/metadriverse/metadrive
