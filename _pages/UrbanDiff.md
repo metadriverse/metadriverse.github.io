@@ -47,7 +47,7 @@ This work presents UrbanDiffusion, a novel 3D diffusion model for generating lar
 ## Method
 
 <div class="teaser">
-    <img src="../assets/img/urbandiff/occ_pipeline.pdf">
+    <img src="../assets/img/urbandiff/occ_pipeline.png">
     <div class="teaser-caption">
         Fig. 2: Framework of UrbanDiffusion.
     </div>
