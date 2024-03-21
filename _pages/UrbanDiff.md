@@ -111,12 +111,11 @@ We perform scene synthesis on different scenes which are sampled from diverse BE
 ## Reference
 
 ```plain
-@inproceedings{urbandiff,
-    abbr={arXiv},
+@article{urbandiff,
     title={Urban Scene Diffusion through Semantic Occupancy Map},
     author={Junge Zhang and Qihang Zhang and Li Zhang and Ramana Rao Kompella and Gaowen Liu and Bolei Zhou},
-    booktitle={Preprint},
-    year={2024},
+    journal={arXiv preprint arXiv:2403.11697},
+    year={2024}
 }
 ```
 
