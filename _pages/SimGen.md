@@ -6,17 +6,18 @@ page_title: "SimGen: Simulator-conditioned Driving Scene Generation"
 authors:
 
 - {name: "Yunsong Zhou", url: "https://zhouyunsong-sjtu.github.io/", institution: "1,2"}
-- {name: "Michael Simon", institution: "2"}
-- {name: "Zhenghao Peng", url: "https://pengzhenghao.github.io", institution: "2"}
-- {name: "Sicheng Mo", url: "https://sichengmo.github.io/", institution: "2"}
-- {name: "Hongzi Zhu", institution: "1"}
-- {name: "Minyi Guo", institution: "1"}
+- {name: "Michael Simon", institution: "1"}
+- {name: "Zhenghao Peng", url: "https://pengzhenghao.github.io", institution: "1"}
+- {name: "Sicheng Mo", url: "https://sichengmo.github.io/", institution: "1"}
+- {name: "Hongzi Zhu", institution: "2"}
+- {name: "Minyi Guo", institution: "2"}
 - {name: "Bolei Zhou", url: "https://boleizhou.github.io", institution: "1"}
 
 institutions:
 
-- {name: "Shanghai Jiao Tong University", institution: "1"}
-- {name: "University of California, Los Angeles", institution: "2"}
+- {name: "University of California, Los Angeles", institution: "1"}
+- {name: "Shanghai Jiao Tong University", institution: "2"}
+
 
 
 nav: false
