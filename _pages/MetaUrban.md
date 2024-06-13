@@ -26,6 +26,27 @@ pdf_link:
 
 ---
 
+<div class="research-section">
+    <h3 style="text-align: center">Release Plan</h3>
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li style="padding: 0.5rem 0.5rem;">
+        <strong>Demo video</strong>: June 12, 2024
+      </li>
+      <li style="padding: 0.5rem 0.5rem;">
+        <strong>Introduction video</strong>:  June 28, 2024
+      </li>
+      <li style="padding: 0.5rem 0.5rem;">
+        <strong>Code of MetaUrban - tiny version</strong>: June 12, 2024
+      </li>
+      <li style="padding: 0.5rem 0.5rem;">
+        <strong>Code of MetaUrban -  official version 1.0</strong>: August 31, 2024
+      </li>
+    </ul>
+</div>
+
+
+
+
 <div class="custom-heading">Video</div>
 
 <!-- <video style="display:block; width:100%; height:auto;" controls autoplay loop>
