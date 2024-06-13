@@ -56,7 +56,7 @@ code_link: https://github.com/metadriverse/SimGen
 SimGen processes text and scene record as inputs. The text is feature-encoded and utilized in the subsequent modules, whereas the scene record undergoes a simulator rendering into simulated depth and segmentation (SimCond) and extra conditions (ExtraCond).
 SimCond, coupled with the text features, is fed into the CondDiff module that converts SimCond into RealCond, representing real depth and segmentation. Eventually, the text features, SimCond, and ExtraCond are inputted into the ImgDiff module, where an Adapter merges multi-source conditions into a unified control condition and generates driving scene images.
 
-
+<!--research-section-splitter-->
 
 ## DIVA Dataset
 
@@ -114,8 +114,6 @@ Compared to models confined to limited datasets, SimGen exhibits a stronger abil
 
 
 
-
-
 <div class="img-container">
     <img src="../assets/img/simgen/layout_vis.png" class="my-image" alt="Image" />
 </div>
@@ -141,6 +139,8 @@ All assets and code in this repository are under the [Apache 2.0 license](./LICE
 }
 ```
 --->
+
+<!--research-section-splitter-->
 
 ## Prior Works
 
