@@ -51,7 +51,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%9A%98%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://metadriverse.github.io//SimGen/">
+    <link rel="canonical" href="https://metadriverse.github.io//simgen/">
 
     <!-- Dark Mode -->
     
@@ -198,10 +198,19 @@
     <img src="../assets/img/simgen/teaser.png" class="my-image" alt="Image">
 </div>
 
-<div class="embed-responsive embed-responsive-16by9">
-    <video width="100%" max-width="800px" loop="" autoplay="" muted="" playsinline="" src="../assets/img/simgen/Teaser-Video-Compressed2.mp4">
-    </video>
-</div>
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="grap-and-go">Grap-and-go</h2>
+
+<p><img class="emoji" title=":fire:" alt=":fire:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png" height="20" width="20"> <strong>SimGen</strong> is the first simulator-conditioned generative model for controllable driving scene generation with <code class="language-plaintext highlighter-rouge">appearance</code> and <code class="language-plaintext highlighter-rouge">layout</code> diversity.</p>
+
+<p><img class="emoji" title=":star2:" alt=":star2:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png" height="20" width="20"> <strong>SimGen</strong> addresses simulation to reality <code class="language-plaintext highlighter-rouge">(Sim2Real)</code> gaps via cascade diffusion paradigm, and follows layout guidance from simulators and cues of the rich text prompts to realistic driving scenarios.</p>
+
+<p><img class="emoji" title=":bar_chart:" alt=":bar_chart:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ca.png" height="20" width="20"> <strong>DIVA dataset</strong> comprises 147.5 hours of <code class="language-plaintext highlighter-rouge">web videos</code> and <code class="language-plaintext highlighter-rouge">synthesized data</code> for diverse scene generation and advancing Sim2Real research.</p>
 
 
         </div>
@@ -209,118 +218,41 @@
         <div class="research-section">
             
 
-<h2 id="introduction-video">Introduction Video</h2>
-
-<p><em>This video includes audio and is about 7 minutes.</em></p>
-
-<div id="video" style="overflow: hidden;">
-  <iframe width="100%" height="100%" style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" src="https://www.youtube.com/embed/6T0ARn5Yioc?autoplay=0&amp;loop=1&amp;controls=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-</div>
-
-
-        </div>
-        
-        <div class="research-section">
-            
-
-<h2 id="introduction">Introduction</h2>
-
-<p><strong>Proxy value propagation (PVP)</strong> is a human-in-the-loop policy learning method.</p>
-
-<ul>
-  <li>PVP is reward-free, avoiding sophisticated reward engineering.</li>
-  <li>PVP learns from online human interventions and demonstrations, 
-ensuring the training-time safety and benefited from corrective feedback.</li>
-</ul>
-
-<p>In real-human experiments on various tasks and various control devices,</p>
-
-<ul>
-  <li>PVP achieves 10x improvement in learning efficiency;</li>
-  <li>PVP greatly boosts the agent’s training-time and test time safety performance;</li>
-  <li>PVP makes human subjects feel better according to an user study.</li>
-</ul>
-
-
-        </div>
-        
-        <div class="research-section">
-            
-
-<h2 id="human-ai-shared-control">Human-AI Shared Control</h2>
+<h2 id="simgen-arcitecture">SimGen Arcitecture</h2>
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/pvp/comparison.png" class="my-image" alt="Image">
+    <img src="../assets/img/simgen/overview.png" class="my-image" alt="Image">
 </div>
 
-<p><br></p>
+<p>SimGen processes text and scene record as inputs. The text is feature-encoded and utilized in the subsequent modules, whereas the scene record undergoes a simulator rendering into simulated depth and segmentation (SimCond) and extra conditions (ExtraCond).
+SimCond, coupled with the text features, is fed into the CondDiff module that converts SimCond into RealCond, representing real depth and segmentation. Eventually, the text features, SimCond, and ExtraCond are inputted into the ImgDiff module, where an Adapter merges multi-source conditions into a unified control condition and generates driving scene images.</p>
 
-<p>Among different forms of human-in-the-loop approaches, we focus on the <strong>active human involvement</strong>, 
-where human experts oversee the exploration processes of the learning agent so that the safety of human-AI system
-is ensured.</p>
-
-<p>As shown in the teaser videos, in training-time, the human experts can intervene and provide corrective demonstrations. 
-We will discuss how to learn performant and human-aligned policies with the data from human-AI shared control
-<strong>without reward function</strong> in the following section.</p>
-
-
-        </div>
-        
-        <div class="research-section">
-            
-
-<h2 id="proxy-value-propagation">Proxy Value Propagation</h2>
-
-<p>We learn a <strong>proxy value function</strong> along with the policy during human-AI shared control.</p>
-
-<hr>
+<h2 id="diva-dataset">DIVA Dataset</h2>
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/pvp/trajectory.png" class="my-image" alt="Image">
+    <img src="../assets/img/simgen/diva.png" class="my-image" alt="Image">
 </div>
 
-<p>As illustrated in the figure above, we categorize the data into two partitions:</p>
+<p><strong>Data Collection.</strong> DIVA-Real (left) comprises driving videos collected from YouTube. We apply a Vision Language Model to filter out noisy images via a checklist and utilize off-the-shelf models to annotate text, depth, and semantic labels. Meanwhile, DIVA-Sim (right) employs scene records and control policies in a simulator to create map elements and objects.
+It can generate digital twins of real-world data and safety-critical scenes. 
+Then various kinds of sensors placed in the simulation produce multimodal images.</p>
 
-<ol>
-  <li>The agent’s exploratory trajectories;</li>
-  <li>The human-involved trajectories.</li>
-</ol>
-
-<p><strong>The agent’s exploratory trajectories</strong>: The state transitions \((s, a, s')\) during agent’s exploration will be stored in the Novice Buffer \(\mathcal B_n\). Note that our method is <strong>reward-free</strong> so no reward is available.</p>
-
-<p><strong>The human-involved trajectories</strong>: The actions \(a_h\) provided by the human are applied to the environment, 
-while the agent’s actions \(a_n\) are concurrently recorded. 
-The state transitions \((s, a_h, a_n, s')\) will be stored in the Human Buffer \(\mathcal B_h\). Again, no reward is stored.</p>
-
-<hr>
-
-<div class="img-container" style="width: 50%; margin: 0 auto;">
-    <img src="../assets/img/pvp/method-1.png" class="my-image" alt="Image">
+<div class="img-container" style="width: 100%; margin: 0 auto;">
+    <img src="../assets/img/simgen/diva_real.png" class="my-image" alt="Image">
 </div>
 
-<p>The key insight of this paper is to build a proxy value function that induces human-aligned actions and
-integrate the proxy value function into a value-based RL framework.</p>
+<p><strong>DIVA-Real.</strong> 
+It collects driving videos from YouTube, covering a worldwide range of geography, weather, scenes, and traffic elements and preserving the appearance diversity of a wide range of traffic participants. Here we provide a sample of 🔗 <a href="https://docs.google.com/spreadsheets/d/1lKfd0iARpJl-5K37XSXRwiZIWi1LrTvL/edit?usp=sharing&amp;ouid=102597623866661259117&amp;rtpof=true&amp;sd=true" rel="external nofollow noopener" target="_blank">YouTube video list</a> we used.
+For privacy considerations, we are temporarily keeping the complete data labels private.</p>
 
-<p>During these human-involved transitions, we optimize the proxy values to ensure the human action approximates a value close to 1, 
-while the intervened agent actions approximate a value close to -1:</p>
-<div class="img-container" style="width: 60%;">
-    <img src="../assets/img/pvp/method-2-pv.png" class="my-image" alt="Image">
+<div class="img-container" style="width: 100%; margin: 0 auto;">
+    <img src="../assets/img/simgen/diva_sim.gif" class="my-image" alt="Image">
 </div>
 
-<p><br></p>
-
-<p>The proxy value network \(Q_\theta\) is updated with both the proxy value objective and the TD objective so that
-the proxy value is propagated:</p>
-<div class="img-container" style="width: 60%;">
-    <img src="../assets/img/pvp/method-3-td.png" class="my-image" alt="Image">
-</div>
-<div class="img-container" style="width: 33%;">
-    <img src="../assets/img/pvp/method-4-total.png" class="my-image" alt="Image">
-</div>
-
-<p><br></p>
-
-<p>We then use value-based RL method like TD3 or DQN to optimize the policy with the proxy value function.</p>
+<p><strong>DIVA-Sim.</strong> 
+The Sim2Real data is induced from the same real-world scenarios, in which we can obtain real-world map topology, layout, and raw sensor data.
+It also includes hazardous driving behaviors through interactions introduced by adversarial traffic generation.
+The digital twins (on nuScenes dataset) and safety-critical scenarios (on Waymo Open dataset) can be obtained through this <img class="emoji" title=":link:" alt=":link:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png" height="20" width="20"><a href="https://drive.google.com/drive/folders/1K7NrujRlfyI6VrH6Kd9kTHCeKnpl4bab?usp=sharing" rel="external nofollow noopener" target="_blank">data link</a>.</p>
 
 
         </div>
@@ -330,51 +262,62 @@ the proxy value is propagated:</p>
 
 <h2 id="experiment">Experiment</h2>
 
-<p>Compared to the RL baselines, our method PVP achieves unprecedented learning efficiency:</p>
+<div class="img-container">
+    <img src="../assets/img/simgen/exp_table.png" class="my-image" alt="Image">
+</div>
+
+<blockquote>
+  <p>SimGen improves over counterparts in terms of image quality, diversity, and controllability of scene generation.</p>
+</blockquote>
 
 <div class="img-container">
-    <img src="../assets/img/pvp/MainExp.jpg" class="my-image" alt="Image">
+    <img src="../assets/img/simgen/main_vis.png" class="my-image" alt="Image">
 </div>
 
-<p><br></p>
+<blockquote>
+  <p>We show the generation results of SimGen (blue boxes) and SimGen-nuSc (gray boxes) under the same conditions. 
+Compared to models confined to limited datasets, SimGen exhibits a stronger ability to generate more realistic and diverse driving scenarios.</p>
+</blockquote>
 
-<p>Our method PVP uses fewer demonstrations but achieves less training-time safety violation and better final performance in the MetaDrive environment.</p>
-
-<div class="img-container" style="width: 80%; margin: 0 auto;">
-    <img src="../assets/img/pvp/Table.png" class="my-image" alt="Image">
+<div class="img-container">
+    <img src="../assets/img/simgen/layout_vis.png" class="my-image" alt="Image">
 </div>
 
-<p><br></p>
-
-<p>We also conduct a user study showing that PVP agents make human feels better (compliance), 
-stronger (performance) and less stressful (stress) in shared control. 
-It also makes human takes over less (above table).</p>
-
-<div class="img-container" style="width: 50%; margin: 0 auto;">
-    <img src="../assets/img/pvp/UserStudy.png" class="my-image" alt="Image">
-</div>
+<blockquote>
+  <p>SimGen can also recreate image sequences of safety-critical scenes where risky driving behaviors like sudden braking and merging happen. And the effectiveness of each modality in simulator conditions is exhibited, where instance map, rendered RGB, and top-down view enable the model to better handle object boundaries, orientation angles, and occlusions.</p>
+</blockquote>
 
 
         </div>
         
         <div class="research-section">
             
+
+<h2 id="license-and-citation">License and Citation</h2>
+
+<p>All assets and code in this repository are under the <a href="./LICENSE">Apache 2.0 license</a> unless specified otherwise. The language data is under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noopener" target="_blank">CC BY-NC-SA 4.0</a>. Other datasets (including nuScenes, Waymo, and MetaDrive) inherit their own distribution licenses. Please consider citing our paper and project if they help your research.</p>
+
+<!---
+```BibTeX
+@article{zhou2024embodied,
+  title={Embodied Understanding of Driving Scenarios},
+  author={Zhou, Yunsong and Huang, Linyan and Bu, Qingwen and Zeng, Jia and Li, Tianyu and Qiu, Hang and Zhu, Hongzi and Guo, Minyi and Qiao, Yu and Li, Hongyang},
+  journal={arXiv preprint arXiv:2403.04593},
+  year={2024}
+}
+```
+--->
 
 <h2 id="prior-works">Prior Works</h2>
 
-<p><strong>Expert Guided Policy Optimization (CoRL 2021)</strong>:
-Our research on human-in-the-loop policy learning began in 2021.
-The first published work is <a href="https://decisionforce.github.io/EGPO/" rel="external nofollow noopener" target="_blank">Expert Guided Policy Optimization (EGPO)</a>.
-In this work, we explored how an RL agent can benefit from the intervention of a PPO expert.</p>
+<p><strong><a href="https://genforce.github.io/freecontrol/" rel="external nofollow noopener" target="_blank">FreeControl (CVPR 2024)</a></strong>:
+Training-Free spatial control of any text-to-image diffusion model with any condition.</p>
 
-<p><strong>Human-AI Copilot Optimization (ICLR 2022)</strong>:
-Building upon the methodology of EGPO, and substituting the PPO expert with a real human subject, we proposed <a href="https://decisionforce.github.io/HACO/" rel="external nofollow noopener" target="_blank">Human-AI Copilot Optimization (HACO)</a> and it demonstrated significant improvements in learning efficiency over traditional RL baselines.</p>
+<p><strong><a href="https://metadriverse.github.io/scenarionet/">ScenarioNet (NeurIPS 2023)</a></strong>:
+An open-source platform for large-scale traffic scenario simulation and modeling.</p>
 
-<p><strong>Teacher-Student Shared Control (ICLR 2023)</strong>:
-In <a href="https://metadriverse.github.io/TS2C/">Teacher-Student Shared Control (TS2C)</a>, we examined the impact of using the value function as a criterion for determining when the PPO expert should intervene. The value function-based intervention makes it possible for the student agent to learn from a suboptimal teacher.</p>
-
-<p><strong>Proxy Value Propagation (NeurIPS 2023 Spotlight)</strong>: Considering the reward-free setting, we proposed several improvements to enhance learning from active human involvement.
-These improvements address issues observed in HACO, including the jittering and oscillation of the learning agent, catastrophic forgetting, and challenges in learning sparse yet crucial behaviors.</p>
+<p><strong><a href="https://metadriverse.github.io/cat/">CAT (NeurIPS 2023)</a></strong>:
+Closed-loop adversarial training for safe end-to-end driving.</p>
 
 
         </div>
@@ -382,20 +325,6 @@ These improvements address issues observed in HACO, including the jittering and 
         <div class="research-section">
             
 
-<h2 id="reference">Reference</h2>
-
-<p><strong>Proxy Value Propagation (NeurIPS 2023 Spotlight)</strong>:</p>
-<pre><code class="language-plain">@article{peng2023learning,
-  title={Learning from Active Human Involvement through Proxy Value Propagation},
-  author={Peng, Zhenghao and Mo, Wenjie and Duan, Chenda and Li, Quanyi and Zhou, Bolei},
-  journal={Advances in Neural Information Processing Systems},
-  year={2023}
-}   
-</code></pre>
-
-<p><br></p>
-
-<p><strong>Acknowledgement</strong>: This work was supported by the National Science Foundation under Grant No. 2235012. The human experiment in this study is approved through the IRB#23-000116 at UCLA.</p>
 
         </div>
         
