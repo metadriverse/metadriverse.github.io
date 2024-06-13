@@ -110,7 +110,7 @@ The digital twins (on nuScenes dataset) and safety-critical scenarios (on Waymo 
     <img src="../assets/img/simgen/main_vis.png" class="my-image" alt="Image" />
 </div>
 
-> We show the generation results of SimGen (blue boxes) and SimGen-nuSc (gray boxes) under the same conditions. 
+> We show the generation results of SimGen (blue boxes) under simulator conditions. 
 Compared to models confined to limited datasets, SimGen exhibits a stronger ability to generate more realistic and diverse driving scenarios.
 
 
