@@ -2,7 +2,7 @@
 layout: research
 permalink: /simgen/
 title: "SimGen: Simulator-conditioned Driving Scene Generation"
-page_title: "Revive Driving Scene Simulation by Simulator-conditioned Generative Models"
+page_title: "SimGen: Simulator-conditioned Driving Scene Generation"
 authors:
 
 - {name: "Yunsong Zhou", url: "https://zhouyunsong-sjtu.github.io/", institution: "1,2"}
