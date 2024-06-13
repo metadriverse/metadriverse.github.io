@@ -33,7 +33,7 @@ code_link: https://github.com/metadriverse/SimGen
 <!--research-section-splitter-->
 
 
-## Grap-and-go
+## TL; DR
 
 :fire: **SimGen** is the first simulator-conditioned generative model for controllable driving scene generation with `appearance` and `layout` diversity.
 
