@@ -32,7 +32,7 @@ code_link: https://github.com/metadriverse/SimGen
 --->
 
 <div class="embed-responsive embed-responsive-16by9">
-    <video width="100%" max-width="800px" loop autoplay muted playsinline src="../assets/img/simgen/SimGen.mp4">
+    <video width="80%" max-width="800px" loop autoplay muted playsinline src="../assets/img/simgen/SimGen.mp4">
     </video>
 </div>
 
