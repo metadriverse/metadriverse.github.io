@@ -23,6 +23,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/SimGen
+pdf_link: https://arxiv.org/abs/2406.09386
 ---
 
 <!---
@@ -144,16 +145,16 @@ Compared to models confined to limited datasets, SimGen exhibits a stronger abil
 
 All assets and code in this repository are under the [Apache 2.0 license](./LICENSE) unless specified otherwise. The annotation data is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Other datasets (including nuScenes, Waymo, and MetaDrive) inherit their own distribution licenses. Please consider citing our paper and project if they help your research.
 
-<!---
+
 ```BibTeX
-@article{zhou2024embodied,
-  title={Embodied Understanding of Driving Scenarios},
-  author={Zhou, Yunsong and Huang, Linyan and Bu, Qingwen and Zeng, Jia and Li, Tianyu and Qiu, Hang and Zhu, Hongzi and Guo, Minyi and Qiao, Yu and Li, Hongyang},
-  journal={arXiv preprint arXiv:2403.04593},
+@article{zhou2024simgen,
+  title={SimGen: Simulator-conditioned Driving Scene Generation},
+  author={Zhou, Yunsong and Simon, Michael and Peng, Zhenghao and Mo, Sicheng and Zhu, Hongzi and Guo, Minyi and Zhou, Bolei},
+  journal={arXiv preprint arXiv:2406.09386},
   year={2024}
 }
 ```
---->
+
 
 <!--research-section-splitter-->
 
