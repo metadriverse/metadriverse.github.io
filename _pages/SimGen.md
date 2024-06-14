@@ -33,7 +33,7 @@ pdf_link: https://arxiv.org/abs/2406.09386
 --->
 
 <div class="embed-responsive embed-responsive-16by9">
-    <video width="80%" max-width="600px" loop autoplay muted playsinline src="../assets/img/simgen/SimGen.mp4">
+    <video width="50%" max-width="400px" loop autoplay muted playsinline src="../assets/img/simgen/SimGen.mp4">
     </video>
 </div>
 
