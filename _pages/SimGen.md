@@ -32,34 +32,12 @@ pdf_link: https://arxiv.org/abs/2406.09386
 </div>
 --->
 
-<style>
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (change this value based on your video's aspect ratio) */
-  overflow: hidden;
-  max-width: 100%; /* Adjust this value to control the maximum width of the video container */
-  margin: 0 auto; /* Optional: center the video container horizontally */
-}
 
-.video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 80%;
-  height: 100%;
-}
-</style>
-
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/simgen/SimGen.mp4"></video>
-</div>
-
-<!---
 <div class="embed-responsive embed-responsive-16by9">
-    <video width="50%" max-width="400px" loop autoplay muted playsinline src="../assets/img/simgen/SimGen.mp4">
+    <video width="100%" max-width="800px" loop autoplay muted playsinline src="../assets/img/simgen/SimGenWide.mp4">
     </video>
 </div>
---->
+
 
 
 <!--research-section-splitter-->
