@@ -37,7 +37,7 @@ pdf_link: https://arxiv.org/abs/2406.09386
 .video-container {
   position: relative;
   max-width: 80%; /* Adjust this value to control the maximum width of the video container */
-  margin: -20px auto 0; /* Optional: center the video container horizontally */
+  margin: -30px auto 0; /* Optional: center the video container horizontally */
 }
 
 .video-container video {
