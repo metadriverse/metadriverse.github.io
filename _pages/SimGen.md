@@ -36,19 +36,15 @@ pdf_link: https://arxiv.org/abs/2406.09386
 <style>
 .video-container {
   position: relative;
-  padding-bottom: 42.86%; /* 16:9 aspect ratio (change this value based on your video's aspect ratio) */
-  overflow: hidden;
   max-width: 80%; /* Adjust this value to control the maximum width of the video container */
   margin: 0 auto; /* Optional: center the video container horizontally */
 }
 
 .video-container video {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%; /* Adjust this value to control the width of the video */
-  height: auto; /* Keep the aspect ratio */
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 </style>
 
