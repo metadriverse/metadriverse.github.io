@@ -200,10 +200,35 @@
 </div>
 --->
 
+<style>
+.video-container {
+  position: relative;
+  padding-bottom: 42.86%; /* 16:9 aspect ratio (change this value based on your video's aspect ratio) */
+  overflow: hidden;
+  max-width: 80%; /* Adjust this value to control the maximum width of the video container */
+  margin: 0 auto; /* Optional: center the video container horizontally */
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Adjust this value to control the width of the video */
+  height: auto; /* Keep the aspect ratio */
+}
+</style>
+
+<div class="video-container">
+  <video loop="" autoplay="" muted="" playsinline="" src="../assets/img/simgen/SimGenWide.mp4"></video>
+</div>
+
+<!---
 <div class="embed-responsive embed-responsive-21by9">
-    <video width="100%" max-width="800px" loop="" autoplay="" muted="" playsinline="" src="../assets/img/simgen/SimGenWide.mp4">
+    <video width="100%" max-width="800px" loop autoplay muted playsinline src="../assets/img/simgen/SimGenWide.mp4">
     </video>
 </div>
+--->
 
 
         </div>
