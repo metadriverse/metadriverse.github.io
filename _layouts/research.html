@@ -27,17 +27,19 @@ layout: default
         {% endif %}
         <div class="col-12 md-5" align="center">
             <h6 style="text-align: center; font-size: 1.2rem;">
-                <a href={{ page.code_link }}><b>Code</b></a> |
+                <a href={{ page.code_link }}><b>Code</b></a>
                 {% if page.doc_link %}
-                <a href={{ page.doc_link }}><b>Documentation</b></a> |
+                | <a href={{ page.doc_link }}><b>Documentation</b></a>
                 {% endif %}
                 {% if page.poster_link %}
-                <a href={{ page.poster_link }}><b>Poster</b></a> |
+                | <a href={{ page.poster_link }}><b>Poster</b></a>
                 {% endif %}
                 {% if page.video_link %}
-                <a href={{ page.video_link }}><b>Demo Video</b></a> |
+                | <a href={{ page.video_link }}><b>Demo Video</b></a>
                 {% endif %}
-                <a href={{ page.pdf_link }}><b>Paper</b></a>
+                {% if page.pdf_link %}
+                | <a href={{ page.pdf_link }}><b>Paper</b></a>
+                {% endif %}
             </h6>
         </div>
     </header>

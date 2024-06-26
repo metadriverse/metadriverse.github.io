@@ -5,14 +5,14 @@ title: "MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces"
 page_title: "MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces"
 authors:
 
-- {name: "Wayne Wu", url: "#"}
+- {name: "Wayne Wu", url: "https://wywu.github.io/"}
 - {name: "Honglin He", url: "#"}
 - {name: "Yiran Wang"}
-- {name: "Chenda Duan"}
+- {name: "Chenda Duan", url: "https://chendaduan.com/"}
 - {name: "Jack He"}
-- {name: "Zhizheng Liu", url: "#"}
-- {name: "Quanyi Li", url: "#"}
-- {name: "Bolei Zhou", url: "#"}
+- {name: "Zhizheng Liu", url: "https://scholar.google.com/citations?user=Asc7j9oAAAAJ&hl=en"}
+- {name: "Quanyi Li", url: "https://quanyili.github.io/"}
+- {name: "Bolei Zhou", url: "https://boleizhou.github.io/"}
 
 institutions:
 
@@ -21,8 +21,7 @@ institutions:
 
 nav: false
 nav_order: 1
-code_link: 
-pdf_link: 
+code_link: https://github.com/metadriverse/metaurban
 
 ---
 
