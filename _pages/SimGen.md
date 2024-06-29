@@ -24,6 +24,7 @@ nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/SimGen
 pdf_link: https://arxiv.org/abs/2406.09386
+slides_link: https://docs.google.com/presentation/d/1X1nB9umPlWtNfuUjZObO6UNyyBUbgHogVJA4bCaMiKQ/edit?usp=sharing
 ---
 
 <!---
