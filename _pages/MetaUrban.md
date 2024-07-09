@@ -37,17 +37,7 @@ code_link: https://github.com/metadriverse/metaurban
 
     <h3 style="text-align: center">Video Demo</h3>
 
-    <div id="video" style="overflow: hidden;">
-      <iframe 
-        width="100%" 
-        height="100%" 
-        style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" 
-        src="https://www.youtube.com/embed/h974cZNq4Mo?autoplay=1&mute=1&loop=1&playlist=h974cZNq4Mo&controls=1&rel=0&showinfo=0" 
-        frameborder="0" 
-        allow="autoplay" 
-        allowfullscreen="allowfullscreen">
-      </iframe>
-    </div>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/demo.mp4" type="video/mp4"/></video>
 </div>
 
 <div class="research-section">
@@ -86,14 +76,8 @@ code_link: https://github.com/metadriverse/metaurban
 
 <div class="research-section">
     <h3 style="text-align: center">Asset Exhibition</h3>
-    <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/k9hLdTv43os"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
-        </div>
+
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/crossroad.mp4" type="video/mp4"/></video>
 </div>
 
 <div class="research-section">
@@ -123,36 +107,16 @@ code_link: https://github.com/metadriverse/metaurban
     <h4>Success Cases</h4>
     <div class="video-grid">
         <div class="video">
-            <iframe 
-                src="https://www.youtube.com/embed/X9Btfgo5ZZA?si=s4N1C16TI-ebRGod"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success1.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <iframe 
-                src="https://www.youtube.com/embed/fg2Cc8-EZmU?si=0biFDHYrR4GaY3sv"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success2.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/B24EDus65FM?si=CJ5cMiF8mEVuLp3x"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success3.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/QxRvE6U0dy0?si=u606ZToc8OD9enbl"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success3.mp4" type="video/mp4"/></video>
         </div>
     </div>
 
@@ -161,58 +125,29 @@ code_link: https://github.com/metadriverse/metaurban
     <h4>Failure Cases</h4>
     <div class="video-grid">
         <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/5N6JlimWnTY?si=iqHa4-hZJBAnEkcC"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail1.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/pt0kQNFC82k?si=1A6rMSFqFJu_xqAn"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail2.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/ELBuJzjBedw?si=HcI7bDeKDVObh_7A"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail3.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/NA72BDLfLtU?si=0rn5wTd1h6HghOzq"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail4.mp4" type="video/mp4"/></video>
         </div>
     </div>
+
 </div>
 
 <div class="research-section">
     <h3 style="text-align: center">User Interface for Demonstration</h3>
     <div class="video-grid">
         <div class="video">
-            <iframe 
-                src="https://www.youtube.com/embed/u7UH6sfkhi0?si=yoQBDhAQKFUlUAFD"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/UI1.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/5KZNa6lWDUk?si=KfDRLhlsb0sj6JNG"
-                frameborder="0" 
-                allow="autoplay" 
-                allowfullscreen="allowfullscreen">
-            </iframe>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/UI2.mp4" type="video/mp4"/></video>
         </div>
     </div>
 </div>
@@ -274,6 +209,7 @@ code_link: https://github.com/metadriverse/metaurban
     width: 100%; /* Ensures iframe takes the full width of the container */
     height: 250px; /* Fixed height for all videos */
 }
+
 @media (max-width: 600px) {
     .video-grid {
         grid-template-columns: 1fr; /* Stacks videos into a single column on small screens */
