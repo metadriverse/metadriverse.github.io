@@ -116,7 +116,7 @@ code_link: https://github.com/metadriverse/metaurban
             <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success3.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success3.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success4.mp4" type="video/mp4"/></video>
         </div>
     </div>
 
