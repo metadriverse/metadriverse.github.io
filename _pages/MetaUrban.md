@@ -37,7 +37,17 @@ code_link: https://github.com/metadriverse/metaurban
 
     <h3 style="text-align: center">Video Demo</h3>
 
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/demo.mp4" type="video/mp4"/></video>
+    <div id="video" style="overflow: hidden;">
+    <iframe 
+        width="100%" 
+        height="100%" 
+        style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" 
+        src="https://www.youtube.com/embed/MJWK7Yz39OQ?autoplay=1&mute=1&loop=1&playlist=MJWK7Yz39OQ&controls=1&rel=0&showinfo=0" 
+        frameborder="0" 
+        allow="autoplay" 
+        allowfullscreen="allowfullscreen">
+    </iframe>
+    </div>
 </div>
 
 <div class="research-section">
