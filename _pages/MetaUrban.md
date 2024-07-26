@@ -18,9 +18,9 @@ institutions:
 
 - {name: "University of California, Los Angeles"}
 
-
 nav: false
 nav_order: 1
+pdf_link: https://arxiv.org/abs/2407.08725
 code_link: https://github.com/metadriverse/metaurban
 
 ---
@@ -35,19 +35,25 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
 
 
-    <h3 style="text-align: center">Video Demo</h3>
+    <h3 style="text-align: center">Introducing MetaUrban</h3>
 
     <div id="video" style="overflow: hidden;">
     <iframe 
         width="100%" 
         height="100%" 
         style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" 
-        src="https://www.youtube.com/embed/MJWK7Yz39OQ?autoplay=1&mute=1&loop=1&playlist=MJWK7Yz39OQ&controls=1&rel=0&showinfo=0" 
+        src="https://www.youtube.com/embed/QmCRygV9M8o?autoplay=1&mute=1&loop=1&playlist=QmCRygV9M8o&controls=1&rel=0&showinfo=0" 
         frameborder="0" 
         allow="autoplay" 
         allowfullscreen="allowfullscreen">
     </iframe>
     </div>
+
+    <div style="text-align: center; margin-top: 10px;">
+    Download Video from
+    <a href="https://drive.google.com/file/d/1jd37MVugyM2A0LZ89W2tgV3f2EfRLEmZ/view?usp=sharing" target="_blank">Google Drive</a> | 
+    <a href="https://pan.baidu.com/s/1y1koBWpVHsJBEvLPGbXpbw?pwd=yac9" target="_blank">Baidu Netdisk</a>
+</div>
 </div>
 
 <div class="research-section">
@@ -85,7 +91,7 @@ code_link: https://github.com/metadriverse/metaurban
 </div>
 
 <div class="research-section">
-    <h3 style="text-align: center">Asset Exhibition</h3>
+    <h3 style="text-align: center">Parade of Dynamic Agents</h3>
 
     <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/crossroad.mp4" type="video/mp4"/></video>
 </div>
