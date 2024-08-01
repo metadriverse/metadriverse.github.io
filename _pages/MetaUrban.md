@@ -199,6 +199,15 @@ code_link: https://github.com/metadriverse/metaurban
     </ul>
 </div>
 
+<div class="research-section">
+<h3 style="text-align: center">Acknowledgement</h3>
+<p>
+The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-2346267, and Intel Rising Star Faculty Award.
+</p>
+</div>
+
+
+
 <style>
 .custom-heading {
   font-size: 1.5em;
