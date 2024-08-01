@@ -164,6 +164,11 @@ Compared to models confined to limited datasets, SimGen exhibits a stronger abil
 <!--research-section-splitter-->
 
 
+## Acknowledgement
+
+The project is supported by the NSF Grants CCRI-2235012 and RI-2339769, and Sony Focused Research Award.
+
+
 ## License and Citation
 
 All assets and code in this repository are under the [Apache 2.0 license](./LICENSE) unless specified otherwise. The annotation data is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Other datasets (including nuScenes, Waymo, and MetaDrive) inherit their own distribution licenses. Please consider citing our paper and project if they help your research.
