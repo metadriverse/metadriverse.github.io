@@ -207,6 +207,18 @@ The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-23
 </div>
 
 
+<div class="research-section">
+<h3 style="text-align: center">Reference</h3>
+
+<pre><code class="language-plain">@article{wu2024metaurban,
+  title={MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces},
+  author={Wu, Wayne and He, Honglin and Wang, Yiran and Duan, Chenda and He, Jack and Liu, Zhizheng and Li, Quanyi and Zhou, Bolei},
+  journal={arXiv preprint arXiv:2407.08725},
+  year={2024}
+}
+</code></pre>
+</div>
+
 
 <style>
 .custom-heading {
