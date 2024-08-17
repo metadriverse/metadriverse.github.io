@@ -10,7 +10,7 @@ pdf_link: https://arxiv.org/abs/2407.08725
 code_link: https://github.com/metadriverse/metaurban
 ---
 
-<p style="text-align: center">This page displays video demonstrations in response to reviewers’ feedback. Click on any video to play. You can also find specific responses by searching the reviewer's name.</p>
+<p style="text-align: center; font-size: 1.5rem;">This page displays video demonstrations in response to reviewers’ feedback. Click on any video to play and enlarge it to full screen for a better visualization. You can also find specific responses by searching the reviewer's name.</p>
 
 <div class="research-section">
 
