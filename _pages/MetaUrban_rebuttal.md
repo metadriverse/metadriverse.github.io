@@ -39,7 +39,7 @@ nav_order: 2
         <div class="video" id="video_index_0003">
             <h4 style="text-align: center;">Video Index_0003 <br> (To Reviewer FiPy)</h4>
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0002.mp4" type="video/mp4"/>
+                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0003.mp4" type="video/mp4"/>
             </video>
             <p style="text-align: center;">Simulation of lane merging and diverging scenarios.</p>
         </div>
@@ -47,15 +47,15 @@ nav_order: 2
         <div class="video" id="video_index_0004">
             <h4 style="text-align: center;">Video Index_0004 <br> (To Reviewer R6rL)</h4>
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0002.mp4" type="video/mp4"/>
+                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0004.mp4" type="video/mp4"/>
             </video>
-            <p style="text-align: center;">Collaboration with <a href="https://www.cocodelivery.com/" target="_blank">COCO Robotics</a> for real-world food delivery.</p>
+            <p style="text-align: center;">The enhanced version of COCO robot (with stronger computation and perceiving ability) in our lab. We are collaborating with <a href="https://www.cocodelivery.com/" target="_blank">COCO Robotics</a> for real-world food delivery.</p>
         </div>
 
         <div class="video" id="video_index_0005">
             <h4 style="text-align: center;">Video Index_0005 <br> (To Reviewer R6rL and qkEE)</h4>
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0002.mp4" type="video/mp4"/>
+                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0005.mp4" type="video/mp4"/>
             </video>
             <p style="text-align: center;">Integration of OmniVerse as the renderer to improve visual realism and PhysX as the physical engine to improve interactive realism.</p>
         </div>
