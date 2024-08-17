@@ -72,7 +72,7 @@ nav_order: 2
         <div class="video" id="video_index_0007">
             <h4 style="text-align: center;">Video Index_0007 <br> (To Reviewer R6rL and yJjR)</h4>
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0000.mp4" type="video/mp4"/>
+                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0007.mp4" type="video/mp4"/>
             </video>
             <p style="text-align: center;">Preliminary results of harnessing Gaussian Splatting to improve the visual quality of MetaUrban in 3D space. Input: monocular videos; output: 3D scene represented by Gaussian Splatting. Integrated within the simulator, it enables training agents with photo-realistic RGB images.</p>
         </div>
