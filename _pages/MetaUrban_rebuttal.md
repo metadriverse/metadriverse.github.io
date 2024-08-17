@@ -66,7 +66,7 @@ code_link: https://github.com/metadriverse/metaurban
         <div class="video" id="video_index_0006">
             <h4 style="text-align: center;">Video Index_0006 <br> (To Reviewer R6rL and yJjR)</h4>
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0000.mp4" type="video/mp4"/>
+                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0006.mp4" type="video/mp4"/>
             </video>
             <p style="text-align: center;">Preliminary results of harnessing diffusion models to improve the visual quality of MetaUrban in 2D space. Input: RGB image rendered by MetaUrban; output: photo-realistic image. (It is an extension of our previous work <a href="https://metadriverse.github.io/simgen/" target="_blank">SimGen</a>)
             </p>
