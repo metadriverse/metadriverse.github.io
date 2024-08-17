@@ -1,12 +1,12 @@
 ---
-layout: research
+layout: rebuttal
 permalink: /metaurban/rebuttal/
 title: "MetaUrban: Rebuttal Video Demonstrations"
 page_title: "MetaUrban: Rebuttal Video Demonstrations"
 nav: false
 nav_order: 2
 
-pdf_link: https://arxiv.org/abs/2407.08725
+pdf_link: https://metadriverse.github.io/metaurban/
 code_link: https://github.com/metadriverse/metaurban
 ---
 
@@ -83,7 +83,7 @@ code_link: https://github.com/metadriverse/metaurban
         <div class="video" id="video_index_0008">
             <h4 style="text-align: center;">Video Index_0008 <br> (To Reviewer yJjR and qkEE)</h4>
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0000.mp4" type="video/mp4"/>
+                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0008.mp4" type="video/mp4"/>
             </video>
             <p style="text-align: center;">Support of multi-agents planning task. Agents need to make joint path planning, completing point-to-point navigation with no collisions and deadlocks.</p>
         </div>
