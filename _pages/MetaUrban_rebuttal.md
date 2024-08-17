@@ -7,9 +7,9 @@ nav: false
 nav_order: 2
 ---
 
+<p style="text-align: center">This page displays video demonstrations in response to reviewers’ feedback. Click on any video to play. You can also find specific responses by searching the reviewer's name.</p>
+
 <div class="research-section">
-    <h3 style="text-align: center">Rebuttal Video Demonstrations</h3>
-    <p style="text-align: center">This page showcases various video demonstrations in response to reviewer feedback. Click on any video to play.</p>
 
     <div class="video-grid">
         <div class="video" id="video_index_0000">
@@ -57,7 +57,7 @@ nav_order: 2
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
                 <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0005.mp4" type="video/mp4"/>
             </video>
-            <p style="text-align: center;">Integration of OmniVerse as the renderer to improve visual realism and PhysX as the physical engine to improve interactive realism.</p>
+            <p style="text-align: center;">Integration of Nvidia Omniverse as the renderer to improve visual realism, and Nvidia PhysX as the physical engine to improve interactive realism.</p>
         </div>
 
         <div class="video" id="video_index_0006">
@@ -65,7 +65,7 @@ nav_order: 2
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
                 <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0000.mp4" type="video/mp4"/>
             </video>
-            <p style="text-align: center;">Preliminary results of harnessing Diffusion Model to improve the visual quality of MetaUrban in 2D space. Input: RGB image, depth map, semantic map and provided by MetaUrban; output: photo-realistic image. (It is an extension of our previous work <a href="https://metadriverse.github.io/simgen/" target="_blank">SimGen</a>)
+            <p style="text-align: center;">Preliminary results of harnessing diffusion models to improve the visual quality of MetaUrban in 2D space. Input: RGB image rendered by MetaUrban; output: photo-realistic image. (It is an extension of our previous work <a href="https://metadriverse.github.io/simgen/" target="_blank">SimGen</a>)
             </p>
         </div>
 
@@ -74,7 +74,7 @@ nav_order: 2
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
                 <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0007.mp4" type="video/mp4"/>
             </video>
-            <p style="text-align: center;">Preliminary results of harnessing Gaussian Splatting to improve the visual quality of MetaUrban in 3D space. Input: monocular videos; output: 3D scene represented by Gaussian Splatting. Integrated within the simulator, it enables training agents with photo-realistic RGB images.</p>
+            <p style="text-align: center;">Preliminary results of harnessing Gaussian splatting to improve the visual quality of MetaUrban in 3D space. Input: monocular videos; output: 3D scene represented by Gaussian Splatting. Integrated within the simulator, it enables training agents with photo-realistic RGB images as observations.</p>
         </div>
 
         <div class="video" id="video_index_0008">
