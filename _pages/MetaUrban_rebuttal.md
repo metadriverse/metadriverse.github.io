@@ -5,6 +5,9 @@ title: "MetaUrban: Rebuttal Video Demonstrations"
 page_title: "MetaUrban: Rebuttal Video Demonstrations"
 nav: false
 nav_order: 2
+
+pdf_link: https://arxiv.org/abs/2407.08725
+code_link: https://github.com/metadriverse/metaurban
 ---
 
 <p style="text-align: center">This page displays video demonstrations in response to reviewers’ feedback. Click on any video to play. You can also find specific responses by searching the reviewer's name.</p>
@@ -116,8 +119,8 @@ nav_order: 2
     }
 }
 
-/* Hide the "Code" link specifically on this page */
+/* Hide the "Code" link specifically on this page
 .col-12.md-5 h6 a[href="{{ page.code_link }}"] {
     display: none;
-}
+} */
 </style>
