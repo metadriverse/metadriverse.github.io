@@ -88,7 +88,7 @@ nav_order: 2
         <div class="video" id="video_index_0009">
             <h4 style="text-align: center;">Video Index_0009 <br> (To Reviewer yJjR and qkEE)</h4>
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0000.mp4" type="video/mp4"/>
+                <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/Index_0009.mp4" type="video/mp4"/>
             </video>
             <p style="text-align: center;">Support of human-in-the-loop learning task. Human can select chance to take over the control of robots when policy does not work well. This data can be used for training of human-AI shared control algorithms.</p>
         </div>
