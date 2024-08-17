@@ -100,6 +100,13 @@ code_link: https://github.com/metadriverse/metaurban
 </div>
 
 <style>
+/* Increase the overall page width */
+.research-section {
+    max-width: 1500px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Optional: Add some padding on the sides */
+}
+
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Creates two columns */
