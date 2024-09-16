@@ -23,7 +23,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://github.com/Andy-zd/Urbandiff
-pdf_link: 
+pdf_link: https://arxiv.org/abs/2403.11697
 
 ---
 
