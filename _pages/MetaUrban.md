@@ -1,15 +1,15 @@
 ---
 layout: research
 permalink: /metaurban/
-title: "MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces"
-page_title: "MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces"
+title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
+page_title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
 authors:
 
 - {name: "Wayne Wu", url: "https://wywu.github.io/"}
 - {name: "Honglin He", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl"}
+- {name: "Jack He", url: "https://jackhe313.github.io/"}
 - {name: "Yiran Wang", url: "https://www.linkedin.com/in/yrw3/"}
 - {name: "Chenda Duan", url: "https://chendaduan.com/"}
-- {name: "Jack He", url: "https://jackhe313.github.io/"}
 - {name: "Zhizheng Liu", url: "https://scholar.google.com/citations?user=Asc7j9oAAAAJ&hl=en"}
 - {name: "Quanyi Li", url: "https://quanyili.github.io/"}
 - {name: "Bolei Zhou", url: "https://boleizhou.github.io/"}
@@ -28,7 +28,7 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
     <h3 style="text-align: center">TL;DR</h3>
     <ul style="list-style-type: none; padding-left: 0;">
-      <strong>MetaUrban</strong> is a <em>compositional</em> simulation platform for Embodied AI research in urban spaces. It will be <em>publicly available</em> to enable more research opportunities for the community, and foster <em>generalizable</em> and <em>safe</em> embodied AI in urban spaces.
+      <strong>MetaUrban</strong> is a <em>compositional</em> simulation platform for AI-driven urban micromobility research. It will be open-source to enable more research opportunities for the community, and foster <em>generalizable</em> and <em>safe</em> embodied AI and micromobility in cities.
     </ul>
 </div>
 
@@ -42,7 +42,7 @@ code_link: https://github.com/metadriverse/metaurban
         width="100%" 
         height="100%" 
         style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" 
-        src="https://www.youtube.com/embed/QmCRygV9M8o?autoplay=1&mute=1&loop=1&playlist=QmCRygV9M8o&controls=1&rel=0&showinfo=0" 
+        src="https://www.youtube.com/embed/vHuAzNxmfKc?autoplay=1&mute=1&loop=1&playlist=vHuAzNxmfKc&controls=1&rel=0&showinfo=0" 
         frameborder="0" 
         allow="autoplay" 
         allowfullscreen="allowfullscreen">
@@ -51,7 +51,7 @@ code_link: https://github.com/metadriverse/metaurban
 
     <div style="text-align: center; margin-top: 10px;">
     Download Video from
-    <a href="https://drive.google.com/file/d/1jd37MVugyM2A0LZ89W2tgV3f2EfRLEmZ/view?usp=sharing" target="_blank">Google Drive</a> | 
+    <a href="https://drive.google.com/file/d/1_xYL7IXuHc0b8DvghVvzpKeBQTsTxeUe/view?usp=sharing" target="_blank">Google Drive</a> | 
     <a href="https://pan.baidu.com/s/1y1koBWpVHsJBEvLPGbXpbw?pwd=yac9" target="_blank">Baidu Netdisk</a>
 </div>
 </div>
@@ -59,18 +59,17 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
     <h3 style="text-align: center">Abstract</h3>
 
-    Public urban spaces like streetscapes and plazas serve residents and accommodate social life in all its vibrant variations.
+        <p>Public urban spaces like streetscapes and plazas serve residents and accommodate social life in all its vibrant variations.
+        Recent advances in Robotics and Embodied AI make public urban spaces no longer exclusive to humans. Food delivery bots and electric wheelchairs have started sharing sidewalks with pedestrians, while robot dogs and humanoids have recently emerged in the street.
+        <strong>Micromobility</strong> enabled by AI for short-distance travel in public urban spaces plays a crucial component in the future transportation system.
+        Ensuring the generalizability and safety of AI models maneuvering mobile machines is essential.
+        In this work, we present <strong>MetaUrban</strong>, a <em>compositional</em> simulation platform for AI-driven urban micromobility research.
+        MetaUrban can construct an <em>infinite</em> number of interactive urban scenes from compositional elements, covering a vast array of ground plans, object placements, pedestrians, vulnerable road users, and other mobile agents' appearances and dynamics.
+        We design point navigation and social navigation tasks as the pilot study using MetaUrban for urban micromobility research and establish various baselines of Reinforcement Learning and Imitation Learning.
+        We conduct extensive evaluation across mobile machines, demonstrating that heterogeneous mechanical structures significantly influence the learning and execution of AI policies.
+        We perform a thorough ablation study, showing that the compositional nature of the simulated environments can substantially improve the generalizability and safety of the trained mobile agents.
+        MetaUrban will be made publicly available to provide research opportunities and foster safe and trustworthy embodied AI and micromobility in cities. The code and dataset are released.</p>
 
-    Recent advances in Robotics and Embodied AI make public urban spaces no longer exclusive to humans. Food delivery bots and electric wheelchairs have started sharing sidewalks with pedestrians, while diverse robot dogs and humanoids have recently emerged in the street. Ensuring the generalizability and safety of these forthcoming mobile machines is crucial when navigating through the bustling streets in urban spaces.
-
-    In this work, we present MetaUrban, a <em>compositional</em> simulation platform for Embodied AI research in urban spaces.
-    MetaUrban can construct an <em>infinite</em> number of interactive urban scenes from compositional elements, covering a vast array of ground plans, object placements, pedestrians, vulnerable road users, and other mobile agents' appearances and dynamics.
-
-    We design point navigation and social navigation tasks as the pilot study using MetaUrban for embodied AI research and establish various baselines of Reinforcement Learning and Imitation Learning.
-
-    Experiments demonstrate that the compositional nature of the simulated environments can substantially improve the generalizability and safety of the trained mobile agents.
-
-    MetaUrban will be made publicly available to provide more research opportunities and foster safe and trustworthy embodied AI in urban spaces. 
 </div>
 
 <div class="research-section">
