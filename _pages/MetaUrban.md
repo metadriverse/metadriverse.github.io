@@ -156,15 +156,50 @@ code_link: https://github.com/metadriverse/metaurban
 </div>
 
 <div class="research-section">
-    <h3 style="text-align: center">User Interface for Demonstration</h3>
+    <h3 style="text-align: center">Terrains and Materials</h3>
     <div class="video-grid">
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/UI1.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0001.mp4" type="video/mp4">
+        </video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/UI2.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0002.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
+</div>
+
+<div class="research-section">
+    <h3 style="text-align: center">Traffic Rules</h3>
+        <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+        <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0000.mp4" type="video/mp4">
+        </video>
+</div>
+
+<!-- Interface for Demonstration Data Collection -->
+<div class="research-section">
+    <h3 style="text-align: center">Interface for Demonstration Data Collection</h3>
+    <div class="video-grid">
+        <div class="video">
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/UI1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video">
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/UI2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+
+<div class="research-section">
+    <h3 style="text-align: center">Interface for Human-in-the-loop Learning</h3>
+        <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+        <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0009.mp4" type="video/mp4">
+        </video>
 </div>
 
 <div class="research-section">
@@ -178,24 +213,6 @@ code_link: https://github.com/metadriverse/metaurban
 
     <strong>Society</strong>. By enabling the safe integration of robots and AI systems in public spaces, MetaUrban could support the development of assistive technologies that can aid in accessibility and public services. Using AI in public spaces might foster new forms of social interaction and community services, making urban spaces more livable and joyful.
     
-</div>
-
-<div class="research-section">
-    <h3 style="text-align: center">Release Plan</h3>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li style="padding: 0.5rem 0.5rem;">
-        <strong>Demo video</strong>: June 12, 2024
-      </li>
-      <li style="padding: 0.5rem 0.5rem;">
-        <strong>Code of MetaUrban - tiny version</strong>:  June 12, 2024
-      </li>
-      <li style="padding: 0.5rem 0.5rem;">
-        <strong>Project page</strong>: July 5, 2024
-      </li>
-      <li style="padding: 0.5rem 0.5rem;">
-        <strong>Code of MetaUrban -  official version 1.0</strong>: September 15, 2024
-      </li>
-    </ul>
 </div>
 
 <div class="research-section">
