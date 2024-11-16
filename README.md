@@ -1,3 +1,8 @@
+
+> 2024-11-16 PZH Note: 
+> Using homebrew to install rbenv works for me even in linux.
+
+
 # Metadriverse-Web
 This is the private repo for developing metadriverse website (which includes metadrive and scenarioNet). 
 # Get start
@@ -45,11 +50,11 @@ rbenv install -l
 rbenv install -L
 
 # install a Ruby version:
-rbenv install 3.2.2
+rbenv install 3.3.6
 
-rbenv global 3.1.2   # set the default Ruby version for this machine
+rbenv global 3.3.6   # set the default Ruby version for this machine
 # or:
-rbenv local 3.1.2    # set the Ruby version for this directory
+rbenv local 3.3.6    # set the Ruby version for this directory
 ```
 - After you have installed ruby, you can use it to install bundler easily
 ```bash
