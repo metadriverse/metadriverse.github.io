@@ -5,19 +5,21 @@ title: "Urban Scene Diffusion through Semantic Occupancy Map"
 page_title: "Urban Scene Diffusion through Semantic Occupancy Map"
 authors:
 
-- {name: "Junge Zhang", url: "#", institution: "1,4"}
+- {name: "Junge Zhang", url: "#", institution: "1,5"}
 - {name: "Qihang Zhang", url: "#", institution: "2"}
-- {name: "Li Zhang", institution: "1"}
-- {name: "Ramana Rao Kompella", institution: "3"}
-- {name: "Gaowen Liu",  institution: "3"}
-- {name: "Bolei Zhou", url: "#", institution: "4"}
+- {name: "Li Zhang", institution: "3"}
+- {name: "Ramana Rao Kompella", institution: "4"}
+- {name: "Gaowen Liu",  institution: "4"}
+- {name: "Jiachen Li", url: "#", institution: "1"}
+- {name: "Bolei Zhou", url: "#", institution: "5"}
 
 institutions:
 
-- {name: "Fudan University", institution: "1"}
+- {name: "University of California, Riverside", institution: "1"}
 - {name: "The Chinese University of Hong Kong", institution: "2"}
-- {name: "Cisco", institution: "3"}
-- {name: "University of California, Los Angeles", institution: "4"}
+- {name: "Fudan University", institution: "3"}
+- {name: "Cisco", institution: "4"}
+- {name: "University of California, Los Angeles", institution: "5"}
 
 
 nav: false
@@ -113,7 +115,7 @@ We perform scene synthesis on different scenes which are sampled from diverse BE
 ```plain
 @article{urbandiff,
     title={Urban Scene Diffusion through Semantic Occupancy Map},
-    author={Junge Zhang and Qihang Zhang and Li Zhang and Ramana Rao Kompella and Gaowen Liu and Bolei Zhou},
+    author={Junge Zhang and Qihang Zhang and Li Zhang and Ramana Rao Kompella and Gaowen Liu and Jiachen Li and Bolei Zhou},
     journal={arXiv preprint arXiv:2403.11697},
     year={2024}
 }
