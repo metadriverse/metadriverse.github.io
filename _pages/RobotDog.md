@@ -14,7 +14,7 @@ institutions:
 - {name: "University of California, Los Angeles", institution: ""}
 
 
-
+code_link: ""
 nav: false
 nav_order: 1
 ---
@@ -66,6 +66,22 @@ TEASER VIDEO HERE
 :star2: **SimGen** addresses simulation to reality `(Sim2Real)` gaps via cascade diffusion paradigm, and follows layout guidance from simulators and cues of the rich text prompts to realistic driving scenarios.
 
 :bar_chart: **DIVA dataset** comprises 147.5 hours of `web videos` and `synthesized data` for diverse scene generation and advancing Sim2Real research.
+
+:robot: We train two mobile robots with human-in-the-loop learning! Our method is:
+
+:star2: Reward-free
+* 
+:star2: Trained from scratch
+
+
+Mobile robots are essential in applications like autonomous delivery and hospitality services. 
+Traditional rule-based and planning-based methods for navigation face challenges in dynamic environments due to calibration needs, environment modeling and a lack of robustness against unpredictable changes. 
+Learning-based methods such as Imitation Learning (IL) and Reinforcement Learning (RL) offer adaptability but require large datasets, carefully crafted reward functions, and face sim-to-real gaps, making them challenging for efficient and safe real-world deployment.
+
+1. We propose an online human-in-the-loop learning method that combines IL and RL to address these issues. 
+2. Our approach enables efficient, real-time policy learning from online human intervention, significantly improving data efficiency and training safety. 
+3. We validate our method by training two different robots --- a legged quadruped, and a wheeled delivery robot --- in two mobile robot tasks, one of which even uses raw RGBD image as observation.
+4. The training finishes within 10 minutes. Our experiments demonstrate that online human-in-the-loop learning can achieve high efficiency and effectiveness in real-world robotic training.
 
 
 

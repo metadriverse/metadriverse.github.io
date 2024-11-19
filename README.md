@@ -1,6 +1,54 @@
 
 > 2024-11-16 PZH Note: 
-> Using homebrew to install rbenv works for me even in linux.
+> Using homebrew to install rbenv works for me even in linux. Here is the command:
+
+```bash
+# Install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /home/zhenghao/.bashrc
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/zhenghao/.bashrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Install rbenv
+brew install rbenv ruby-build
+rbenv init
+
+# Install ruby
+rbenv install -l
+rbenv install 3.3.6
+
+# Set the default ruby version
+rbenv global 3.3.6
+rbenv local 3.3.6
+
+
+# Install bundler
+gem install bundler
+
+
+# Optional: error when installing bundler
+# error:
+(base) zhenghao@zhenghao-4090:~$ gem install bundler ERROR: While executing gem ... 
+(Gem::Exception) OpenSSL is not available. Install OpenSSL and rebuild Ruby or use non-HTTPS sources (Gem::Exception)
+# do:
+rbenv uninstall 3.3.6
+RUBY_CONFIGURE_OPTS=--with-openssl-dir=PATH_TO_SSL rbenv install 3.3.6
+# PATH_TO_SSL can be determined by: 
+brew --prefix openssl
+
+
+# Install bundler
+gem install bundler
+
+# Setup the project
+cd metadriverse.github.io
+bundle install
+bundle exec jekyll serve --lsi
+```
+
 
 
 # Metadriverse-Web
