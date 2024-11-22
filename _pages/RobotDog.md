@@ -65,10 +65,10 @@ nav_order: 1
 
 
 
-## Summary
+## TL; DR
 
 
-:robot: We train two mobile robots with human-in-the-loop learning! Our method:
+We train two mobile robots :robot: with human-in-the-loop learning! Our method:
 
 :star2: Learns from online human intervention and demonstration!
 
@@ -77,35 +77,29 @@ nav_order: 1
 
 <!--research-section-splitter-->
 
-## Human Following
-
-
-We use a quadruped robot (Unitree Go2) to follow a human subject in a real-world environment.
-
-
-
-
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/pvprobot/Compare_BC_Compressed.mp4"></video>
-</div>
-
-
-
-
-
-
-
-<!--research-section-splitter-->
-
 
 ## Safe Navigation
 
+
+A delivery robot (Unitree Go2) learns to navigate safely in a real-world environment, avoiding collisions with static or dynamic obstacles.
+Even though the observation is RGB-D image, training can be done in 20 minutes and the robot can generalize to unseen environments.
 
 <div class="video-container">
   <video loop autoplay muted playsinline src="../assets/img/pvprobot/Compare_BC_Nav_Compressed.mp4"></video>
 </div>
 
 
+<!--research-section-splitter-->
+
+## Human Following
+
+
+We train a quadruped robot (Unitree Go2) to follow a human subject in a real-world environment.
+Training is completed within 10 minutes.
+
+<div class="video-container">
+  <video loop autoplay muted playsinline src="../assets/img/pvprobot/Compare_BC_Compressed.mp4"></video>
+</div>
 
 
 <!--research-section-splitter-->
