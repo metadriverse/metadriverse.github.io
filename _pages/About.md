@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Projects
 permalink: /
 subtitle: AI Research for Generalizable and Interpretable Machine Autonomy
 display_categories:
