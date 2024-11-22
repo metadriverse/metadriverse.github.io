@@ -1,6 +1,6 @@
 ---
 layout: research
-permalink: /pvprobot/
+permalink: /pvp4real/
 title: "Human-in-the-loop Learning for Mobile Robots"
 page_title: "Data-Efficient Learning from Human Interventions for Mobile Robots" 
 authors:
