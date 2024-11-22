@@ -1,35 +1,21 @@
 ---
-layout: page-center
+layout: null
 permalink: /team/
-title: Team
+title: Zhou Lab at UCLA
 description: "Meet Our Team Member!"
 nav: true
 nav_order: 4
 ---
 
-<section class="our-webcoderskull">
-<div class="container">
-  <!-- <div class="row heading heading-icon">
-    <h2>Our Team</h2>
-  </div> -->
-  <ul class="row">
-    {% for member in site.data.team %}
-      <li class="col-12 col-md-6 col-lg-4">
-        <div class="cnt-block equal-hight">
-<a href="{{ member.link }}">
-          <figure><img src="{{ member.image }}" class="img-responsive" alt="{{ member.name }}" /></figure>
-</a>
-<a href="{{ member.link }}">            
-<h3><strong>{{ member.name }}</strong></h3>
-</a>
-          <h6>{{ member.role }}</h6>
-          <small>{{ member.affiliation }}</small>
-        </div>
-        
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
-</section>
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0; url=https://boleizhou.github.io/lab/" />
+  <script type="text/javascript">
+    window.location.href = "https://boleizhou.github.io/lab/";
+  </script>
+</head>
+<body>
+  <p>If you are not redirected automatically, <a href="https://boleizhou.github.io/lab/">click here</a>.</p>
+</body>
+</html>
