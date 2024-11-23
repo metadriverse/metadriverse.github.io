@@ -134,14 +134,14 @@ The digital twins (on nuScenes dataset) and safety-critical scenarios (on Waymo 
     <img src="../assets/img/simgen/exp_table.png" class="my-image" alt="Image" />
 </div>
 
-> SimGen improves over counterparts in terms of image quality, diversity, and controllability of scene generation.
+SimGen improves over counterparts in terms of image quality, diversity, and controllability of scene generation.
 
 
 <div class="img-container">
     <img src="../assets/img/simgen/main_vis.png" class="my-image" alt="Image" />
 </div>
 
-> We show the generation results of SimGen (blue boxes) under simulator conditions. 
+We show the generation results of SimGen (blue boxes) under simulator conditions. 
 Compared to models confined to limited datasets, SimGen exhibits a stronger ability to generate more realistic and diverse driving scenarios.
 
 
@@ -150,14 +150,14 @@ Compared to models confined to limited datasets, SimGen exhibits a stronger abil
     <img src="../assets/img/simgen/layout_vis.png" class="my-image" alt="Image" />
 </div>
 
-> SimGen can also recreate image sequences of safety-critical scenes where risky driving behaviors like sudden braking and merging happen. And the effectiveness of each modality in simulator conditions is exhibited, where instance map, rendered RGB, and top-down view enable the model to better handle object boundaries, orientation angles, and occlusions.
+SimGen can also recreate image sequences of safety-critical scenes where risky driving behaviors like sudden braking and merging happen. And the effectiveness of each modality in simulator conditions is exhibited, where instance map, rendered RGB, and top-down view enable the model to better handle object boundaries, orientation angles, and occlusions.
 
 
 <div class="img-container">
     <img src="../assets/img/simgen/closed_loop.png" class="my-image" alt="Image" />
 </div>
 
-> We further explore applying SimGen to the closed-loop evaluation. The evaluation focuses on two driving behaviors, namely IDM (gray boxes) and manual control (blue boxes) in different scenarios. IDM could lead to risks like sudden braking or collision in these cases. Conversely, manual control promotes safety by maintaining distance and slowing down. 
+We further explore applying SimGen to the closed-loop evaluation. The evaluation focuses on two driving behaviors, namely IDM (gray boxes) and manual control (blue boxes) in different scenarios. IDM could lead to risks like sudden braking or collision in these cases. Conversely, manual control promotes safety by maintaining distance and slowing down. 
 
 
 
@@ -199,8 +199,4 @@ An open-source platform for large-scale traffic scenario simulation and modeling
 **[CAT (NeurIPS 2023)](https://metadriverse.github.io/cat/)**:
 Closed-loop adversarial training for safe end-to-end driving.
 
-
-
-
-<!--research-section-splitter-->
 
