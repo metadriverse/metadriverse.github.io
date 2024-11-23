@@ -24,13 +24,14 @@ nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/SimGen
 pdf_link: https://arxiv.org/abs/2406.09386
-slides_link: https://docs.google.com/presentation/d/1X1nB9umPlWtNfuUjZObO6UNyyBUbgHogVJA4bCaMiKQ/edit?usp=sharing
+
 ---
 
 <!---
 <div class="img-container" style="width: 100%; margin: 0 auto;">
     <img src="../assets/img/simgen/teaser.png" class="my-image" alt="Image" />
 </div>
+slides_link: https://docs.google.com/presentation/d/1X1nB9umPlWtNfuUjZObO6UNyyBUbgHogVJA4bCaMiKQ/edit?usp=sharing
 --->
 
 
