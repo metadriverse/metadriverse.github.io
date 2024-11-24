@@ -18,12 +18,12 @@ institutions:
 - {name: "University of California, Los Angeles", institution: "1"}
 - {name: "Shanghai Jiao Tong University", institution: "2"}
 
-
 nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/SimGen
 pdf_link: https://arxiv.org/abs/2406.09386
 
+---
 
 <!---
 <div class="img-container" style="width: 100%; margin: 0 auto;">
