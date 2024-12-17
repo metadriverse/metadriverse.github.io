@@ -85,7 +85,7 @@ slides_link: https://docs.google.com/presentation/d/1X1nB9umPlWtNfuUjZObO6UNyyBU
 
 <div style="border-top: 1px solid #ccc; margin: 30px 0;"></div>
 
-## Vid2Sim Arcitecture
+## Vid2Sim Architecture
 
 
 <div class="img-container" style="width: 100%; margin: 5px auto;">
