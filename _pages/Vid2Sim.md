@@ -41,7 +41,7 @@ slides_link: https://docs.google.com/presentation/d/1X1nB9umPlWtNfuUjZObO6UNyyBU
 }
 
 .teaser {
-  margin: -20px auto -20px; /* Optional: center the video container horizontally */
+  margin: -18px auto -18px; /* Optional: center the video container horizontally */
 }
 
 .video-container video {
@@ -51,11 +51,34 @@ slides_link: https://docs.google.com/presentation/d/1X1nB9umPlWtNfuUjZObO6UNyyBU
   max-height: 100%;
 }
 
-.video-grid {
-    margin-top: 20px;
+/* .video-grid {
+    margin-top: 18px;
     display: grid;
     grid-template-columns: 1fr 1fr; /* Creates two columns */
     grid-gap: 30px; /* Space between videos */
+} */
+
+.video-grid {
+    margin-top: 18px;
+    display: grid;
+    grid-template-rows: 1fr 1fr; /* Two rows */
+    grid-gap: 50px; /* Space between items */
+    justify-items: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+}
+
+.video-grid figure {
+    display: flex;
+    flex-direction: column; /* Stack video and caption */
+    align-items: center; /* Center video and caption */
+    justify-content: center; /* Center content */
+    margin: 0; /* Reset default margin */
+}
+
+.video-grid video {
+    display: block;
+    width: 80%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 </style>
@@ -109,15 +132,19 @@ Vid2Sim facilitates augmented real-to-sim environment creation through interacti
 ## Real2Sim Navigation Training
 We train and test our agents in diverse realistic real2sim environments with augmented static obstacles and dynamic agents. (Bottom-right is the agent's view)
 <div class="video-grid">
-    <div>
-        <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-        <source src="../assets/img/vid2sim/simulation/sim_nav1.mp4" type="video/mp4">
-        </video>
+    <div style="margin-bottom: 15px">
+        <figure>
+            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+                <source src="../assets/img/vid2sim/simulation/sim_nav1.mp4" type="video/mp4">
+            </video>
+        </figure>
     </div>
     <div>
-        <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-        <source src="../assets/img/vid2sim/simulation/sim_nav2.mp4" type="video/mp4">
-        </video>
+        <figure>
+            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+                <source src="../assets/img/vid2sim/simulation/sim_nav2.mp4" type="video/mp4">
+            </video>
+        </figure>
     </div>
 </div>
 
@@ -126,14 +153,14 @@ We train and test our agents in diverse realistic real2sim environments with aug
 ## Zero-shot Sim2Real Deployment
 After training in real2sim environments, we deploy our agents to the real world in a zero-shot manner. This demonstrates the effectiveness of our Vid2Sim pipeline in bridging the sim-to-real gap.  
 
-* *Note: Our policies only take `RGB` images as visual observation and deployed in the real world without any fine-tuning*
+* *Note: The navigation agent only takes `RGB` image as visual input and deployed in the real world without any fine-tuning*
 <div class="video-grid">
-    <div>
+    <div style="margin-bottom: 15px">
         <figure>
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
                 <source src="../assets/img/vid2sim/realworld/realworld_nav1.mp4" type="video/mp4">
             </video>
-            <figcaption style="text-align:center; margin-top:8px; font-size:14px;">
+            <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
                 Static & Dynamic Obstacles Avoidance
             </figcaption>
         </figure>
@@ -141,10 +168,10 @@ After training in real2sim environments, we deploy our agents to the real world 
 
     <div>
         <figure>
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
                 <source src="../assets/img/vid2sim/realworld/realworld_nav2.mp4" type="video/mp4">
             </video>
-            <figcaption style="text-align:center; margin-top:8px; font-size:14px;">
+            <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
                 Sudden Pedestrian Cut-in
             </figcaption>
         </figure>
@@ -162,31 +189,30 @@ We show our Vid2Sim pipeline could generate realistic digital-twin environments 
 ## Diverse Environment Augmentation
 Vid2Sim can further support controllable scene editing and advanced weather simulation through 3D scene editing and particle system simulation. This enables more robust and generalizable policy training under different lighting and weather conditions.
 
-<h4 style="text-align: center; margin-bottom: 0px">Global 3D Scene Editing</h4>
 <div class="video-container">
+  <h4 style="text-align: center; margin-bottom: 0px">Scene Style Augmentation</h4>
   <video loop autoplay muted playsinline src="../assets/img/vid2sim/editing/augment.m4v"></video>
 </div>
 
 
 <h4 style="text-align: center; margin-bottom: 10px">Weather Simulation</h4>
 <div class="video-grid">
-    <div>
+    <div style="margin-bottom: 15px">
         <figure>
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
                 <source src="../assets/img/vid2sim/editing/rain.mp4" type="video/mp4">
             </video>
-            <figcaption style="text-align:center; margin-top:8px; font-size:14px;">
+            <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
                 Rain Simulation
             </figcaption>
         </figure>
     </div>
-
     <div>
         <figure>
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
                 <source src="../assets/img/vid2sim/editing/fog.mp4" type="video/mp4">
             </video>
-            <figcaption style="text-align:center; margin-top:8px; font-size:14px;">
+            <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
                 Fog Simulation
             </figcaption>
         </figure>
@@ -195,7 +221,7 @@ Vid2Sim can further support controllable scene editing and advanced weather simu
 
 <div style="border-top: 1px solid #ccc; margin: 30px 0;"></div>
 
-## Scalable Real2Sim Environments
+## Vid2Sim Dataset
 
 We curate a dataset of 30 diverse real-to-sim (real2sim) environments from web sourced videos for urban navigation training. We further evaluate the generalizability improvement of our agents as the number of the training environment increase.
 
@@ -215,7 +241,7 @@ This table compares (a) the success rate (SR) and (b) success rate weighted by p
 
 <br>
 
-<div style="border-top: 1px solid #ccc; margin: 20px 0;"></div>
+<div style="border-top: 1px solid #ccc; margin: 18px 0;"></div>
 
 <h3 style="text-align: center">Reference</h3>
 
@@ -226,3 +252,8 @@ This table compares (a) the success rate (SR) and (b) success rate weighted by p
   year={2024}
 }
 </code></pre>
+
+
+
+<h3 style="margin-top: 30px">Acknowledgement</h3>
+*We thank <a href="https://www.cocodelivery.com/">COCO Robotics</a> for donating mobile hardware for our real-world experiment.*
