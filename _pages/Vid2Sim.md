@@ -137,6 +137,9 @@ We train and test our agents in diverse realistic real2sim environments with aug
             <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
                 <source src="../assets/img/vid2sim/simulation/sim_nav1.mp4" type="video/mp4">
             </video>
+            <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
+                Scene 1
+            </figcaption>
         </figure>
     </div>
     <div>
@@ -144,6 +147,9 @@ We train and test our agents in diverse realistic real2sim environments with aug
             <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
                 <source src="../assets/img/vid2sim/simulation/sim_nav2.mp4" type="video/mp4">
             </video>
+            <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
+                Scene 2
+            </figcaption>
         </figure>
     </div>
 </div>
