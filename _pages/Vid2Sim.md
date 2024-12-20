@@ -134,7 +134,7 @@ We train and test our agents in diverse realistic real2sim environments with aug
 <div class="video-grid">
     <div style="margin-bottom: 15px">
         <figure>
-            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay loop controls playsinline>
                 <source src="../assets/img/vid2sim/simulation/sim_nav1.mp4" type="video/mp4">
             </video>
             <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
@@ -144,7 +144,7 @@ We train and test our agents in diverse realistic real2sim environments with aug
     </div>
     <div>
         <figure>
-            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay loop controls playsinline>
                 <source src="../assets/img/vid2sim/simulation/sim_nav2.mp4" type="video/mp4">
             </video>
             <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
@@ -163,7 +163,7 @@ After training in real2sim environments, we deploy our agents to the real world 
 <div class="video-grid">
     <div style="margin-bottom: 15px">
         <figure>
-            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay loop controls playsinline>
                 <source src="../assets/img/vid2sim/realworld/realworld_nav1.mp4" type="video/mp4">
             </video>
             <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
@@ -171,10 +171,9 @@ After training in real2sim environments, we deploy our agents to the real world 
             </figcaption>
         </figure>
     </div>
-
     <div>
         <figure>
-            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay loop controls playsinline>
                 <source src="../assets/img/vid2sim/realworld/realworld_nav2.mp4" type="video/mp4">
             </video>
             <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
@@ -186,7 +185,7 @@ After training in real2sim environments, we deploy our agents to the real world 
 
 ## Real2Sim Digital-Twin 
 We show our Vid2Sim pipeline could generate realistic digital-twin environments for realworld scenes. The digital-twin environment is controllable as well as interactive and can be used for both policy training and evaluation navigation policies. 
-<div class="img-container" style="width: 85%; margin: 5px auto;">
+<div class="img-container" style="width: 80%; margin: 5px auto;">
     <img src="../assets/img/vid2sim/digital-twin.png" class="my-image" alt="Image" />
 </div>
 
@@ -201,11 +200,11 @@ Vid2Sim can further support controllable scene editing and advanced weather simu
 </div>
 
 
-<h4 style="text-align: center; margin-bottom: 10px">Weather Simulation</h4>
+<h4 style="text-align: center; margin-bottom: 20px">Weather Simulation</h4>
 <div class="video-grid">
     <div style="margin-bottom: 15px">
         <figure>
-            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay loop controls playsinline>
                 <source src="../assets/img/vid2sim/editing/rain.mp4" type="video/mp4">
             </video>
             <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
@@ -215,7 +214,7 @@ Vid2Sim can further support controllable scene editing and advanced weather simu
     </div>
     <div>
         <figure>
-            <video style="display:block; width:80%; height:auto;" muted autoplay controls playsinline>
+            <video style="display:block; width:80%; height:auto;" muted autoplay loop controls playsinline>
                 <source src="../assets/img/vid2sim/editing/fog.mp4" type="video/mp4">
             </video>
             <figcaption style="text-align:center; margin-top:8px; font-size:18px;">
