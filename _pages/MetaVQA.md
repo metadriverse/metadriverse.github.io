@@ -19,13 +19,13 @@ nav: false
 nav_order: 1
 
 ---
-<div class="buttons" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+<!-- <div class="buttons" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
     <a href="#" class="button">PDF (TBD)</a>
     <a href="#" class="button">Arxiv (TBD)</a>
     <a href="#" class="button">GitHub (TBD)</a>
     <a href="#" class="button">Huggingface (TBD)</a>
     <a href="#" class="button">Inspect Dataset (TBD)</a>
-</div>
+</div> -->
 <div class="research-section">
     <div class="white-background">
         <img src="/assets/img/metavqa/teaser.png">
@@ -37,7 +37,7 @@ nav_order: 1
     </ul>
 </div>
 
-<div class="research-section">
+<!-- <div class="research-section">
     <h3 style="text-align: center">Introducing MetaVQA</h3>
     Intro-Video Coming Soon...
     <!-- <div id="video" style="overflow: hidden;">
@@ -56,7 +56,7 @@ nav_order: 1
     <a href="https://drive.google.com/file/d/1_xYL7IXuHc0b8DvghVvzpKeBQTsTxeUe/view?usp=sharing" target="_blank">Google Drive</a> | 
     <a href="https://pan.baidu.com/s/1y1koBWpVHsJBEvLPGbXpbw?pwd=yac9" target="_blank">Baidu Netdisk</a>
     </div> -->
-</div>
+</div> -->
 <div class="research-section">
     <h3 style="text-align: center">Design Choice</h3>
     <div class="white-background">
