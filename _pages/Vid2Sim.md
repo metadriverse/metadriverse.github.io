@@ -19,8 +19,8 @@ institutions:
 
 nav: false
 nav_order: 1
-# code_link: https://github.com/
-# pdf_link: https://arxiv.org/abs/
+code_soon: https://metadriverse.github.io/vid2sim/
+pdf_link: https://arxiv.org/abs/2501.06693
 
 ---
 

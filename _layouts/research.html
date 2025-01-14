@@ -28,7 +28,10 @@ layout: default
         <div class="col-12 md-5" align="center">
             <h6 style="text-align: center; font-size: 1.2rem;">
                 {% if page.code_link %}
-                | <a href={{ page.code_link }}><b>Code</b></a>
+                <a href={{ page.code_link }}><b>Code</b></a>
+                {% endif %}
+                {% if page.code_soon %}
+                <a href={{ page.code_soon }}><b>Code (Coming Soon)</b></a>
                 {% endif %}
                 {% if page.doc_link %}
                 | <a href={{ page.doc_link }}><b>Documentation</b></a>
