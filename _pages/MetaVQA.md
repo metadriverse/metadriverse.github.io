@@ -38,26 +38,6 @@ pdf_link: https://arxiv.org/abs/2501.09167
     </ul>
 </div>
 
-<!-- <div class="research-section">
-    <h3 style="text-align: center">Introducing MetaVQA</h3>
-    Intro-Video Coming Soon...
-    <!-- <div id="video" style="overflow: hidden;">
-    <iframe 
-        width="100%" 
-        height="100%" 
-        style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" 
-        src="https://www.youtube.com/embed/vHuAzNxmfKc?autoplay=1&mute=1&loop=1&playlist=vHuAzNxmfKc&controls=1&rel=0&showinfo=0" 
-        frameborder="0" 
-        allow="autoplay" 
-        allowfullscreen="allowfullscreen">
-    </iframe>
-    </div> -->
-    <!-- <div style="text-align: center; margin-top: 10px;">
-    Download Video from
-    <a href="https://drive.google.com/file/d/1_xYL7IXuHc0b8DvghVvzpKeBQTsTxeUe/view?usp=sharing" target="_blank">Google Drive</a> | 
-    <a href="https://pan.baidu.com/s/1y1koBWpVHsJBEvLPGbXpbw?pwd=yac9" target="_blank">Baidu Netdisk</a>
-    </div> -->
-</div> -->
 <div class="research-section">
     <h3 style="text-align: center">Design Choice</h3>
     <div class="white-background">
