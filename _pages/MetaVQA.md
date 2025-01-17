@@ -17,6 +17,7 @@ institutions:
 
 nav: false
 nav_order: 1
+pdf_link: https://arxiv.org/abs/2501.09167
 
 ---
 <!-- <div class="buttons" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
