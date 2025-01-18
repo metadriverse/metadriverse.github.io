@@ -96,12 +96,13 @@ pdf_link: https://arxiv.org/abs/2501.09167
 <div class="research-section">
     <h3 style="text-align: center">Reference</h3>
     <pre>
-        <code class="language-plain">@article{wang2025metavqa,
-        title={Embodied Scene Understanding for Vision Language Models via MetaVQA},
-        author={Wang, Weizhen and Duan, Chenda and Peng, Zhenghao and Liu, Yuxin and Zhou, Bolei},
-        year={2025}
-        }
-        </code>
+<code class="language-plain">@article{wang2025metavqa,
+  title={Embodied Scene Understanding for Vision Language Models via MetaVQA},
+  author={Wang, Weizhen and Duan, Chenda and Peng, Zhenghao and Liu, Yuxin and Zhou, Bolei},
+  journal={arXiv preprint arXiv:2501.09167},
+  year={2025}
+}
+</code>
     </pre>
 </div>
 <style>
