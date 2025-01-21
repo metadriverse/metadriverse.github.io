@@ -124,7 +124,7 @@ Vid2Sim framework consists of three key stages: (1) **Geometry-consistent recons
     <img src="../assets/img/vid2sim/scene_composition.png" class="my-image" alt="Image" />
 </div>
 
-Vid2Sim facilitates augmented real-to-sim environment creation through interactive scene composition, including varied **static obstacles** and other **dynamic agents**. This approach enables the generation of **diverse**, **controllable** and **safty critical** corner cases for safe urban navigation training.
+Vid2Sim facilitates augmented real-to-sim environment creation through interactive scene composition, including varied **static obstacles** and other **dynamic agents**. This approach enables the generation of **diverse**, **controllable** and **safety-critical** corner cases for safe urban navigation training.
 
 
 <div style="border-top: 1px solid #ccc; margin: 30px 0;"></div>
