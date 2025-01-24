@@ -3,6 +3,7 @@ layout: research
 permalink: /metaurban/
 title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
 page_title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
+description: "<h3>ICLR 2025</h3>"
 authors:
 
 - {name: "Wayne Wu", url: "https://wywu.github.io/"}
@@ -218,7 +219,7 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
 <h3 style="text-align: center">Acknowledgement</h3>
 <p>
-The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-2346267, and Intel Rising Star Faculty Award.
+The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-2346267, and Intel Rising Star Faculty Award. We extend our gratitude for the excellent datasets, including 3D objects from <a href="https://github.com/allenai/objaverse-xl" target="_blank">Objaverse-XL</a> and <a href="https://omniobject3d.github.io/" target="_blank">OmniObject3D</a>, 3D humans from <a href="https://synbody.github.io/" target="_blank">SynBody</a>, and human motions from <a href="https://bedlam.is.tue.mpg.de/" target="_blank">BEDLAM</a>. Special thanks to Hao Zhu, Haiyi Mei, Jianglin Fu, Rongzhang Gu, Lei Yang, and Zhenghao Peng for their assistance and insightful discussions.
 </p>
 </div>
 
