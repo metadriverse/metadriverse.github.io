@@ -1,0 +1,290 @@
+body {
+    background-color: #f8f8f8;
+    color: #1a1a1a;
+    line-height: 1.8em;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    margin: 0;
+}
+h2 {
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+h4 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+u {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a { color: #1a1a1a; }
+.row a {text-decoration: none;}
+li {font-size: 12pt;}
+
+/* Top navigation bar */
+#navbar-top {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    border-bottom: 4px solid #415b70;
+    background-color: #efefef;
+}
+.nav-link.active {background: #d8bca1;}
+.nav-item li.active>a, .nav-item a:hover, .nav-item a:focus, .nav-itme li.open>a{
+    background: #d8bca1 !important;
+    outline: 0;
+}
+
+#navbar-bottom {
+    margin: -0px auto 5px auto;
+    padding: 0px 4px 0px 4px;
+    bottom: 0;
+    z-index: 1030;
+    text-align: center;
+}
+
+.col-img {
+    margin-bottom: -15px;
+    padding-bottom: -10px;
+}
+
+.section {
+    max-width: 900px;
+    margin: -100px auto 5px auto;
+    padding: 100px 4px 0px 4px;
+}
+.section > .title {
+    font-size: 18pt;
+    color: #414446;
+    clear: both;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999;
+    padding-right: 15px;
+}
+
+.jumbotron {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 4px 0px 4px;
+    background-color: #f8f8f8;
+}
+.jumbotron > .title {
+    font-size: 18pt;
+    color: #414446;
+    clear: both;
+    text-align: center;
+}
+
+.content{
+    padding: 20px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: justify;
+    font-size: 12pt;
+}
+
+.row {
+    max-width: 900px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 4px 0px 4px;
+}
+
+.row {
+    font-size: 12pt;
+    padding: 2px auto;
+}
+
+.thumbnail {
+    padding: 2px 2px 2px 2px;
+    margin: 0px 0px 1px 0px;
+}
+
+.thumbnail img {
+    height: 200px;
+    object-fit: scale-down;
+    width: 100%;
+}
+@media (min-width: 576px) {
+    .thumbnail img {
+        object-fit: cover;
+    }
+    .thumbnail img.top-left {
+        object-position: 0px 0px;
+    }
+}
+
+.logo {
+    width: 100%;
+    padding: 2px 2px 2px 2px;
+    margin: 0px 0px 1px 0px;
+    object-fit: contain;
+}
+
+.caption {
+    padding: 3px 0px 3px 0px;
+    margin: 0px 0px 3px 0px;
+    text-align: center;
+    font-size: 14pt;
+}
+.caption span {
+    font-size: 11pt;
+}
+
+.caption a:hover {text-decoration:none;}
+
+table {
+    text-align: left;
+}
+
+.carousel-item {
+    text-align: center;
+}
+.carousel-caption {
+    background: rgba(230, 230, 230, 0.9);
+}
+
+.thumbnail ul {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+}
+@media (hover: hover) {
+    .thumbnail div {
+        position: relative;
+        overflow: hidden;
+    }
+    .thumbnail ul {
+        background: rgba(200, 200, 200, 0.7);
+        position: absolute;
+        bottom: -100%;
+        left: 0px;
+        right: 0px;
+        transition: bottom 0.2s ease-in-out;
+    }
+    .thumbnail:hover ul {
+        bottom: 0px;
+    }
+}
+
+.icon {
+    display: inline-block;
+    background-color: #fff2cc;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.icon:hover {
+    background: #ffe599;
+}
+
+.col-button {
+    margin-top: -40px;
+}
+#footer {
+    margin-top: 50px;
+}
+
+/**
+ * Styling for the publication list
+ */
+
+.papers-title {
+    font-size: 18pt;
+    color: #414446;
+    clear: both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #999;
+    padding-right: 15px;
+}
+.paper-title {
+    padding-top: 2.5%;
+    font-size: 14pt;
+    color: #818181;
+    font-weight: bold;
+}
+.paper-title a {color: #000;}
+.paper-title a:hover {color: #777;}
+.paper {
+    text-align: left;
+    counter-increment: paper-counter 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.paper .links {text-align: left;}
+.paper .links a:first-child { margin-left: 0px; }
+.paper .links a {
+    display: inline-block;
+    width: 90px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding: 1px 6px;
+    padding-bottom: 0px;
+    background-color: #0081af;
+    color: white;
+    text-align: center;
+}
+.paper .links a:hover {
+    pointer: cursor;
+    color: #1A2B7E;
+}
+.paper .links a[data-type="Abstract"] {
+    #background-color: #fc9d38;
+}
+.paper .links a[data-type="Paper"] {
+    #background-color: #3492eb;
+}
+.paper .links a[data-type="Poster"] {
+    #background-color: #c2c2ba;
+}
+
+.paper .links .link-content {
+    display: none;
+    font-style: italic;
+    margin-top: 10px;
+}
+.paper .links .link-content > pre {
+    font-style: normal;
+    line-height: 1.2em;
+}
+.paper:before {
+    display: inline-block;
+    width: 40px;
+    padding-top: 22px;
+    content: counter(paper-counter);
+}
+.paper .content {
+    display: inline-block;
+    width: calc(100% - 40px);
+    padding-top: 0px;
+}
+
+.keynote {
+    background-color: #ffdb99;
+}
+
+.spotlight {
+    background-color: #6bb36c;
+}
+
+.challenge {
+    background-color: #68ACD6;
+}
+
+td:first-child {
+    text-align: right;
+    width: 140px;
+}
