@@ -2,16 +2,38 @@
 layout: research
 permalink: /ucla_ucb_workshop/
 title: UCLA-UCB Joint Workshop
-page_title: 1st UCLA-UCB Joint Workshop
-description: "Towards Next Generation of Open-Source Simulator for Embodied AI and Autonomous Driving"
+page_title: 
+description: 
 nav: false
 nav_order: 1
 ---
+
+
+
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
 <style>
+.title {
+    color: #414446;
+    clear: both;
+    text-align: center;
+}
+
+.title-main {
+    font-size: 20pt; /* Adjust main title size */
+}
+
+.title-sub {
+    font-size: 18pt; /* Adjust subtitle size */
+}
+
+.time, .location {
+    font-size: 12pt; /* Adjust time and location font size */
+}
+
 .logo {
     width: 100%;
     padding: 2px 2px 2px 2px;
@@ -84,6 +106,13 @@ nav_order: 1
 
 
 </style>
+
+<div class="title">
+                <h2 class="title-main">1st UCLA-UCB Joint Workshop:</h2>
+                <h2 class="title-sub">Towards Next Generation of Open-Source Simulator for Embodied AI and Autonomous Driving</h2>
+                <h5 class="time">Time: 9:50 am to 1:00 pm, Feb 10, 2025</h5>
+                <h5 class="location">Location: 8034 Berkeley Way West</h5>
+</div>
 
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
