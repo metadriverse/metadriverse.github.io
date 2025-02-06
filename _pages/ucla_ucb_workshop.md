@@ -425,7 +425,7 @@ The workshop will take place on **Monday, Feb 10, 2025**, at **8034 Berkeley Way
 ---
 
 ## 🏆 Organizers
-### Principle Investigators:
+### Principal Investigators:
 <div class="row">
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
