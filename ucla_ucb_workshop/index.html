@@ -1,72 +1,241 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>UCLA-UCB MetaDriverse Workshop: 
-            Towards Next Generation of Open-Source Simulator for Embodied AI and Autonomous Driving
-            </title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Jack He">
-        <meta name="description" content="UCLA-UCB MetaDriverse Workshop">
-        <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css?cache=77333914184988801948">
-        <link rel="icon" type="image/png" href="figures/favicon.png"/>
-    </head>
-    <body>
-        <div id="navbar-top">
-        <nav class="navbar navbar-light px-3">
-            <a class="navbar-brand">UCLA-UCB MetaDriverse Workshop</a>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html#home">Home</a>
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UCLA-UCB Joint Workshop | MetaDriverse</title>
+    <meta name="author" content="  MetaDriverse">
+    <meta name="description" content="Towards Next Generation of Open-Source Simulator for Embodied AI and Autonomous Driving">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+    <!-- Chenda additional setting -->
+    <link rel="stylesheet" id="elementor-frontend-css" href="https://template.makedreamwebsite.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.9.0" media="all">
+    <link rel="stylesheet" id="elementor-post-1391-css" href="https://template.makedreamwebsite.com/wp-content/uploads/elementor/css/post-1391.css?ver=1670496920" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+    <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+    <!-- Magnific Popup CSS and JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%9A%98%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://metadriverse.github.io//ucla_ucb_workshop/">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><img class="navbar-logo" src="/assets/img/UCLAxMetaDriverse-Logo-3.png" alt="Lab logo"></a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Projects</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#about">About</a>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/metadrive/">MetaDrive</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#schedule">Schedule</a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/scenarionet/">ScenarioNet</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#speakers">Speakers</a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/team/">Zhou Lab at UCLA</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#organizers">Organizers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://metadriverse.github.io/metadrive/"
-                style="font-weight: bold;">
-                MetaDrive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://metadriverse.github.io/metaurban/"
-                style="font-weight: bold;">
-                MetaUrban</a>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
               </li>
             </ul>
-        </nav>
+          </div>
         </div>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <div class="jumbotron" id="home">
-            <div class="title">
-                <h2>1st UCLA-UCB MetaDriverse Workshop:</h2>
-                <h2>Towards Next Generation of Open-Source Simulator for Embodied AI and Autonomous Driving</h2>
-                <h5>Time: 9:50 am to 1:00 pm, Feb 10, 2025</h5>
-                <h5>Location: 8034 Berkeley Way West</h5>
-            </div>
+      </nav>
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container-fluid mt-5">
+      
+      <div class="row justify-content-md-center">
+        <div class="col-sm-8">
+          <!-- research.html -->
+<div class="post">
+    <header class="post-header center-text">
+        <h1 class="post-title">1st UCLA-UCB Joint Workshop</h1>
+        <p class="post-description">Towards Next Generation of Open-Source Simulator for Embodied AI and Autonomous Driving</p>
+        
+        <div class="col-12 md-5" align="center">
+            <h6 style="text-align: center; font-size: 1.2rem;">
+                
+                
+                
+                
+                
+                
+            </h6>
+        </div>
+    </header>
+
+
+    <article>
+        
+        
+        <div class="research-section">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<style>
+.logo {
+    width: 100%;
+    padding: 2px 2px 2px 2px;
+    margin: 0px 0px 1px 0px;
+    object-fit: contain;
+}
+
+.caption {
+    padding: 3px 0px 3px 0px;
+    margin: 0px 0px 3px 0px;
+    text-align: center;
+    font-size: 14pt;
+}
+.caption span {
+    font-size: 10pt;
+}
+.caption a:hover {text-decoration:none;}
+
+.carousel-item {
+    text-align: center;
+}
+.carousel-caption {
+    background: rgba(230, 230, 230, 0.9);
+}
+
+.thumbnail {
+    padding: 2px 2px 2px 2px;
+    margin: 0px 0px 1px 0px;
+}
+
+.thumbnail img {
+    height: 200px;
+    object-fit: scale-down;
+    width: 100%;
+}
+@media (min-width: 576px) {
+    .thumbnail img {
+        object-fit: cover;
+    }
+    .thumbnail img.top-left {
+        object-position: 0px 0px;
+    }
+}
+ 
+
+.thumbnail ul {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+}
+@media (hover: hover) {
+    .thumbnail div {
+        position: relative;
+        overflow: hidden;
+    }
+    .thumbnail ul {
+        background: rgba(200, 200, 200, 0.7);
+        position: absolute;
+        bottom: -100%;
+        left: 0px;
+        right: 0px;
+        transition: bottom 0.2s ease-in-out;
+    }
+    .thumbnail:hover ul {
+        bottom: 0px;
+    }
+}
+
+
+</style>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="15000">
-                      <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/metaurban short.mp4" type="video/mp4">
+                      <video autoplay="" muted="" loop="" height="500">
+                        <source src="/assets/img/ucla_ucb_workshop/carousel/metaurban%20short.mp4" type="video/mp4"></source>
                       </video>
                       <div class="carousel-caption d-none d-md-block">
                         <h5>MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility</h5>
@@ -74,16 +243,14 @@
                       </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="15000">
-                      <video autoplay muted loop height="500">
-                        <source src="gfx/carousel/metadrive_teaser.mp4" type="video/mp4">
+                      <video autoplay="" muted="" loop="" height="500">
+                        <source src="/assets/img/ucla_ucb_workshop/carousel/metadrive_teaser.mp4" type="video/mp4"></source>
                       </video>
                       <div class="carousel-caption d-none d-md-block">
                         <h5>MetaDrive: AI Research for Generalizable and Interpretable Machine Autonomy</h5>
                         <p>TPAMI 2021</p>
                       </div>
                     </div>
-                    
-                    
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,104 +261,108 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
+<!-- JavaScript to Control Video Playback on Slide Change -->
+<script>
+    // Select carousel element and all videos
+    const carousel = document.getElementById('carouselExampleDark');
+    const videos = document.querySelectorAll('.carousel-video');
 
-            <div class="content" id="about"><div class="row"><div class="col">
+    // Add event listener to handle slide change
+    carousel.addEventListener('slide.bs.carousel', function (event) {
+        // Pause all videos
+        videos.forEach(video => video.pause());
 
-            </div></div></div>
+        // Find the newly active slide and play the video inside it
+        const activeSlide = event.relatedTarget;
+        const video = activeSlide.querySelector('video');
+        if (video) {
+            video.play();
+        }
+    });
+</script>
+
+<hr>
+
+<h2 id="-schedule">📅 Schedule</h2>
+<p>The workshop will take place on <strong>Monday, Feb 10, 2025</strong>, at <strong>8034 Berkeley Way West</strong> (PST).</p>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT4Rxz3976F0y7fb3rvmvNH62oICvYBmKMuO1i5n083gjujX1dTCC-9j1ACbjJB5xs6bB-Xdopde2u1/pubhtml?gid=1254621366&amp;single=true&amp;chrome=false&amp;widget=false&amp;headers=false" width="100%" height="500">
+</iframe>
+
+<hr>
+
+<h2 id="-speakers">🎤 Speakers</h2>
+
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/speakers/Jitendra_Malik.jpg" alt="Jitendra Malik">
+                <ul class="social">
+                    <a href="https://people.eecs.berkeley.edu/~malik/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Jitendra Malik<br><span>University of California, Berkeley</span>
+            </div>
         </div>
-
-        <div class="section" id="schedule">
-            <div class="title">
-                <span>Schedule</span>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/speakers/angjoo_photo.jpg" alt="Angjoo Kanazawa">
+                <ul class="social">
+                    <a href="https://people.eecs.berkeley.edu/~kanazawa/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
             </div>
-            <div class="content">
-            <p>The workshop will take place on <strong>Monday Feb 10, 2025, 8034 Berkeley Way West </strong>.
-            Note that all times in the below schedule are in PST.</p>
-
-            <iframe 
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT4Rxz3976F0y7fb3rvmvNH62oICvYBmKMuO1i5n083gjujX1dTCC-9j1ACbjJB5xs6bB-Xdopde2u1/pubhtml?gid=1254621366&single=true&chrome=false&widget=false&headers=false"
-                width="100%" 
-                height="500">
-            </iframe>
-
-
+            <div class="caption">
+                Angjoo Kanazawa<br><span>University of California, Berkeley</span>
             </div>
         </div>
-
-        <div class="section" id="speakers">
-            <div class="title">
-                <span>Speakers</span>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/speakers/Trevor_Darrell.jpeg" alt="Trevor Darrell">
+                <ul class="social">
+                    <a href="https://people.eecs.berkeley.edu/~trevor/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/speakers/Jitendra_Malik.jpg" alt="Jitendra Malik">
-                            <ul class="social">
-                                <a href="https://people.eecs.berkeley.edu/~malik/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Jitendra Malik<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/speakers/angjoo_photo.jpg" alt="Angjoo Kanazawa">
-                            <ul class="social">
-                                <a href="https://people.eecs.berkeley.edu/~kanazawa/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Angjoo Kanazawa<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/speakers/Trevor_Darrell.jpeg" alt="Trevor Darrell">
-                            <ul class="social">
-                                <a href="https://people.eecs.berkeley.edu/~trevor/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Trevor Darrell<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/speakers/weizhan.webp" alt="Wei Zhan">
-                            <ul class="social">
-                                <a href="https://zhanwei.site/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Wei Zhan<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="caption">
+                Trevor Darrell<br><span>University of California, Berkeley</span>
             </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/speakers/weizhan.webp" alt="Wei Zhan">
+                <ul class="social">
+                    <a href="https://zhanwei.site/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Wei Zhan<br><span>University of California, Berkeley</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-            <div class="row">
+<div class="row">
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/spotlight/wayne.png" alt="Wayne Wu">
+                            <img src="/assets/img/ucla_ucb_workshop/spotlight/wayne.png" alt="Wayne Wu">
                             <ul class="social">
-                                <a href="https://wywu.github.io/">
+                                <a href="https://wywu.github.io/" rel="external nofollow noopener" target="_blank">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
                             </ul>
@@ -204,9 +375,9 @@
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/spotlight/honglin.webp" alt="Honglin He">
+                            <img src="/assets/img/ucla_ucb_workshop/spotlight/honglin.webp" alt="Honglin He">
                             <ul class="social">
-                                <a href="https://dhlinv.github.io/">
+                                <a href="https://dhlinv.github.io/" rel="external nofollow noopener" target="_blank">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
                             </ul>
@@ -219,9 +390,9 @@
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/spotlight/zhizheng.png" alt="Zhizheng Liu">
+                            <img src="/assets/img/ucla_ucb_workshop/spotlight/zhizheng.png" alt="Zhizheng Liu">
                             <ul class="social">
-                                <a href="https://scholar.google.com/citations?user=Asc7j9oAAAAJ&hl=en">
+                                <a href="https://scholar.google.com/citations?user=Asc7j9oAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
                             </ul>
@@ -234,9 +405,9 @@
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/spotlight/david.jpg" alt="David McAllister">
+                            <img src="/assets/img/ucla_ucb_workshop/spotlight/david.jpg" alt="David McAllister">
                             <ul class="social">
-                                <a href="https://mcallisterdavid.com/">
+                                <a href="https://mcallisterdavid.com/" rel="external nofollow noopener" target="_blank">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
                             </ul>
@@ -248,188 +419,178 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/hongsuk.png" alt="Hongsuk Choi">
-                            <ul class="social">
-                                <a href="https://hongsukchoi.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Hongsuk Choi<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/QianqianWang.jpg" alt="Qianqian Wang">
-                            <ul class="social">
-                                <a href="https://qianqianwang68.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Qianqian Wang<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/yifei.png" alt="Yifei Zhang">
-                            <ul class="social">
-                                <a href="https://forrest-110.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Yifei Zhang<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/grace.jpeg" alt="Grace Luo">
-                            <ul class="social">
-                                <a href="https://people.eecs.berkeley.edu/~graceluo/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Grace Luo<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/spotlight/hongsuk.png" alt="Hongsuk Choi">
+                <ul class="social">
+                    <a href="https://hongsukchoi.github.io/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
             </div>
-
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/junyi.jpg" alt="Junyi Zhang">
-                            <ul class="social">
-                                <a href="https://www.junyi42.com/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Junyi Zhang<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/sicheng.webp" alt="Sicheng Mo">
-                            <ul class="social">
-                                <a href="https://sichengmo.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Sicheng Mo<br><span>University of California, Los Angeles</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/spotlight/seth.png" alt="Seth Zhao">
-                            <ul class="social">
-                                <a href="https://sethzhao506.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Seth Zhao<br><span>University of California, Los Angeles</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="caption">
+                Hongsuk Choi<br><span>University of California, Berkeley</span>
             </div>
-
         </div>
-
-        <div class="section" id="organizers">
-            <div class="title">
-                <span>Organizers</span>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/spotlight/QianqianWang.jpg" alt="Qianqian Wang">
+                <ul class="social">
+                    <a href="https://qianqianwang68.github.io/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
             </div>
-            <div class="row">
-                <div class="title">
-                    <span>PIs:</span>
-                </div>
-                
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/organizers/bolei.jpg" alt="Bolei Zhou">
-                            <ul class="social">
-                                <a href="https://boleizhou.github.io/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Bolei Zhou<br><span>University of California, Los Angeles</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/speakers/angjoo_photo.jpg" alt="Angjoo Kanazawa">
-                            <ul class="social">
-                                <a href="https://people.eecs.berkeley.edu/~kanazawa/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Angjoo Kanazawa<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <div>
-                            <img src="gfx/speakers/Trevor_Darrell.jpeg" alt="Trevor Darrell">
-                            <ul class="social">
-                                <a href="https://people.eecs.berkeley.edu/~trevor/">
-                                    <li class="icon"><i class="fa fa-home"></i></li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class="caption">
-                            Trevor Darrell<br><span>University of California, Berkeley</span>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="caption">
+                Qianqian Wang<br><span>University of California, Berkeley</span>
             </div>
-            <div class="row">
-                <div class="title">
-                    <span>Workshop Coordinators:</span>
-                </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/spotlight/yifei.png" alt="Yifei Zhang">
+                <ul class="social">
+                    <a href="https://forrest-110.github.io/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Yifei Zhang<br><span>University of California, Berkeley</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/spotlight/grace.jpeg" alt="Grace Luo">
+                <ul class="social">
+                    <a href="https://people.eecs.berkeley.edu/~graceluo/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Grace Luo<br><span>University of California, Berkeley</span>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/spotlight/junyi.jpg" alt="Junyi Zhang">
+                <ul class="social">
+                    <a href="https://www.junyi42.com/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Junyi Zhang<br><span>University of California, Berkeley</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/spotlight/sicheng.webp" alt="Sicheng Mo">
+                <ul class="social">
+                    <a href="https://sichengmo.github.io/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Sicheng Mo<br><span>University of California, Los Angeles</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/spotlight/seth.png" alt="Seth Zhao">
+                <ul class="social">
+                    <a href="https://sethzhao506.github.io/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Seth Zhao<br><span>University of California, Los Angeles</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<h2 id="-organizers">🏆 Organizers</h2>
+<h3 id="principle-investigators">Principle Investigators:</h3>
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/organizers/bolei.jpg" alt="Bolei Zhou">
+                <ul class="social">
+                    <a href="https://boleizhou.github.io/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Bolei Zhou<br><span>University of California, Los Angeles</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/speakers/angjoo_photo.jpg" alt="Angjoo Kanazawa">
+                <ul class="social">
+                    <a href="https://people.eecs.berkeley.edu/~kanazawa/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Angjoo Kanazawa<br><span>University of California, Berkeley</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <div>
+                <img src="/assets/img/ucla_ucb_workshop/speakers/Trevor_Darrell.jpeg" alt="Trevor Darrell">
+                <ul class="social">
+                    <a href="https://people.eecs.berkeley.edu/~trevor/" rel="external nofollow noopener" target="_blank">
+                        <li class="icon"><i class="fa fa-home"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="caption">
+                Trevor Darrell<br><span>University of California, Berkeley</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<h3 id="workshop-coordinators">Workshop Coordinators:</h3>
+<div class="row">
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/organizers/wayne.png" alt="Wayne Wu">
+                            <img src="/assets/img/ucla_ucb_workshop/organizers/wayne.png" alt="Wayne Wu">
                             <ul class="social">
-                                <a href="https://wywu.github.io/">
+                                <a href="https://wywu.github.io/" rel="external nofollow noopener" target="_blank">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
                             </ul>
@@ -439,13 +600,12 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
                         <div>
-                            <img src="gfx/speakers/weizhan.webp" alt="Wei Zhan">
+                            <img src="/assets/img/ucla_ucb_workshop/speakers/weizhan.webp" alt="Wei Zhan">
                             <ul class="social">
-                                <a href="https://zhanwei.site/">
+                                <a href="https://zhanwei.site/" rel="external nofollow noopener" target="_blank">
                                     <li class="icon"><i class="fa fa-home"></i></li>
                                 </a>
                             </ul>
@@ -455,43 +615,158 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
-        </div>
-        <div class="section">
-            <div class="title">
-                <span>Sponsor</span>
-            </div>
-            <div class="row justify-content-center align-items-center">
-            <div class="col-xs-3 col-md-3 col-img">
-                <img src="gfx/logos/nsf.png" alt="NSF" class="logo">
-                </a> 
-            </div>
-            <div class="col-xs-4 col-md-4 col-img">
-                The workshop is supported by NSF CCRI grants 2235012 and 2235013.
-            </div> 
-            </div>
+
+<hr>
+
+<h2 id="️-sponsor">🎗️ Sponsor</h2>
+<div class="row justify-content-center align-items-center">
+    <div class="col-xs-3 col-md-3 col-img">
+        <img src="/assets/img/ucla_ucb_workshop/logos/nsf.png" alt="NSF" class="logo">
+    </div>
+    <div class="col-xs-4 col-md-4 col-img">
+        The workshop is supported by <b>NSF CCRI grants 2235012 and 2235013</b>.
+    </div> 
+</div>
 
         </div>
-
-        <!---
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end d-none d-md-block col-button">
-            <a class="btn btn-primary me-md-2" role="button" href="#home" >Top</a>
-        </div>-->
-
-        <script>
-            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-                target: '#navbar-top'
-            });
-        </script>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LXC9BQBBX"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
         
-          gtag('config', 'G-4LXC9BQBBX');
-        </script>
-    </body>
+
+    </article>
+</div>
+
+<script defer src="../assets/js/copy_code.js" type="text/javascript"></script>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        © Copyright 2025   MetaDriverse. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
 </html>
