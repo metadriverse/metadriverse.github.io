@@ -121,7 +121,7 @@ nav_order: 1
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="15000">
-                      <video autoplay muted loop height="500">
+                      <video autoplay muted loop width="100%">
                         <source src="/assets/img/ucla_ucb_workshop/carousel/metaurban short.mp4" type="video/mp4">
                       </video>
                       <div class="carousel-caption d-none d-md-block">
@@ -130,7 +130,7 @@ nav_order: 1
                       </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="15000">
-                      <video autoplay muted loop height="500">
+                      <video autoplay muted loop width="100%">
                         <source src="/assets/img/ucla_ucb_workshop/carousel/metadrive_teaser.mp4" type="video/mp4">
                       </video>
                       <div class="carousel-caption d-none d-md-block">
