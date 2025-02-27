@@ -3,6 +3,7 @@ layout: research
 permalink: /metavqa/
 title: "Embodied Scene Understanding for Vision Language Models via MetaVQA"
 page_title: "Embodied Scene Understanding for Vision Language Models via MetaVQA"
+description: "<h3>CVPR 2025</h3>"
 authors:
 
 - {name: "Weizhen Wang"}
@@ -18,6 +19,7 @@ institutions:
 nav: false
 nav_order: 1
 pdf_link: https://arxiv.org/abs/2501.09167
+code_link: https://metadriverse.github.io/metavqa/
 
 ---
 <style>
