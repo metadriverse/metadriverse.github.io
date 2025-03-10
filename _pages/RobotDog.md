@@ -14,7 +14,7 @@ institutions:
 - {name: "University of California, Los Angeles", institution: ""}
 
 
-description: "<h3>ICRA 2025 <b>Spotlight</b></h3>"
+description: "<h3>ICRA 2025</h3>"
 pdf_link: https://arxiv.org/pdf/2503.04969
 code_link: https://github.com/metadriverse/pvp4real
 nav: false
