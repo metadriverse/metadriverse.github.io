@@ -144,3 +144,19 @@ Human Following:
     </div>
 </div>
 
+
+
+<div class="research-section">
+<h3 style="text-align: center">Reference</h3>
+
+<pre><code class="language-plain">@article{peng2025data,
+  title={Data-Efficient Learning from Human Interventions for Mobile Robots},
+  author={Peng, Zhenghao and Liu, Zhizheng and Zhou, Bolei},
+  journal={arXiv preprint arXiv:2503.04969},
+  year={2025}
+}
+</code></pre>
+</div>
+
+
+
