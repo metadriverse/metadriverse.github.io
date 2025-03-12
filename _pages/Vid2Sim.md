@@ -19,7 +19,7 @@ institutions:
 
 nav: false
 nav_order: 1
-code_soon: https://metadriverse.github.io/vid2sim/
+code_link: https://github.com/Vid2Sim/Vid2Sim
 pdf_link: https://arxiv.org/abs/2501.06693
 
 ---
@@ -84,7 +84,7 @@ slides_link: https://docs.google.com/presentation/d/1X1nB9umPlWtNfuUjZObO6UNyyBU
 </style>
 
 <div class="video-container teaser">
-  <video loop controls autoplay muted playsinline src="../assets/img/vid2sim/Vid2Sim_long.mp4"></video>
+  <video loop autoplay muted playsinline src="../assets/img/vid2sim/Vid2Sim_long.mp4"></video>
 </div>
 
 
