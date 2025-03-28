@@ -3,11 +3,11 @@ layout: research
 permalink: /metaurban/
 title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
 page_title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
-description: "<h3>ICLR 2025 Spotlight</h3>"
+description: "<h3 style='color:red'>ICLR 2025 Spotlight</h3>"
 authors:
 
-- {name: "Wayne Wu", url: "https://wywu.github.io/"}
-- {name: "Honglin He", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl"}
+- {name: "Wayne Wu<sup>*</sup>", url: "https://wywu.github.io/"}
+- {name: "Honglin He<sup>*</sup>", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl"}
 - {name: "Jack He", url: "https://jackhe313.github.io/"}
 - {name: "Yiran Wang", url: "https://www.linkedin.com/in/yrw3/"}
 - {name: "Chenda Duan", url: "https://chendaduan.com/"}
@@ -232,11 +232,11 @@ The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-23
 <div class="research-section">
 <h3 style="text-align: center">Reference</h3>
 
-<pre><code class="language-plain">@article{wu2024metaurban,
+<pre><code class="language-plain">@article{wu2025metaurban,
   title={MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility},
   author={Wu, Wayne and He, Honglin and He, Jack and Wang, Yiran and Duan, Chenda and Liu, Zhizheng and Li, Quanyi and Zhou, Bolei},
   journal={International Conference on Learning Representation},
-  year={2024}
+  year={2025}
 }
 </code></pre>
 </div>
