@@ -3,7 +3,7 @@ layout: research
 permalink: /metaurban/
 title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
 page_title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
-description: "<h3>ICLR 2025</h3>"
+description: "<h3>ICLR 2025 Spotlight</h3>"
 authors:
 
 - {name: "Wayne Wu", url: "https://wywu.github.io/"}
@@ -25,6 +25,11 @@ pdf_link: https://arxiv.org/abs/2407.08725
 code_link: https://github.com/metadriverse/metaurban
 
 ---
+<div class="research-section">
+    <div class="logo">
+        <img src="/assets/img/metaurban/logo.png" alt="MetaUrban Logo">
+    </div>
+</div>
 
 <div class="research-section">
     <h3 style="text-align: center">TL;DR</h3>
@@ -228,9 +233,9 @@ The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-23
 <h3 style="text-align: center">Reference</h3>
 
 <pre><code class="language-plain">@article{wu2024metaurban,
-  title={MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces},
-  author={Wu, Wayne and He, Honglin and Wang, Yiran and Duan, Chenda and He, Jack and Liu, Zhizheng and Li, Quanyi and Zhou, Bolei},
-  journal={arXiv preprint arXiv:2407.08725},
+  title={MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility},
+  author={Wu, Wayne and He, Honglin and He, Jack and Wang, Yiran and Duan, Chenda and Liu, Zhizheng and Li, Quanyi and Zhou, Bolei},
+  journal={International Conference on Learning Representation},
   year={2024}
 }
 </code></pre>
@@ -251,6 +256,16 @@ The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-23
     padding: 10px;
 }
 .white-background img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the image's aspect ratio intact */
+}
+.logo {
+    display: inline; /* Changed from inline-block if you want it to take the full width available */
+    width: 100%; /* Ensures it takes the full width of its parent container */
+    overflow: hidden; /* This will prevent any overflow outside this div */
+    padding: 10px;
+}
+.logo img {
     width: 100%; /* Makes the image responsive */
     height: auto; /* Keeps the image's aspect ratio intact */
 }
