@@ -1,7 +1,7 @@
 ---
 layout: research
 permalink: /pvp4real/
-title: "Human-in-the-loop Learning for Mobile Robots"
+title: "Data-Efficient Learning from Human Interventions for Mobile Robots"
 page_title: "Data-Efficient Learning from Human Interventions for Mobile Robots" 
 authors:
 
@@ -14,7 +14,9 @@ institutions:
 - {name: "University of California, Los Angeles", institution: ""}
 
 
-
+description: "<h3>ICRA 2025</h3>"
+pdf_link: https://arxiv.org/pdf/2503.04969
+code_link: https://github.com/metadriverse/pvp4real
 nav: false
 nav_order: 1
 ---
@@ -141,4 +143,20 @@ Human Following:
         </div>
     </div>
 </div>
+
+
+
+<div class="research-section">
+<h3 style="text-align: center">Reference</h3>
+
+<pre><code class="language-plain">@article{peng2025data,
+  title={Data-Efficient Learning from Human Interventions for Mobile Robots},
+  author={Peng, Zhenghao and Liu, Zhizheng and Zhou, Bolei},
+  journal={arXiv preprint arXiv:2503.04969},
+  year={2025}
+}
+</code></pre>
+</div>
+
+
 

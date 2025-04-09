@@ -3,11 +3,11 @@ layout: research
 permalink: /metaurban/
 title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
 page_title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
-description: "<h3>ICLR 2025</h3>"
+description: "<h3 style='color:red'>ICLR 2025 Spotlight</h3>"
 authors:
 
-- {name: "Wayne Wu", url: "https://wywu.github.io/"}
-- {name: "Honglin He", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl"}
+- {name: "Wayne Wu<sup>*</sup>", url: "https://wywu.github.io/"}
+- {name: "Honglin He<sup>*</sup>", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl"}
 - {name: "Jack He", url: "https://jackhe313.github.io/"}
 - {name: "Yiran Wang", url: "https://www.linkedin.com/in/yrw3/"}
 - {name: "Chenda Duan", url: "https://chendaduan.com/"}
@@ -21,10 +21,15 @@ institutions:
 
 nav: false
 nav_order: 1
-pdf_link: https://arxiv.org/abs/2407.08725
+pdf_link: https://openreview.net/pdf?id=kFsWpSxkFz
 code_link: https://github.com/metadriverse/metaurban
 
 ---
+<div class="research-section">
+    <div class="logo">
+        <img src="/assets/img/metaurban/logo.png" alt="MetaUrban Logo">
+    </div>
+</div>
 
 <div class="research-section">
     <h3 style="text-align: center">TL;DR</h3>
@@ -219,7 +224,7 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
 <h3 style="text-align: center">Acknowledgement</h3>
 <p>
-The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-2346267, and Intel Rising Star Faculty Award. We extend our gratitude for the excellent datasets, including 3D objects from <a href="https://github.com/allenai/objaverse-xl" target="_blank">Objaverse-XL</a> and <a href="https://omniobject3d.github.io/" target="_blank">OmniObject3D</a>, 3D humans from <a href="https://synbody.github.io/" target="_blank">SynBody</a>, and human motions from <a href="https://bedlam.is.tue.mpg.de/" target="_blank">BEDLAM</a>. Special thanks to Hao Zhu, Haiyi Mei, Jianglin Fu, Rongzhang Gu, Lei Yang, and Zhenghao Peng for their assistance and insightful discussions.
+The project was supported by the NSF Grants CNS-2235012, IIS-2339769, and TI-2346267, and the Intel Rising Star Faculty Award. We extend our gratitude for the excellent datasets, including 3D objects from <a href="https://github.com/allenai/objaverse-xl" target="_blank">Objaverse-XL</a> and <a href="https://omniobject3d.github.io/" target="_blank">OmniObject3D</a>, 3D humans from <a href="https://synbody.github.io/" target="_blank">SynBody</a>, and human motions from <a href="https://bedlam.is.tue.mpg.de/" target="_blank">BEDLAM</a>. Special thanks to Hao Zhu, Haiyi Mei, Jianglin Fu, Rongzhang Gu, Lei Yang, and Zhenghao Peng for their assistance and insightful discussions. Thank <a href="https://www.cocodelivery.com/" target="_blank">COCO Robot</a> for donating virtual and physical robots.
 </p>
 </div>
 
@@ -227,11 +232,11 @@ The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-23
 <div class="research-section">
 <h3 style="text-align: center">Reference</h3>
 
-<pre><code class="language-plain">@article{wu2024metaurban,
-  title={MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces},
-  author={Wu, Wayne and He, Honglin and Wang, Yiran and Duan, Chenda and He, Jack and Liu, Zhizheng and Li, Quanyi and Zhou, Bolei},
-  journal={arXiv preprint arXiv:2407.08725},
-  year={2024}
+<pre><code class="language-plain">@article{wu2025metaurban,
+  title={MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility},
+  author={Wu, Wayne and He, Honglin and He, Jack and Wang, Yiran and Duan, Chenda and Liu, Zhizheng and Li, Quanyi and Zhou, Bolei},
+  journal={International Conference on Learning Representation},
+  year={2025}
 }
 </code></pre>
 </div>
@@ -251,6 +256,16 @@ The project is supported by the NSF Grants CCRI-2235012, RI-2339769, and POSE-23
     padding: 10px;
 }
 .white-background img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the image's aspect ratio intact */
+}
+.logo {
+    display: inline; /* Changed from inline-block if you want it to take the full width available */
+    width: 100%; /* Ensures it takes the full width of its parent container */
+    overflow: hidden; /* This will prevent any overflow outside this div */
+    padding: 10px;
+}
+.logo img {
     width: 100%; /* Makes the image responsive */
     height: auto; /* Keeps the image's aspect ratio intact */
 }
