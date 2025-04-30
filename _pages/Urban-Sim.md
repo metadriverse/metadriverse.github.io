@@ -5,16 +5,17 @@ title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
 page_title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
 description: "<h3 style='color:red'>CVPR 2025 Hightlight</h3>"
 authors:
-  - {name: "Wayne Wu<sup>*</sup>", url: "https://wywu.github.io/"}
-  - {name: "Honglin He<sup>*</sup>", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl"}
-  - {name: "Chaoyuan Zhang", url: "#"}
-  - {name: "Jack He", url: "https://jackhe313.github.io/"}
-  - {name: "Seth Z. Zhao", url: "https://sethzhao506.github.io/"}
-  - {name: "Ran Gong", url: "#"}
-  - {name: "Quanyi Li", url: "https://quanyili.github.io/"}
-  - {name: "Bolei Zhou", url: "https://boleizhou.github.io/"}
+  - {name: "Wayne Wu<sup>*</sup>", url: "https://wywu.github.io/", institution: "1"}
+  - {name: "Honglin He<sup>*</sup>", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl", institution: "1"}
+  - {name: "Chaoyuan Zhang", url: "#", institution: "2"}
+  - {name: "Jack He", url: "https://jackhe313.github.io/", institution: "1"}
+  - {name: "Seth Z. Zhao", url: "https://sethzhao506.github.io/", institution: "1"}
+  - {name: "Ran Gong", url: "https://nikepupu.github.io/", institution: "1"}
+  - {name: "Quanyi Li", url: "https://quanyili.github.io/", institution: "1"}
+  - {name: "Bolei Zhou", url: "https://boleizhou.github.io/", institution: "1"}
 institutions:
-  - {name: "University of California, Los Angeles"}
+- {name: "University of California, Los Angeles", institution: "1"}
+- {name: "University of Washington", institution: "2"}
 nav: false
 nav_order: 1
 pdf_link: "#"
@@ -85,7 +86,7 @@ code_link: "https://github.com/metadriverse/urban-sim"
   <p><span class="special-font">URBAN-SIM</span> is a high-performance robot learning platform for autonomous micromobility.  It can automatically construct infinite <i>diverse</i> and <i>realistic</i> interactive urban scenes for large-scale robot learning while providing up to 2,600 fps high simulation performance with large-scale parallelization in a single Nvidia L40S GPU.</p>
 
   <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/asyn_scene_sampling.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/asyn_scene_sampling.mp4" type="video/mp4"/></video>
   </div>
   <br>
   <h6 style="text-align: center">Robot Training on Different Scales of Generated Scenes</h6>
@@ -118,7 +119,7 @@ code_link: "https://github.com/metadriverse/urban-sim"
 
 <!-- Scalability Experiments -->
 <div class="research-section">
-  <h3 style="text-align: center"><strong>How is the Scalability</strong></h3>
+  <h3 style="text-align: center"><strong>How is the Scalability?</strong></h3>
   <p>Experiments demonstrates <span class="special-font">URBAN-SIM</span> has strong scalability.</p>
   <ul>
     <li>Left: as the number of environments increases from 1 to 256, FPS scales significantly from 100 to 2,620 fps. GPU memory usage grows only slightly, with 256 environments occupying just 11.2 GB of the available 46 GB memory.</li>
@@ -133,7 +134,7 @@ code_link: "https://github.com/metadriverse/urban-sim"
 <!-- Acknowledgement -->
 <div class="research-section">
   <h3 style="text-align: center"><b>Acknowledgement</b></h3>
-  <p>The project was supported by the NSF grants CNS-2235012 and IIS-2339769, and ONR grant N000142512166. We extend our gratitude for the excellent assets, including 3D objects from Objaverse-XL, 3D humans from SynBody, and robots from IsaacLab.</p>
+  <p>The project was supported by the NSF grants CNS-2235012 and IIS-2339769, and ONR grant N000142512166. We extend our gratitude for the excellent assets, including 3D objects from Objaverse-XL, 3D humans from SynBody, and robots from IsaacLab. Thank <a href="https://www.cocodelivery.com/">COCO Robotics</a> for donating virtual and physical robots.</p>
 </div>
 
 <!-- Citation -->
