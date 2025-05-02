@@ -18,7 +18,7 @@ institutions:
 - {name: "University of Washington", institution: "2"}
 nav: false
 nav_order: 1
-pdf_link: "#"
+pdf_link: "http://arxiv.org/abs/2505.00690"
 code_link: "https://github.com/metadriverse/urban-sim"
 
 ---
