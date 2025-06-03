@@ -1,6 +1,6 @@
 ---
 layout: research
-permalink: /adv_bmt/
+permalink: /adv-bmt/
 title: "Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation"
 page_title: "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation"
 authors:
@@ -132,7 +132,7 @@ Will fill out with Arxiv paper bibtex.
 **[CAT (CoRL 2022)](https://metadriverse.github.io/cat/)**:
 Closed-loop adversarial training for safe end-to-end driving.
 
-**[MetaDrive (CoRL 2022)](https://metadriverse.github.io/metadrive/)**:
+**[MetaDrive (TPAMI 2021)](https://metadriverse.github.io/metadrive/)**:
 An open-source platform for large-scale traffic scenario simulation and modeling
 
 
