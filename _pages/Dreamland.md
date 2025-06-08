@@ -126,6 +126,10 @@ video {
       <source src="../assets/img/dreamland/control_sample_2.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <div class="dots" data-player="videoPlayer1">
+      <span class="dot active" data-src="../assets/img/dreamland/control_sample_2.mp4">●</span>
+      <span class="dot" data-src="../assets/img/dreamland/control_sample_1.mp4">●</span>
+    </div>
   </figure>
   <figure style="display: flex; flex-direction: column; gap: 8px;">
   <figcaption style="text-align: center; font-size: 30px;">
