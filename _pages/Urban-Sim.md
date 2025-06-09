@@ -37,7 +37,7 @@ code_link: "https://github.com/metadriverse/urban-sim"
 
 <div class="white-background">
     <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline>
-        <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/urbanSim_teaser.mp4" type="video/mp4"/>
+        <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/urbansim_teaser.mp4" type="video/mp4"/>
     </video>
 </div>
     
