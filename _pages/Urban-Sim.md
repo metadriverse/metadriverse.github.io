@@ -22,8 +22,6 @@ pdf_link: "http://arxiv.org/abs/2505.00690"
 code_link: "https://github.com/metadriverse/urban-sim"
 
 ---
-<h3 style="text-align: center"><strong>[Webpage is still updating!]</strong></h3>
-
 <!-- TL;DR Section -->
 <div class="research-section">
     <ol style="list-style-position: inside">
@@ -38,7 +36,9 @@ code_link: "https://github.com/metadriverse/urban-sim"
 <div class="research-section">
 
 <div class="white-background">
-    <img src="/assets/img/urbanSim/UrbanSim_teaser.png" alt="UrbanSim_teaser">
+    <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline>
+        <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/urbanSim_teaser.mp4" type="video/mp4"/>
+    </video>
 </div>
     
 </div>
@@ -86,10 +86,51 @@ code_link: "https://github.com/metadriverse/urban-sim"
   <p><span class="special-font">URBAN-SIM</span> is a high-performance robot learning platform for autonomous micromobility.  It can automatically construct infinite <i>diverse</i> and <i>realistic</i> interactive urban scenes for large-scale robot learning while providing up to 2,600 fps high simulation performance with large-scale parallelization in a single Nvidia L40S GPU.</p>
 
   <div class="video">
-            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/asyn_scene_sampling.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/training.mp4" type="video/mp4"/></video>
   </div>
   <br>
   <h6 style="text-align: center">Robot Training on Different Scales of Generated Scenes</h6>
+
+</div>
+
+<div class="research-section">
+  <h3 style="text-align: center"><strong>Evaluation in Simulator</strong></h3>
+  <p>With large-scale training on <span class="special-font">URBAN-SIM</span>, robots with different embodiments emerge different behaviors in same test environments.</p>
+
+  <div class="video">
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/evaluation.mp4" type="video/mp4"/></video>
+  </div>
+  <br>
+</div>
+
+<div class="research-section">
+  <h3 style="text-align: center"><strong>Evaluation in Real World</strong></h3>
+  <p>With large-scale training on <span class="special-font">URBAN-SIM</span>, policies can be deployed in unseen real-world environments.</p>
+
+  <div class="video">
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/real_world.mp4" type="video/mp4"/></video>
+  </div>
+  <br>
+</div>
+
+<div class="research-section">
+  <h3 style="text-align: center"><strong>VR Interface</strong></h3>
+  <p>In <span class="special-font">URBAN-SIM</span>, we provide VR interface for 1) demonstration data collection for imitation learning, and 2) flexible scene editing.</p>
+
+  <div class="video">
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/data_collect.mp4" type="video/mp4"/></video>
+  </div>
+  <br>
+  <h6 style="text-align: center">Immersive Data Collection in Urban Scenes</h6>
+
+  <br>
+
+  <div class="video">
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/customization.mp4" type="video/mp4"/></video>
+  </div>
+  <br>
+  <h6 style="text-align: center">Immersive Urban Scene Customization</h6>
+
 
 </div>
 
