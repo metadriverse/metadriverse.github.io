@@ -1,3 +1,6 @@
+> 2025-06-11 Jack Note:
+> Use `compress_video.sh` to compress all videos (mp4) in the input folder to the output folder.
+> bash compress_video.sh /path/to/input /path/to/output
 
 > 2024-11-16 PZH Note: 
 > Using homebrew to install rbenv works for me even in linux. Here is the command:
