@@ -3,7 +3,7 @@ layout: research
 permalink: /aim/
 title: "AIM: Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism"
 page_title: "Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism"
-description: "<h3>ICML 2025 <b>Poster</b></h3>"
+description: "<h3>ICML 2025</h3>"
 authors:
 
 - {name: "Haoyuan Cai", institution: "1"}
