@@ -93,20 +93,6 @@ BMT is a transformer-based motion prediction model, and is able to predict both 
 
 
 
-<!-- ## Experiment
-Adv-BMT scenarios improves over RL agents trained from Waymo datasets in terms of image safety and driving completions.
-
-<div class="img-container">
-    <img src="../assets/img/Adv-BMT/exp_table.png" class="my-image" alt="Image" style="width: 100%; margin: 10 auto;" />
-</div>
-
-research-section-splitter -->
-
-
-
-
-research-section-splitter -->
-
 ## Prior Works
 
 **[CAT (CoRL 2022)](https://metadriverse.github.io/cat/)**:
