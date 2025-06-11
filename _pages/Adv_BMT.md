@@ -40,7 +40,7 @@ pdf_link: https://metadriverse.github.io/assets/pdf/adv-bmt.pdf
 
 
 <div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_1.mp4"></video>
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_1_new.mp4"></video>
 </div>
 
 <!--research-section-splitter-->
@@ -80,7 +80,10 @@ BMT is a transformer-based motion prediction model, and is able to predict both 
 
 ## Diverse Adversarial Behaviors
 <div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_2.mp4"></video>
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_2_1.mp4"></video>
+</div>
+<div class="video-container">
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_2_2.mp4"></video>
 </div>
 <!--research-section-splitter-->
 
