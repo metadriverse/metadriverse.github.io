@@ -26,7 +26,7 @@ pdf_link:
 <style>
 .video-container {
   position: relative;
-  max-width: 80%; /* Adjust this value to control the maximum width of the video container */
+  max-width: 100%; /* Adjust this value to control the maximum width of the video container */
   margin: 0px auto 0; /* Optional: center the video container horizontally */
 }
 
@@ -39,7 +39,6 @@ pdf_link:
 </style>
 
 
-## Safety-critical Augmentations
 <div class="video-container">
   <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_1.mp4"></video>
 </div>
@@ -48,7 +47,7 @@ pdf_link:
 
 
 ## TL; DR
-:fire: **Adv-BMT** augments `diverse` and `realistic` collision interactions from real-world driving logs.
+:fire: **Adv-BMT** augments `diverse` and `realistic` collision interactions from a input real-world driving log.
 
 :star2: **Adv-BMT** generates collision interactions through adversarial initializations + reverse motion predictions.
 
@@ -58,13 +57,13 @@ pdf_link:
 
 
 
-## Adv-BMT Overview
+## Adv-BMT
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
     <img src="../assets/img/Adv-BMT/Adv-BMT_teaser.png" class="my-image" alt="Image" />
 </div>
 
-Adv-BMT takes a real-world driving log, and samples adversarial initializations. ....
+Adv-BMT is a two-staged pipeline: first, it initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT's reverse predictions. A rule-based rejection sampling mechanism is used to filter candidate trajectories from unsatisfactory adversarial initializations, and maintain realistic collision interactions. In the output, the new agent maintains realistic interactions with surrounding traffic.
 
 <!--research-section-splitter-->
 
@@ -75,7 +74,7 @@ Adv-BMT takes a real-world driving log, and samples adversarial initializations.
 <div class="img-container" style="width: 100%; margin: 0 auto;">
     <img src="../assets/img/Adv-BMT/BMT.png" class="my-image" alt="Image" />
 </div>
-Out BMT model is a transformer-based model, which conducts both forward and reverse motion simulations for vehicles, bicycles, and pedestrain agents.  
+BMT is a transformer-based motion prediction model, and is able to predict both future and history trajectories for vehicles, bicycles, and pedestrain agents.  
 <!--research-section-splitter-->
 
 
@@ -85,9 +84,10 @@ Out BMT model is a transformer-based model, which conducts both forward and reve
 </div>
 <!--research-section-splitter-->
 
+
 ## Safer Agent via Adversarial Learnings
 <div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/Safer_Agent_demo.mp4"></video>
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/Safer_Agent.mp4"></video>
 </div>
 <!--research-section-splitter-->
 
