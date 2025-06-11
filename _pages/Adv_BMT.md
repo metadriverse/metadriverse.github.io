@@ -38,83 +38,69 @@ pdf_link:
 }
 </style>
 
-## TL; DR
 
-:star2: **Adv-BMT** augments `diverse` and `realistic` collision scenarios from real-world driving logs.
-
-:star2: **Adv-BMT** generates collision interactions through adversarial initializations + reverse motion predictions via bidirectional motion transformer (BMT) model.
-
-:star2: We leverage **Adv-BMT** as a closed-loop generator for reinforcement learning environments in MetaDrive Simulator.
-
+## Safety-critical Augmentations
+<div class="video-container">
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_1.mp4"></video>
+</div>
 
 <!--research-section-splitter-->
 
+
+## TL; DR
+:fire: **Adv-BMT** augments `diverse` and `realistic` collision interactions from real-world driving logs.
+
+:star2: **Adv-BMT** generates collision interactions through adversarial initializations + reverse motion predictions.
+
+:blue_car: **Adv-BMT** can be leveraged as a closed-loop generator for reinforcement adversarial learnings.
+
+<!--research-section-splitter-->
+
+
+
+## Adv-BMT Overview
+
+<div class="img-container" style="width: 100%; margin: 0 auto;">
+    <img src="../assets/img/Adv-BMT/Adv-BMT_teaser.png" class="my-image" alt="Image" />
+</div>
+
+Adv-BMT takes a real-world driving log, and samples adversarial initializations. ....
+
+<!--research-section-splitter-->
 
 
 
 ## BMT Architecture
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/VIS-BMT.png" class="my-image" alt="Image" />
+    <img src="../assets/img/Adv-BMT/BMT.png" class="my-image" alt="Image" />
 </div>
-
-BMT has a transformer-based model architecture, with the initial real-world scene as input, and predicts the motion token sequence for either future agent motions (forward prediction) or history agent motions (reverse prediction). During token matching, BMT calculates ground-truth movements for each agent within the interval (0.5s), and match to the best candidate motion token with the minimum corner distance.
-
-<!--research-section-splitter-->
-
-
-
-## Safety-Critical Augmentations
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/safety_critical_augmentations_1.mp4"></video>
-</div>
-
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/safety_critical_augmentations_2.mp4"></video>
-</div>
-
-<!--research-section-splitter-->
-
-
-## Pedestrians and Bicycles Traffic Involved
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/pedestrians_bicycles_involved_1.mp4"></video>
-</div>
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/pedestrians_bicycles_involved_2.mp4"></video>
-</div>
+Out BMT model is a transformer-based model, which conducts both forward and reverse motion simulations for vehicles, bicycles, and pedestrain agents.  
 <!--research-section-splitter-->
 
 
 ## Diverse Adversarial Behaviors
 <div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/diverse_adversarial_behaviors_1.mp4"></video>
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_2.mp4"></video>
 </div>
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/diverse_adversarial_behaviors_2.mp4"></video>
-</div>
-
 <!--research-section-splitter-->
-## Used in RL trainings 
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/learned_safe_driving_1.mp4"></video>
-</div>
 
+## Safer Agent via Adversarial Learnings
 <div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/learned_safe_driving_2.mp4"></video>
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/Safer_Agent_demo.mp4"></video>
 </div>
 <!--research-section-splitter-->
 
 
 
-## Experiment
+<!-- ## Experiment
 Adv-BMT scenarios improves over RL agents trained from Waymo datasets in terms of image safety and driving completions.
 
 <div class="img-container">
     <img src="../assets/img/Adv-BMT/exp_table.png" class="my-image" alt="Image" style="width: 100%; margin: 10 auto;" />
 </div>
 
-<!--research-section-splitter-->
+research-section-splitter -->
 
 
 
