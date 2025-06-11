@@ -86,9 +86,16 @@ BMT is a transformer-based motion prediction model, and is able to predict both 
 
 
 ## Safer Agent via Adversarial Learnings
-<div class="video-container">
-  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/Safer_Agent.mp4"></video>
+<div class="video-container" style="width: 60%; ">
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/safer_agent_demo.mp4"></video>
 </div>
+<!--research-section-splitter-->
+
+## Adversarial RL Evaluations
+<div class="img-container" style="width: 60%; margin: 0 auto;">
+    <img src="../assets/img/Adv-BMT/rl_eval.png" class="my-image" alt="Image" />
+</div>
+
 <!--research-section-splitter-->
 
 
