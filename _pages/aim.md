@@ -4,6 +4,7 @@ permalink: /aim/
 title: "AIM: Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism"
 page_title: "Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism"
 description: "<h3>ICML 2025</h3>"
+
 authors:
 
 - {name: "Haoyuan Cai", institution: "1"}
@@ -34,7 +35,6 @@ pdf_link: https://metadriverse.github.io/assets/pdf/AIM.pdf
 ## Summary
 
 **Adaptive Intervention Mechanism (AIM)** is a robot-gated Interactive Imitation Learning (IIL) algorithm.
- 
 * AIM learns an adaptive intervention criterion via a proxy Q-function that mimics human decisions.
 * Human does not need to continuously monitor until AIM requests human help.
 
