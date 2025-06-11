@@ -34,9 +34,9 @@ pdf_link: https://metadriverse.github.io/assets/pdf/AIM.pdf
 ## Summary
 
 **Adaptive Intervention Mechanism (AIM)** is a robot-gated Interactive Imitation Learning (IIL) algorithm.
-
-* AIM does not rely on hand-crafted task reward functions.  
+ 
 * AIM learns an adaptive intervention criterion via a proxy Q-function that mimics human decisions.
+* AIM does not rely on hand-crafted task reward functions. 
 
 In experiments on continuous (MetaDrive) and discrete (MiniGrid) tasks, AIM:
 
