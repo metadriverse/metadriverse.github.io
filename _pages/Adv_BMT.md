@@ -16,8 +16,8 @@ institutions:
 
 nav: false
 nav_order: 1
-code_link: 
-pdf_link: 
+code_link: https://metadriverse.github.io/adv-bmt/
+pdf_link: https://metadriverse.github.io/adv-bmt/
 
 ---
 
@@ -105,13 +105,7 @@ research-section-splitter -->
 
 
 
-## Citation
-```BibTeX
-Will fill out with Arxiv paper bibtex.
-```
-
-
-<!--research-section-splitter-->
+research-section-splitter -->
 
 ## Prior Works
 
