@@ -18,7 +18,7 @@ institutions:
 
 nav: false
 nav_order: 1
-code_link: https://github.com/matthew-leng/Dreamland/
+code_link: https://metadriverse.github.io/dreamland//
 pdf_link: https://www.arxiv.org/abs/2506.08006
 
 ---
