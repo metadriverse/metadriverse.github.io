@@ -18,8 +18,8 @@ institutions:
 
 nav: false
 nav_order: 1
-code_link: https://metadriverse.github.io/dreamland/
-pdf_link: https://metadriverse.github.io/dreamland/
+code_link: https://github.com/matthew-leng/Dreamland/
+pdf_link: https://www.arxiv.org/abs/2506.08006
 
 ---
 
@@ -248,6 +248,13 @@ Dreamland demonstrates great **quality** and **controllability**, with **scalabi
 
 Dreamland supports editing a generated scene by adjusting the corresponding source scene.
 
+<pre><code class="language-plain">@article{mo2025dreamland,
+  title={Dreamland: Controllable World Creation with Simulator and Generative Models},
+  author={Sicheng Mo and Ziyang Leng and Leon Liu and Weizhen Wang and Honglin He and Bolei Zhou},
+  journal={Preprint},
+  year={2025}
+}
+</code></pre>
 
 <h3 style="margin-top: 30px">Acknowledgement</h3>
 <a href="https://github.com/nvidia-cosmos/cosmos-predict1">Cosmos-Predict1</a> and <a href="https://github.com/nvidia-cosmos/cosmos-transfer1">Cosmos-Transfer1</a> were used as the base generation models for video results.
