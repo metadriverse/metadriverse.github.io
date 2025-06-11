@@ -98,7 +98,7 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
     <h3 style="text-align: center">Parade of Dynamic Agents</h3>
 
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/crossroad.mp4" type="video/mp4"/></video>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/crossroad.mp4" type="video/mp4"/></video>
 </div>
 
 <div class="research-section">
@@ -128,16 +128,16 @@ code_link: https://github.com/metadriverse/metaurban
     <h4>Success Cases</h4>
     <div class="video-grid">
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success1.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/success1.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success2.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/success2.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success3.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/success3.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/success4.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/success4.mp4" type="video/mp4"/></video>
         </div>
     </div>
 
@@ -146,16 +146,16 @@ code_link: https://github.com/metadriverse/metaurban
     <h4>Failure Cases</h4>
     <div class="video-grid">
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail1.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/fail1.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail2.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/fail2.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail3.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/fail3.mp4" type="video/mp4"/></video>
         </div>
         <div class="video">
-            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/teaser/fail4.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/fail4.mp4" type="video/mp4"/></video>
         </div>
     </div>
 
@@ -166,12 +166,12 @@ code_link: https://github.com/metadriverse/metaurban
     <div class="video-grid">
         <div class="video">
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0001.mp4" type="video/mp4">
+            <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/Index_0001.mp4" type="video/mp4">
         </video>
         </div>
         <div class="video">
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0002.mp4" type="video/mp4">
+            <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/Index_0002.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -180,7 +180,7 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
     <h3 style="text-align: center">Traffic Rules</h3>
         <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-        <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0000.mp4" type="video/mp4">
+        <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/Index_0000.mp4" type="video/mp4">
         </video>
 </div>
 
@@ -190,12 +190,12 @@ code_link: https://github.com/metadriverse/metaurban
     <div class="video-grid">
         <div class="video">
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/UI1.mp4" type="video/mp4">
+            <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/UI1.mp4" type="video/mp4">
             </video>
         </div>
         <div class="video">
             <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-            <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/UI2.mp4" type="video/mp4">
+            <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/UI2.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -204,7 +204,7 @@ code_link: https://github.com/metadriverse/metaurban
 <div class="research-section">
     <h3 style="text-align: center">Interface for Human-in-the-loop Learning</h3>
         <video style="display:block; width:100%; height:auto;" muted controls playsinline>
-        <source src="https://raw.githubusercontent.com/metaurban-iclr-2025/metaurban-iclr-2025.github.io/main/assets/teaser/Index_0009.mp4" type="video/mp4">
+        <source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/metaurban/Index_0009.mp4" type="video/mp4">
         </video>
 </div>
 
