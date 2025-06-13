@@ -17,7 +17,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://metadriverse.github.io/adv-bmt/
-pdf_link: https://metadriverse.github.io/assets/pdf/adv-bmt.pdf
+pdf_link: https://arxiv.org/pdf/2506.09485
 
 ---
 
