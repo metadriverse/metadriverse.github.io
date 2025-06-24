@@ -3,7 +3,7 @@ layout: research
 permalink: /urban-sim/
 title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
 page_title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
-description: "<h3 style='color:red'>CVPR 2025 Hightlight</h3>"
+description: "<h3 style='color:red'>CVPR 2025 Highlight</h3><h3 style='color:black'>RSS MoMa Workshop, 2025</h3>"
 authors:
   - {name: "Wayne Wu<sup>*</sup>", url: "https://wywu.github.io/", institution: "1"}
   - {name: "Honglin He<sup>*</sup>", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl", institution: "1"}
