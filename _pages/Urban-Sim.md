@@ -98,7 +98,7 @@ code_link: "https://github.com/metadriverse/urban-sim"
   <p>With large-scale training on <span class="special-font">URBAN-SIM</span>, robots with different embodiments emerge different behaviors in same test environments.</p>
 
   <div class="video">
-            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/evaluation.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/evaluation_1.mp4" type="video/mp4"/></video>
   </div>
   <br>
 </div>
