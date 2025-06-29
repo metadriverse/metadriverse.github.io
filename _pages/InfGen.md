@@ -4,8 +4,8 @@ permalink: /infgen/
 title:  "InfGen: Scenario Generation as Next-Token-Group Prediction"
 page_title: "InfGen: Scenario Generation as Next-Token-Group Prediction"
 authors:
-  - {name: "Zhenghao Peng<sup>*</sup>", url: "https://pengzhenghao.github.io/"}
-  - {name: "Yuxin Liu<sup>*</sup>",  url: "#"}
+  - {name: "Zhenghao Peng", url: "https://pengzhenghao.github.io/"}
+  - {name: "Yuxin Liu",  url: "#"}
   - {name: "Bolei Zhou",            url: "https://boleizhou.github.io/"}
 institutions:
     - {name: "<p>University of California, Los Angeles</p>"}
