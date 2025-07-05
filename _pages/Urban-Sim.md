@@ -1,6 +1,6 @@
 ---
 layout: research
-permalink: /urban-sim/
+permalink: /urbansim/
 title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
 page_title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
 description: "<h3 style='color:red'>CVPR 2025 Highlight</h3><h3 style='color:black'>RSS MoMa Workshop, 2025</h3>"
