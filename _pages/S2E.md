@@ -18,8 +18,8 @@ pdf_link:
 code_link: https://github.com/metadriverse/S2E
 
 ---
-<div class="research-section">
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/s2e.mp4" type="video/mp4"/></video>
+<div class="video-container">
+  <video loop autoplay muted playsinline src="../assets/img/s2e/s2e.mp4"></video>
 </div>
 
 <div class="research-section">
@@ -68,7 +68,7 @@ code_link: https://github.com/metadriverse/S2E
 <div class="research-section">
     <h3 style="text-align: center">NavBench-GS: Closed-Loop 3DGS Navigation Benchmark</h3>
     
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/navben_gs.mp4" type="video/mp4"/> </video>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/navbench_gs.mp4" type="video/mp4"/> </video>
 
     <div class="logo">
         <img src="../assets/img/s2e/navben_gs.png" alt="navbengs">
@@ -83,17 +83,26 @@ code_link: https://github.com/metadriverse/S2E
 <div class="research-section">
     <h3 style="text-align: center">Real World Deployment</h3>
 
-    <h4 style="text-align: center">Scenarios with Static Obstacles</h4>
     <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/obstacles.mp4" type="video/mp4"/> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    Scenarios with Static Obstacles
+    </p>
     
-    <h4 style="text-align: center">Scenarios with Dynamic Pedestrians</h4>
     <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/pedestrians.mp4" type="video/mp4"/> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    Scenarios with Dynamic Pedestrians
+    </p>
 
-    <h4 style="text-align: center">Long-Horizon Navigation</h4>
     <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/longnav.mp4" type="video/mp4"/> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    Long-Horizon Navigation
+    </p>
 
-    <h4 style="text-align: center">Comparison with SOTAs</h4>
     <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/comparisons.mp4" type="video/mp4"/> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    Comparison with SOTAs
+    </p>
+    
 </div>
 
 
@@ -149,6 +158,19 @@ We extend our gratitude for the excellent assets, including 3D objects from Obja
 .video iframe {
     width: 100%; /* Ensures iframe takes the full width of the container */
     height: 250px; /* Fixed height for all videos */
+}
+
+.video-container {
+  position: relative;
+  max-width: 100%; /* Adjust this value to control the maximum width of the video container */
+  margin: 0px auto 0; /* Optional: center the video container horizontally */
+}
+
+.video-container video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media (max-width: 600px) {
