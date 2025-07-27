@@ -3,16 +3,13 @@ layout: research
 permalink: /s2e/
 title: "From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning"
 page_title: "From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning"
-description: "<h3 </h3>"
 authors:
-
 - {name: "Honglin He<sup>*</sup>", url: "https://wywu.github.io/"}
 - {name: "Yukai Ma<sup>*</sup>", url: "https://yukai-ma.github.io/"}
 - {name: "Wayne Wu", url: "https://wywu.github.io/"}
 - {name: "Bolei Zhou", url: "https://boleizhou.github.io/"}
 
 institutions:
-
 - {name: "University of California, Los Angeles"}
 
 nav: false
@@ -33,7 +30,6 @@ code_link: https://github.com/metadriverse/S2E
     2. 🔌 Introduces a plug-and-play <strong>Residual-Attention Module</strong> for efficient adaptation and scaling in RL.<br>
     3. 🧭 Releases <strong>NavBench-GS</strong>, a realistic 3D Gaussian Splatting benchmark for evaluating navigation performance in closed-loop, interactive, and physically grounded environments.
   </ul>
-    </ul>
 </div>
 
 
@@ -44,28 +40,43 @@ code_link: https://github.com/metadriverse/S2E
         <img src="../assets/img/s2e/s2e_model.png" alt="S2E Model">
     </div>
     
+    <p style="text-align: center; margin-top: 5px;">
+    S2E pipeline consists of two key components:
+    (1) Anchor-Guided Distribution Matching (AGDM): A framework that uses anchor-conditioned architecture to learn multi-modal trajectory distributions from offline real-world videos, improving model capability from the side of representation.
+    (2) Residual Attention Module (RAM): A lightweight residual design that fine-tunes pretrained attention blocks via reinforcement learning in simulation, enabling new behaviors (e.g., obstacle avoidance) while preserving general visual-motor priors.
+     </p>
 </div>
 
 <div class="research-section">
     <h3 style="text-align: center">Environments for Pretraining and Finetuning</h3>
 
     <h4 style="text-align: center">Pretraining on Video Datasets</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/pretrain.mp4" type="video/mp4"/>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/pretrain.mp4" type="video/mp4"/> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    We pretrain the model on large-scale real-world driving videos with goal and pre-sampled anchor. The model learns diverse, multimodal behaviors by aligning trajectories under anchor-guided supervision.
+    </p>
 
     <h4 style="text-align: center">Finetuning on URBAN-SIM Simulator</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/finetune.mp4" type="video/mp4"/>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/finetune.mp4" type="video/mp4"/> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    We further finetune the RAM blocks in the URBAN-SIM simulator using reinforcement learning. This stage enables the agent to learn interaction-heavy behaviors like obstacle avoidance while preserving pretrained visuomotor priors.
+    </p>
     
 </div>
 
 
 <div class="research-section">
     <h3 style="text-align: center">NavBench-GS: Closed-Loop 3DGS Navigation Benchmark</h3>
-
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/navben_gs.png" type="video/mp4"/>
+    
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/navben_gs.mp4" type="video/mp4"/> </video>
 
     <div class="logo">
         <img src="../assets/img/s2e/navben_gs.png" alt="navbengs">
     </div>
+
+    <p style="text-align: center; margin-top: 5px;">
+        We build NavBench-GS, a 3D Gaussian Splatting-based benchmark for evaluating navigation policies in closed-loop, visually reconstructed urban environments with simulated objects and pedestrians.
+    </p>
     
 </div>
 
@@ -73,16 +84,16 @@ code_link: https://github.com/metadriverse/S2E
     <h3 style="text-align: center">Real World Deployment</h3>
 
     <h4 style="text-align: center">Scenarios with Static Obstacles</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/obstacles.mp4" type="video/mp4"/>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/obstacles.mp4" type="video/mp4"/> </video>
     
     <h4 style="text-align: center">Scenarios with Dynamic Pedestrians</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/pedestrians.mp4" type="video/mp4"/>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/pedestrians.mp4" type="video/mp4"/> </video>
 
     <h4 style="text-align: center">Long-Horizon Navigation</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/longnav.mp4" type="video/mp4"/>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/longnav.mp4" type="video/mp4"/> </video>
 
     <h4 style="text-align: center">Comparison with SOTAs</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/comparisons.mp4" type="video/mp4"/>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/comparisons.mp4" type="video/mp4"/> </video>
 </div>
 
 
