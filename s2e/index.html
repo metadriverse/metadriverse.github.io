@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning | MetaDriverse</title>
     <meta name="author" content="  MetaDriverse">
-    <meta name="description" content="&lt;h3 &lt;/h3&gt;">
+    <meta name="description" content="MetaDriverse for AI and Autonomy Research!
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
     <!-- Chenda additional setting -->
@@ -131,7 +132,6 @@
     <header class="post-header center-text">
         <h1 class="post-title">From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning</h1>
         <p class="post-description"></p>
-<h3>
         
         <div class="col-12 md-5" style="margin-bottom: 2rem;">
             <h6 style="text-align: center; font-size: 1.2rem; margin-bottom: 0.5rem;">
@@ -174,7 +174,7 @@
                 
             </h6>
         </div>
-    </h3></header>
+    </header>
 
 
     <article>
@@ -193,7 +193,6 @@
     2. 🔌 Introduces a plug-and-play <strong>Residual-Attention Module</strong> for efficient adaptation and scaling in RL.<br>
     3. 🧭 Releases <strong>NavBench-GS</strong>, a realistic 3D Gaussian Splatting benchmark for evaluating navigation performance in closed-loop, interactive, and physically grounded environments.
   </ul>
-    &lt;/ul&gt;
 </div>
 
 <div class="research-section">
@@ -203,48 +202,60 @@
         <img src="../assets/img/s2e/s2e_model.png" alt="S2E Model">
     </div>
     
+    <p style="text-align: center; margin-top: 5px;">
+    S2E pipeline consists of two key components:
+    (1) Anchor-Guided Distribution Matching (AGDM): A framework that uses anchor-conditioned architecture to learn multi-modal trajectory distributions from offline real-world videos, improving model capability from the side of representation.
+    (2) Residual Attention Module (RAM): A lightweight residual design that fine-tunes pretrained attention blocks via reinforcement learning in simulation, enabling new behaviors (e.g., obstacle avoidance) while preserving general visual-motor priors.
+     </p>
 </div>
 
 <div class="research-section">
     <h3 style="text-align: center">Environments for Pretraining and Finetuning</h3>
 
     <h4 style="text-align: center">Pretraining on Video Datasets</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/pretrain.mp4" type="video/mp4"></source>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/pretrain.mp4" type="video/mp4"></source> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    We pretrain the model on large-scale real-world driving videos with goal and pre-sampled anchor. The model learns diverse, multimodal behaviors by aligning trajectories under anchor-guided supervision.
+    </p>
 
     <h4 style="text-align: center">Finetuning on URBAN-SIM Simulator</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/finetune.mp4" type="video/mp4"></source>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/finetune.mp4" type="video/mp4"></source> </video>
+    <p style="text-align: center; margin-top: 5px;">
+    We further finetune the RAM blocks in the URBAN-SIM simulator using reinforcement learning. This stage enables the agent to learn interaction-heavy behaviors like obstacle avoidance while preserving pretrained visuomotor priors.
+    </p>
     
-&lt;/div&gt;
-
+</div>
 
 <div class="research-section">
     <h3 style="text-align: center">NavBench-GS: Closed-Loop 3DGS Navigation Benchmark</h3>
-
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/navben_gs.png" type="video/mp4"></source>
+    
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/navben_gs.mp4" type="video/mp4"></source> </video>
 
     <div class="logo">
         <img src="../assets/img/s2e/navben_gs.png" alt="navbengs">
     </div>
+
+    <p style="text-align: center; margin-top: 5px;">
+        We build NavBench-GS, a 3D Gaussian Splatting-based benchmark for evaluating navigation policies in closed-loop, visually reconstructed urban environments with simulated objects and pedestrians.
+    </p>
     
-&lt;/div&gt;
+</div>
 
 <div class="research-section">
     <h3 style="text-align: center">Real World Deployment</h3>
 
     <h4 style="text-align: center">Scenarios with Static Obstacles</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/obstacles.mp4" type="video/mp4"></source>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/obstacles.mp4" type="video/mp4"></source> </video>
     
     <h4 style="text-align: center">Scenarios with Dynamic Pedestrians</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/pedestrians.mp4" type="video/mp4"></source>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/pedestrians.mp4" type="video/mp4"></source> </video>
 
     <h4 style="text-align: center">Long-Horizon Navigation</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/longnav.mp4" type="video/mp4"></source>
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/longnav.mp4" type="video/mp4"></source> </video>
 
     <h4 style="text-align: center">Comparison with SOTAs</h4>
-    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/comparisons.mp4" type="video/mp4"></source>
-&lt;/div&gt;
-
-
+    <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted="" loop="loop" controls="" playsinline=""><source src="../assets/img/s2e/comparisons.mp4" type="video/mp4"></source> </video>
+</div>
 
 <div class="research-section">
 <h3 style="text-align: center">Acknowledgement</h3>
@@ -253,14 +264,12 @@ We extend our gratitude for the excellent assets, including 3D objects from Obja
 </p>
 </div>
 
-
 <div class="research-section">
 <h3 style="text-align: center">Reference</h3>
 
 <pre><code class="language-plain">
 </code></pre>
 </div>
-
 
 <style>
 .custom-heading {
@@ -310,12 +319,6 @@ We extend our gratitude for the excellent assets, including 3D objects from Obja
 }
 </style>
 
-
-
-</video></video></video></video>
-</div></video>
-</div></video></video>
-</div>
 
         </div>
         
