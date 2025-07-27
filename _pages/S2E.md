@@ -35,10 +35,8 @@ code_link: https://github.com/metadriverse/S2E
 
 <div class="research-section">
     <h3 style="text-align: center">S2E Model Architecture</h3>
-
-    <div class="logo">
-        <img src="../assets/img/s2e/s2e_model.png" alt="S2E Model">
-    </div>
+  
+    <img src="../assets/img/s2e/s2e_model.png" alt="navbench-gs" style="display: block; margin: 10px auto; width: 100%; height: auto;" />
     
     <p style="margin-top: 5px;">
     S2E pipeline consists of two key components:<br>
@@ -64,9 +62,7 @@ code_link: https://github.com/metadriverse/S2E
     
     <video style="display:block; width:100%; height:auto;" autoplay="autoplay" muted loop="loop" controls playsinline><source src="../assets/img/s2e/navbench_gs.mp4" type="video/mp4"/> </video>
 
-    <div class="logo">
-        <img src="../assets/img/s2e/navben_gs.png" alt="navbengs">
-    </div>
+    <img src="../assets/img/s2e/navben_gs.png" alt="navbench-gs" style="display: block; margin: 10px auto; width: 100%; height: auto;" />
 
     <p style="margin-top: 5px;">
         We build NavBench-GS, a 3D Gaussian Splatting-based benchmark for evaluating navigation policies in closed-loop, visually reconstructed urban environments with simulated objects and pedestrians.
