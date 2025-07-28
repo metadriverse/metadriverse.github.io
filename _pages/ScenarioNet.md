@@ -2,7 +2,7 @@
 layout: page-notitle
 permalink: /scenarionet/
 title: ScenarioNet
-nav: true
+nav: false
 nav_order: 2
 ---
 

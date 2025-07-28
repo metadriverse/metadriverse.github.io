@@ -4,7 +4,7 @@ permalink: /metadrive/
 title: MetaDrive
 page_title: MetaDrive
 description: "MetaDrive: AI Research for Generalizable and Interpretable Machine Autonomy"
-nav: true
+nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/metadrive
 pdf_link: https://arxiv.org/pdf/2109.12674.pdf
