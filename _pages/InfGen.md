@@ -12,6 +12,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/infgen
+pdf_link: https://arxiv.org/pdf/2506.23316
 ---
 
 
@@ -87,3 +88,14 @@ Generates both initial states, traffic light signals, and traffic participant tr
 <div class="video-container">
   <video loop autoplay muted playsinline src="../assets/img/infgen/infgen_densified_and_extended_scenario.mp4"></video>
 </div>
+
+
+<!--research-section-splitter-->
+
+<pre><code class="language-plain">@article{peng2025infgen,
+  title={InfGen: Scenario Generation as Next Token Group Prediction},
+  author={Peng, Zhenghao and Liu, Yuxin and Zhou, Bolei},
+  journal={arXiv preprint arXiv:2506.23316},
+  year={2025}
+}
+</code></pre>
