@@ -14,8 +14,8 @@ institutions:
 
 nav: false
 nav_order: 1
-pdf_link: 
 code_link: https://github.com/metadriverse/S2E
+pdf_link: https://arxiv.org/pdf/2507.22028
 
 ---
 <div class="video-container">
@@ -108,7 +108,12 @@ We extend our gratitude for the excellent assets, including 3D objects from Obja
 <div class="research-section">
 <h3 style="text-align: center">Reference</h3>
 
-<pre><code class="language-plain">
+<pre><code class="language-plain">@article{he2025from,
+  title={From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning},
+  author={He, Honglin and Ma, Yukai and Wu, Wayne and Zhou, Bolei},
+  journal={arXiv preprint arXiv:2507.22028},
+  year={2025}
+}
 </code></pre>
 </div>
 
