@@ -1,9 +1,9 @@
 ---
 layout: research
-permalink: /urban-sim/
+permalink: /urbansim/
 title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
 page_title: "Towards Autonomous Micromobility through Scalable Urban Simulation"
-description: "<h3 style='color:red'>CVPR 2025 Hightlight</h3>"
+description: "<h3 style='color:red'>CVPR 2025 Highlight</h3><h3 style='color:black'>RSS MoMa Workshop, 2025</h3>"
 authors:
   - {name: "Wayne Wu<sup>*</sup>", url: "https://wywu.github.io/", institution: "1"}
   - {name: "Honglin He<sup>*</sup>", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl", institution: "1"}
@@ -98,7 +98,7 @@ code_link: "https://github.com/metadriverse/urban-sim"
   <p>With large-scale training on <span class="special-font">URBAN-SIM</span>, robots with different embodiments emerge different behaviors in same test environments.</p>
 
   <div class="video">
-            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/evaluation.mp4" type="video/mp4"/></video>
+            <video style="display:block; width:100%; height:auto;" autoplay loop muted controls playsinline><source src="https://raw.githubusercontent.com/metadriverse/metadriverse.github.io/main/assets/img/urbanSim/evaluation_1.mp4" type="video/mp4"/></video>
   </div>
   <br>
 </div>
