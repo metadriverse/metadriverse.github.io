@@ -771,12 +771,14 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
-  border-bottom: 1px dashed var(--global-text-color);
-  color: var(--global-text-color);
 }
 .publications ol.bibliography li .author a:hover {
   border-bottom-style: solid;
   text-decoration: none;
+}
+.publications ol.bibliography li .author a {
+  border-bottom: 1px dashed var(--global-text-color);
+  color: var(--global-text-color);
 }
 .publications ol.bibliography li .author > em {
   border-bottom: 1px solid;
@@ -1345,10 +1347,6 @@ nav[data-toggle=toc] .nav-link.active:hover {
   height: auto;
 }
 
-.infinite-scroll-gallery {
-  /* Styles for tablet */
-  /* Styles for mobile */
-}
 .infinite-scroll-gallery .image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -1392,10 +1390,16 @@ nav[data-toggle=toc] .nav-link.active:hover {
   color: #fff;
   text-decoration: none;
 }
+.infinite-scroll-gallery {
+  /* Styles for tablet */
+}
 @media screen and (max-aspect-ratio: 1/1) {
   .infinite-scroll-gallery .image, .infinite-scroll-gallery .sizer {
     width: 100%; /* approximately 2 images per row, considering the margins */
   }
+}
+.infinite-scroll-gallery {
+  /* Styles for mobile */
 }
 @media screen and (max-aspect-ratio: 2/3) {
   .infinite-scroll-gallery .image, .infinite-scroll-gallery .sizer {
