@@ -18,7 +18,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://metadriverse.github.io/ppl/
-pdf_link: https://metadriverse.github.io/assets/img/ppl/paper_temp.pdf
+pdf_link: https://metadriverse.github.io/ppl/
 ---
 
 
