@@ -21,9 +21,6 @@ code_link: https://metadriverse.github.io/ppl/
 pdf_link: https://metadriverse.github.io/ppl/
 ---
 
-
-## Introduction Video
-
 <div class="embed-responsive embed-responsive-16by9" style="width: 70%; margin: 0 auto;">
     <video  loop autoplay muted playsinline src="../assets/img/ppl/sd.mp4">
     </video>
@@ -152,9 +149,12 @@ We also verify that PPL is robust to noises in the trajectory prediction model. 
 
 ## Demo Video
 
-<div class="embed-responsive embed-responsive-16by9" style="width: 70%; margin: 0 auto;">
-  <iframe width="100%" height="100%" style="width: 101.5%; height: 101.5%; left: -0.5%; top: -0.5%;" src="https://github.com/user-attachments/assets/f95fdd54-1345-4e26-be2e-98c223c19240" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<div class="embed-responsive embed-responsive-16by9" style="width: 90%; margin: 0 auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/__Zv9C-BiiY?si=G1DTyPRewdfAuoxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+
+
 <!--research-section-splitter-->
 
 ## Reference
