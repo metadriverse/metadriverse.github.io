@@ -3,6 +3,7 @@ layout: research
 permalink: /adv-bmt/
 title: "Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation"
 page_title: "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation"
+description: "<h3>NeurIPS 2025</h3>"
 authors:
 
 - {name: "Yuxin Liu<sup>*</sup>", institution: "1"}
