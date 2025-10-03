@@ -18,7 +18,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://metadriverse.github.io/ppl/
-pdf_link: https://metadriverse.github.io/ppl/
+pdf_link: https://arxiv.org/pdf/2510.01545
 ---
 
 <div class="embed-responsive embed-responsive-16by9" style="width: 70%; margin: 0 auto;">
