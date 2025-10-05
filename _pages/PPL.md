@@ -22,13 +22,11 @@ pdf_link: https://arxiv.org/pdf/2510.01545
 ---
 
 <div class="embed-responsive embed-responsive-16by9" style="width: 70%; margin: 0 auto;">
-    <video  loop autoplay muted playsinline src="../assets/img/ppl/sd.mp4">
+    <video  loop autoplay muted playsinline src="../assets/img/ppl/longdemo.mp4">
     </video>
 </div>
 <!--research-section-splitter-->
 
-
-<!-- 视频短一点，剪一下Section 2放过来 把takeover cost删掉，字幕框遮挡，目标是take over rate 过肩，整个手的操作。目标是说明手逐渐独立。每一段显示start, after 5min , 10 min, (看sparse) ... 30s足够放到最前面，更完整的放到最下面。 方法2：录制两个机位。类似Mingxuan的工作。不控的时候刻意的展开手，目标是展示。 手部要完整。 -->
 
 ## Summary
 
