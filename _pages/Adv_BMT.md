@@ -12,7 +12,6 @@ authors:
 - {name: "Bolei Zhou", url: "https://boleizhou.github.io", institution: "1"}
 
 institutions:
-
 - {name: "University of California, Los Angeles", institution: "1"}
 
 nav: false
@@ -46,13 +45,12 @@ pdf_link: https://arxiv.org/pdf/2506.09485
 
 <!--research-section-splitter-->
 
-
 ## TL; DR
-:fire: **Adv-BMT** augments `diverse` and `realistic` collision interactions from a input real-world driving log.
+:blue_car: Adv-BMT for **data augmentation**: augments real-world driving logs with `realistic` and `diverse`  collision interactions.
 
-:star2: **Adv-BMT** generates collision interactions through adversarial initializations + reverse motion predictions.
+:hammer_and_wrench: Adv-BMT is a **two-stage generation pipeline**: adversarial initialization + reverse motion prediction to produce plausible collision scenarios.
 
-:blue_car: **Adv-BMT** can be leveraged as a closed-loop generator for reinforcement adversarial learnings.
+:motorway: Adv-BMT is an **adversarial scenario generator for closed-loop learning**: continuously produces diverse, realistic, collision-seeking interactions that target the ego vehicle.
 
 <!--research-section-splitter-->
 
@@ -95,9 +93,15 @@ BMT is a transformer-based motion prediction model, and is able to predict both 
 </div>
 <!--research-section-splitter-->
 
-## Adversarial RL Evaluations
-<div class="img-container" style="width: 60%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/rl_eval.png" class="my-image" alt="Image" />
+## Adversarial RL Evaluations in Waymo Environments
+<div class="img-container" style="width: 60%; height: 120%; margin: 0 auto;">
+    <img src="../assets/img/Adv-BMT/adv-bmt_waymo_eval.jpg" class="my-image" alt="Image" />
+</div>
+
+
+## Adversarial RL Evaluated in Safety-critical Environments
+<div class="img-container" style="width: 60%; height: 120% ;margin: 0 auto;">
+    <img src="../assets/img/Adv-BMT/adv-bmt_safety_critical_eval.jpg" class="my-image" alt="Image" />
 </div>
 
 <!--research-section-splitter-->
