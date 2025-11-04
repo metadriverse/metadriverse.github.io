@@ -20,7 +20,7 @@ institutions:
 nav: false
 nav_order: 1
 code_link: https://github.com/metadriverse/PVP
-pdf_link: https://openreview.net/pdf?id=q8SukwaEBy
+pdf_link: https://arxiv.org/pdf/2502.03369
 poster_link: ../assets/img/pvp/PVP-Poster.pdf
 ---
 
