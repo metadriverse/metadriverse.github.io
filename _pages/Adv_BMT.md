@@ -6,22 +6,19 @@ page_title: "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traff
 description: "<h3>NeurIPS 2025</h3>"
 authors:
 
-- {name: "Yuxin Liu<sup>*</sup>", institution: "1"}
-- {name: "Zhenghao Peng<sup>*</sup>", url: "https://pengzhenghao.github.io", institution: "1"}
-- {name: "Xuanhao Cui",  institution: "1"}
-- {name: "Bolei Zhou", url: "https://boleizhou.github.io", institution: "1"}
+- {name: "Yuxin Liu<sup>*</sup>", url: "https://www.linkedin.com/in/yuxinclaire/"}
+- {name: "Zhenghao Peng<sup>*</sup>", url: "https://pengzhenghao.github.io"}
+- {name: "Xuanhao Cui", url: "https://www.linkedin.com/in/xuanhao-cui-459856225/"}
+- {name: "Bolei Zhou", url: "https://boleizhou.github.io"}
 
 institutions:
-- {name: "University of California, Los Angeles", institution: "1"}
+- {name: "University of California, Los Angeles"}
 
 nav: false
 nav_order: 1
 code_link: https://github.com/Yuxin45/Adv-BMT
 pdf_link: https://arxiv.org/pdf/2506.09485
-
 ---
-
-
 
 <style>
 .video-container {
@@ -46,11 +43,11 @@ pdf_link: https://arxiv.org/pdf/2506.09485
 <!--research-section-splitter-->
 
 ## TL; DR
-:blue_car: Adv-BMT for **data augmentation**: augments real-world driving logs with `realistic` and `diverse`  collision interactions.
+:blue_car: Adv-BMT augments real-world driving logs with `realistic` and `diverse`  collision interactions.
 
-:hammer_and_wrench: Adv-BMT is a **two-stage generation pipeline**: adversarial initialization + reverse motion prediction to produce plausible collision scenarios.
+:blue_car: Adv-BMT contains three steps: (1) adversarial initialization (2) reverse motion prediction, and (3) rule-based fallbacks.
 
-:motorway: Adv-BMT is an **adversarial scenario generator for closed-loop learning**: continuously produces diverse, realistic, collision-seeking interactions that target the ego vehicle.
+:blue_car: Adv-BMT is an **adversarial scenario generator for closed-loop learning**: continuously produces diverse accident interactions targeting at the ego vehicle.
 
 <!--research-section-splitter-->
 
@@ -59,11 +56,10 @@ pdf_link: https://arxiv.org/pdf/2506.09485
 ## Adv-BMT
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/Adv-BMT_teaser.png" class="my-image" alt="Image" />
+    <img src="../assets/img/Adv-BMT/Adv-BMT.png" class="my-image" alt="Image" />
 </div>
 
-Adv-BMT is a two-staged pipeline: first, it initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT's reverse predictions. A rule-based rejection sampling mechanism is used to filter candidate trajectories from unsatisfactory adversarial initializations, and maintain realistic collision interactions. In the output, the new agent maintains realistic interactions with surrounding traffic.
-
+Adv-BMT first initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT's reverse predictions. A rule-based fallback mechanism is used to filter candidate trajectories from unsatisfactory adversarial initializations, and maintain realistic collision interactions. In the output, the new agent maintains realistic interactions with surrounding traffic.
 <!--research-section-splitter-->
 
 
