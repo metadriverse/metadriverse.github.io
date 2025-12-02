@@ -145,8 +145,17 @@ Human Following:
 </div>
 
 
+<!--research-section-splitter-->
 
-<div class="research-section">
+## Related Works from Us
+
+{% capture collection_hitl %}{% include_relative collection_human_in_the_loop.md %}{% endcapture %}
+{{ collection_hitl | markdownify }}
+
+
+
+<!--research-section-splitter-->
+
 <h3 style="text-align: center">Reference</h3>
 
 <pre><code class="language-plain">@article{peng2025data,
@@ -156,7 +165,7 @@ Human Following:
   year={2025}
 }
 </code></pre>
-</div>
+
 
 
 

@@ -103,6 +103,15 @@ A case study in a toy MetaDrive environment shows that our method AIM reduces ex
 <div class="img-container" style="width: 80%; margin: 0 auto;">
     <img src="../assets/img/aim/case-study.png" class="my-image" alt="Image" />
 </div>
+
+<!--research-section-splitter-->
+
+## Related Works from Us
+
+{% capture collection_hitl %}{% include_relative collection_human_in_the_loop.md %}{% endcapture %}
+{{ collection_hitl | markdownify }}
+
+
 <!--research-section-splitter-->
 
 

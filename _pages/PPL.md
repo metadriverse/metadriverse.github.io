@@ -17,7 +17,7 @@ institutions:
 
 nav: false
 nav_order: 1
-code_link: https://metadriverse.github.io/ppl/
+code_link: https://github.com/metadriverse/PPL
 pdf_link: https://arxiv.org/pdf/2510.01545
 ---
 
@@ -153,6 +153,16 @@ We also verify that PPL is robust to noises in the trajectory prediction model. 
 
 
 
+
+<!--research-section-splitter-->
+
+## Related Works from Us
+
+{% capture collection_hitl %}{% include_relative collection_human_in_the_loop.md %}{% endcapture %}
+{{ collection_hitl | markdownify }}
+
+
+
 <!--research-section-splitter-->
 
 ## Reference
@@ -166,7 +176,6 @@ We also verify that PPL is robust to noises in the trajectory prediction model. 
   year={2025}
 }   
 ```
-
 
 
 <!-- **Acknowledgement**: The project was supported by NSF grants CCF-2344955 and IIS-2339769. ZP is supported by the Amazon Fellowship via UCLA Science Hub. -->

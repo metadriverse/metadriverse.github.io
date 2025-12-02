@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /team/
-title: Zhou Lab at UCLA
+title: VAIL Lab at UCLA
 description: "Meet Our Team Member!"
 nav: true
 nav_order: 4
@@ -10,12 +10,12 @@ nav_order: 4
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=https://boleizhou.github.io/lab/" />
+  <meta http-equiv="refresh" content="0; url=https://vail-ucla.github.io/" />
   <script type="text/javascript">
-    window.location.href = "https://boleizhou.github.io/lab/";
+    window.location.href = "https://vail-ucla.github.io/";
   </script>
 </head>
 <body>
-  <p>If you are not redirected automatically, <a href="https://boleizhou.github.io/lab/">click here</a>.</p>
+  <p>If you are not redirected automatically, <a href="https://vail-ucla.github.io/">click here</a>.</p>
 </body>
 </html>
