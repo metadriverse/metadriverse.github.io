@@ -56,15 +56,15 @@ pdf_link: https://arxiv.org/pdf/2506.09485
 ## Adv-BMT
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/Adv-BMT.png" class="my-image" alt="Image" />
+    <img src="../assets/img/Adv-BMT/BMT_Architecture.png" class="my-image" alt="Image" />
 </div>
 
-Adv-BMT first initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT's reverse predictions. A rule-based fallback mechanism is used to filter candidate trajectories from unsatisfactory adversarial initializations, and maintain realistic collision interactions. In the output, the new agent maintains realistic interactions with surrounding traffic.
+Adv-BMT first initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT's reverse predictions. A rule-based fallback mechanism is used to reject candidate adversarial trajectories. In the output scene, the new adversarial agent maintains realistic interactions with surrounding traffic.  
 <!--research-section-splitter-->
 
 
 
-## BMT Architecture
+## BMT for Bidirectional Motion Prediction
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
     <img src="../assets/img/Adv-BMT/BMT.png" class="my-image" alt="Image" />
@@ -111,6 +111,26 @@ Closed-loop adversarial training for safe end-to-end driving.
 
 **[MetaDrive (TPAMI 2021)](https://metadriverse.github.io/metadrive/)**:
 An open-source platform for large-scale traffic scenario simulation and modeling
+
+
+<!--research-section-splitter-->
+
+## Reference
+
+**Predictive Preference Learning from Human Interventions (NeurIPS 2025 Spotlight)**:
+```plain
+@inproceedings{
+liu2025bidirectional,
+title={Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation},
+author={Yuxin Liu and Zhenghao Peng and Xuanhao Cui and Bolei Zhou},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=avZ01E4aYt}
+}
+```
+
+<!-- **Acknowledgement**: The project was supported by NSF grants CCF-2344955 and IIS-2339769. ZP is supported by the Amazon Fellowship via UCLA Science Hub. -->
+
 
 
 
