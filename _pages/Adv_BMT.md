@@ -56,7 +56,7 @@ pdf_link: https://arxiv.org/pdf/2506.09485
 ## Adv-BMT
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/BMT_Architecture.png" class="my-image" alt="Image" />
+    <img src="../assets/img/Adv-BMT/Adv-BMT.png" class="my-image" alt="Image" />
 </div>
 
 Adv-BMT first initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT's reverse predictions. A rule-based fallback mechanism is used to reject candidate adversarial trajectories. In the output scene, the new adversarial agent maintains realistic interactions with surrounding traffic.  
@@ -67,9 +67,10 @@ Adv-BMT first initializes diverse collision states between a new adversary agent
 ## BMT for Bidirectional Motion Prediction
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/BMT.png" class="my-image" alt="Image" />
+    <img src="../assets/img/Adv-BMT/BMT_Architecture.png" class="my-image" alt="Image" />
 </div>
-BMT is a transformer-based motion prediction model, and is able to predict both future and history trajectories for vehicles, bicycles, and pedestrain agents.  
+BMT employs two sets of motion tokens for forward and reverse predictions to generate the next-step token for each agent.
+All predictions are conditioned only on the map and the one-step current state of all predicted agents.
 <!--research-section-splitter-->
 
 
@@ -80,6 +81,14 @@ BMT is a transformer-based motion prediction model, and is able to predict both 
 <div class="video-container">
   <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/demo_2_2.mp4"></video>
 </div>
+<!--research-section-splitter-->
+
+
+## Real-world Rendering
+<div class="video-container">
+  <video loop autoplay muted playsinline src="../assets/img/Adv-BMT/dreamland_scgen_demo.mp4"></video>
+</div>
+We leverage Dreamland for rendering Adv-BMT scenarios into real-world accident videos.
 <!--research-section-splitter-->
 
 
@@ -104,20 +113,21 @@ BMT is a transformer-based motion prediction model, and is able to predict both 
 
 
 
-## Prior Works
+## Related Works
+**[MetaDrive (TPAMI 2021)](https://metadriverse.github.io/metadrive/)**:
+An open-source platform for large-scale traffic scenario simulation and modeling.
 
 **[CAT (CoRL 2022)](https://metadriverse.github.io/cat/)**:
 Closed-loop adversarial training for safe end-to-end driving.
 
-**[MetaDrive (TPAMI 2021)](https://metadriverse.github.io/metadrive/)**:
-An open-source platform for large-scale traffic scenario simulation and modeling
-
+**[Dreamland (Arxiv 2025)](https://metadriverse.github.io/dreamland/)**:
+An open-source generative model for real-world rendered videos.
 
 <!--research-section-splitter-->
 
 ## Reference
 
-**Predictive Preference Learning from Human Interventions (NeurIPS 2025 Spotlight)**:
+**Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation (NeurIPS 2025)**:
 ```plain
 @inproceedings{
 liu2025bidirectional,
