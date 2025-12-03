@@ -218,10 +218,10 @@
 <h2 id="adv-bmt">Adv-BMT</h2>
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/Adv-BMT.png" class="my-image" alt="Image">
+    <img src="../assets/img/Adv-BMT/BMT_Architecture.png" class="my-image" alt="Image">
 </div>
 
-<p>Adv-BMT first initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT’s reverse predictions. A rule-based fallback mechanism is used to filter candidate trajectories from unsatisfactory adversarial initializations, and maintain realistic collision interactions. In the output, the new agent maintains realistic interactions with surrounding traffic.
+<p>Adv-BMT first initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT’s reverse predictions. A rule-based fallback mechanism is used to reject candidate adversarial trajectories. In the output scene, the new adversarial agent maintains realistic interactions with surrounding traffic.<br>
 
         </p>
 </div>
@@ -229,7 +229,7 @@
         <div class="research-section">
             
 
-<h2 id="bmt-architecture">BMT Architecture</h2>
+<h2 id="bmt-for-bidirectional-motion-prediction">BMT for Bidirectional Motion Prediction</h2>
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
     <img src="../assets/img/Adv-BMT/BMT.png" class="my-image" alt="Image">
@@ -288,6 +288,27 @@ Closed-loop adversarial training for safe end-to-end driving.</p>
 
 <p><strong><a href="https://metadriverse.github.io/metadrive/">MetaDrive (TPAMI 2021)</a></strong>:
 An open-source platform for large-scale traffic scenario simulation and modeling</p>
+
+
+        </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="reference">Reference</h2>
+
+<p><strong>Predictive Preference Learning from Human Interventions (NeurIPS 2025 Spotlight)</strong>:</p>
+<pre><code class="language-plain">@inproceedings{
+liu2025bidirectional,
+title={Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation},
+author={Yuxin Liu and Zhenghao Peng and Xuanhao Cui and Bolei Zhou},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=avZ01E4aYt}
+}
+</code></pre>
+
+<!-- **Acknowledgement**: The project was supported by NSF grants CCF-2344955 and IIS-2339769. ZP is supported by the Amazon Fellowship via UCLA Science Hub. -->
 
 
         </div>
