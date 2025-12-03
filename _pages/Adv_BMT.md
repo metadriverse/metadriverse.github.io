@@ -103,12 +103,6 @@ We leverage Dreamland for rendering Adv-BMT scenarios into real-world accident v
     <img src="../assets/img/Adv-BMT/adv-bmt_waymo_eval.jpg" class="my-image" alt="Image" />
 </div>
 
-
-## Adversarial RL Evaluated in Safety-critical Environments
-<div class="img-container" style="width: 60%; height: 120% ;margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/adv-bmt_safety_critical_eval.jpg" class="my-image" alt="Image" />
-</div>
-
 <!--research-section-splitter-->
 
 
