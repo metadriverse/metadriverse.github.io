@@ -218,7 +218,7 @@
 <h2 id="adv-bmt">Adv-BMT</h2>
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/BMT_Architecture.png" class="my-image" alt="Image">
+    <img src="../assets/img/Adv-BMT/Adv-BMT.png" class="my-image" alt="Image">
 </div>
 
 <p>Adv-BMT first initializes diverse collision states between a new adversary agent and ego vehicle; then, it reconstructs the adversarial trajectories via BMT’s reverse predictions. A rule-based fallback mechanism is used to reject candidate adversarial trajectories. In the output scene, the new adversarial agent maintains realistic interactions with surrounding traffic.<br>
@@ -232,9 +232,10 @@
 <h2 id="bmt-for-bidirectional-motion-prediction">BMT for Bidirectional Motion Prediction</h2>
 
 <div class="img-container" style="width: 100%; margin: 0 auto;">
-    <img src="../assets/img/Adv-BMT/BMT.png" class="my-image" alt="Image">
+    <img src="../assets/img/Adv-BMT/BMT_Architecture.png" class="my-image" alt="Image">
 </div>
-<p>BMT is a transformer-based motion prediction model, and is able to predict both future and history trajectories for vehicles, bicycles, and pedestrain agents.<br>
+<p>BMT employs two sets of motion tokens for forward and reverse predictions to generate the next-step token for each agent.
+All predictions are conditioned only on the map and the one-step current state of all predicted agents.
 
         </p>
 </div>
@@ -251,6 +252,18 @@
 </div>
 
         </div>
+        
+        <div class="research-section">
+            
+
+<h2 id="real-world-rendering">Real-world Rendering</h2>
+<div class="video-container">
+  <video loop="" autoplay="" muted="" playsinline="" src="../assets/img/Adv-BMT/dreamland_scgen_demo.mp4"></video>
+</div>
+<p>We leverage Dreamland for rendering Adv-BMT scenarios into real-world accident videos.
+
+        </p>
+</div>
         
         <div class="research-section">
             
@@ -281,13 +294,15 @@
         <div class="research-section">
             
 
-<h2 id="prior-works">Prior Works</h2>
+<h2 id="related-works">Related Works</h2>
+<p><strong><a href="https://metadriverse.github.io/metadrive/">MetaDrive (TPAMI 2021)</a></strong>:
+An open-source platform for large-scale traffic scenario simulation and modeling.</p>
 
 <p><strong><a href="https://metadriverse.github.io/cat/">CAT (CoRL 2022)</a></strong>:
 Closed-loop adversarial training for safe end-to-end driving.</p>
 
-<p><strong><a href="https://metadriverse.github.io/metadrive/">MetaDrive (TPAMI 2021)</a></strong>:
-An open-source platform for large-scale traffic scenario simulation and modeling</p>
+<p><strong><a href="https://metadriverse.github.io/dreamland/">Dreamland (Arxiv 2025)</a></strong>:
+An open-source generative model for real-world rendered videos.</p>
 
 
         </div>
@@ -297,7 +312,7 @@ An open-source platform for large-scale traffic scenario simulation and modeling
 
 <h2 id="reference">Reference</h2>
 
-<p><strong>Predictive Preference Learning from Human Interventions (NeurIPS 2025 Spotlight)</strong>:</p>
+<p><strong>Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation (NeurIPS 2025)</strong>:</p>
 <pre><code class="language-plain">@inproceedings{
 liu2025bidirectional,
 title={Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation},
