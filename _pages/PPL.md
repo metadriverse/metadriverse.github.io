@@ -17,8 +17,10 @@ institutions:
 
 nav: false
 nav_order: 1
-code_link: https://github.com/metadriverse/PPL
 pdf_link: https://arxiv.org/pdf/2510.01545
+code_link: https://github.com/metadriverse/PPL
+poster_link: https://github.com/metadriverse/PPL/blob/main/PPL_Poster.pdf
+video_link: https://www.youtube.com/watch?v=Bw9-0g3F1Tg
 ---
 
 <div class="embed-responsive embed-responsive-16by9" style="width: 70%; margin: 0 auto;">
@@ -148,9 +150,8 @@ We also verify that PPL is robust to noises in the trajectory prediction model. 
 ## Demo Video
 
 <div class="embed-responsive embed-responsive-16by9" style="width: 90%; margin: 0 auto;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/__Zv9C-BiiY?si=G1DTyPRewdfAuoxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1036" height="583" src="https://www.youtube.com/embed/Bw9-0g3F1Tg" title="Overview of Predictive Preference Learning from Human Interventions (NeurIPS 2025 Spotlight)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
 
 
 
