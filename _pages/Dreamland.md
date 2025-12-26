@@ -10,6 +10,7 @@ authors:
 - {name: "Leon Liu", url: "#"}
 - {name: "Weizhen Wang", url: "#"}
 - {name: "Honglin He", url: "https://scholar.google.com/citations?user=Y0Qrwg0AAAAJ&hl"}
+- {name: "Huizhi Zhang", url: "https://zhang-huizhi.github.io/"}
 - {name: "Bolei Zhou", url: "https://boleizhou.github.io/"}
 
 institutions:
