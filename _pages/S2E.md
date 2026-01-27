@@ -4,13 +4,15 @@ permalink: /s2e/
 title: "From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning"
 page_title: "From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning"
 authors:
-- {name: "Honglin He<sup>*</sup>", url: "https://wywu.github.io/"}
-- {name: "Yukai Ma<sup>*</sup>", url: "https://yukai-ma.github.io/"}
-- {name: "Wayne Wu", url: "https://wywu.github.io/"}
-- {name: "Bolei Zhou", url: "https://boleizhou.github.io/"}
+- {name: "Honglin He<sup>*</sup>", url: "https://wywu.github.io/", institution: "1"}
+- {name: "Yukai Ma<sup>*</sup>", url: "https://yukai-ma.github.io/", institution: "1"}
+- {name: "Brad Squicciarini", url: "https://www.linkedin.com/in/brad-squicciarini-478954126/", institution: "2"}
+- {name: "Wayne Wu", url: "https://wywu.github.io/", institution: "1"}
+- {name: "Bolei Zhou", url: "https://boleizhou.github.io/", institution: "1"}
 
 institutions:
-- {name: "University of California, Los Angeles"}
+- {name: "University of California, Los Angeles", institution: "1"}
+- {name: "Coco Robotics", institution: "2"}
 
 nav: false
 nav_order: 1
