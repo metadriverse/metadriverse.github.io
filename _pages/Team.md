@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /team/
-title: VAIL Lab at UCLA
+title: VAIL
 description: "Meet Our Team Member!"
 nav: true
 nav_order: 4
