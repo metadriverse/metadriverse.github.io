@@ -2,7 +2,7 @@
 layout: about
 title: Projects
 permalink: /
-subtitle: 'AI Research for Generalizable and Interpretable Machine Autonomy<br>Please visit <a href="https://vail-ucla.github.io/" target="_blank" rel="noopener">VAIL</a> for the latest progress'
+subtitle: 'AI Research for Generalizable and Interpretable Machine Autonomy<br><span style="font-size: 1.2em; font-weight: bold;">Please visit <a href="https://vail-ucla.github.io/" target="_blank" rel="noopener">VAIL</a> for the latest progress</span>'
 display_categories:
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
