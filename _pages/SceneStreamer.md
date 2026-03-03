@@ -1,8 +1,8 @@
 ---
 layout: research
 permalink: /scenestreamer/
-title:  "SceneStreamer: Scenario Generation as Next Token Group Prediction"
-page_title: "SceneStreamer: Scenario Generation as Next Token Group Prediction"
+title:  "SceneStreamer: Continuous Scenario Generation as Next Token Group Prediction"
+page_title: "SceneStreamer: Continuous Scenario Generation as Next Token Group Prediction"
 authors:
   - {name: "Zhenghao Peng", url: "https://pengzhenghao.github.io/"}
   - {name: "Yuxin Liu",  url: "#"}
@@ -164,7 +164,7 @@ Please consider citing our paper if it helps your research.
 
 ```BibTeX
 @article{peng2025scenestreamer,
-  title={SceneStreamer: Scenario Generation as Next Token Group Prediction},
+  title={SceneStreamer: Continuous Scenario Generation as Next Token Group Prediction},
   author={Peng, Zhenghao and Liu, Yuxin and Zhou, Bolei},
   journal={arXiv preprint arXiv:2506.23316},
   year={2025}
