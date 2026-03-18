@@ -11,7 +11,7 @@ institutions:
     - {name: "<p>University of California, Los Angeles</p>"}
 nav: false
 nav_order: 1
-code_link: https://github.com/metadriverse/scenariostreamer
+code_link: https://github.com/VAIL-UCLA/SceneStreamer
 pdf_link: https://arxiv.org/pdf/2506.23316
 ---
 
@@ -57,6 +57,7 @@ pdf_link: https://arxiv.org/pdf/2506.23316
 
 **SceneStreamer** is a unified autoregressive transformer that treats the entire driving scene—map, traffic lights, agent states, and motions—as one long token stream and rolls it out step-by-step, enabling realistic, interactive, and infinitely extensible traffic simulation.
 
+Live demo is avaiable at [HuggingFace Spaces](https://huggingface.co/spaces/pengzhenghao97/SceneStreamer).
 
 &nbsp;
 &nbsp;
